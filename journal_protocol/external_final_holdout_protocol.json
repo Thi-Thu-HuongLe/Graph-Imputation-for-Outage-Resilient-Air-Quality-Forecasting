@@ -1,0 +1,121 @@
+{
+  "status": "EXTERNAL_FINAL_HOLDOUT_PROTOCOL_LOCKED_CONTENT_NOT_PARSED",
+  "name": "las_vegas_2025_external_geographic_replication",
+  "candidate_selection_freeze": "journal_protocol/external_development_runs_freeze.json",
+  "candidate_selection_freeze_sha256": "8b4ee32c7c65e4d71700dc96b832913794f47f547ad3ed3a2dacc934510b594e",
+  "candidate": "adaptive_graph_impute_tcn",
+  "learned_comparators": [
+    "local_tcn",
+    "local_capacity_residual",
+    "impute_then_local_tcn",
+    "dcrnn",
+    "graph_wavenet"
+  ],
+  "deterministic_comparators": [
+    "persistence",
+    "seasonal_naive_24h"
+  ],
+  "seeds": [
+    42,
+    123,
+    2026,
+    3407,
+    7777
+  ],
+  "checkpoint_roots": {
+    "candidate": "experiment_protocol/results_external/development/adaptive_5seed/runs",
+    "comparators": "experiment_protocol/results_external/development/base_full/runs"
+  },
+  "data": {
+    "development_prepared": "data_external/epa_aqs_las_vegas/prepared_development/las_vegas_2021_2024.npz",
+    "development_prepared_sha256": "257fec87d49fb9cd4f366f9e89f22c880bd73547852f4d3e49b8362d233d48ce",
+    "sealed_raw_root": "data_external/epa_aqs_las_vegas/raw_holdout_sealed",
+    "sealed_manifest": "data_external/epa_aqs_las_vegas/raw_holdout_sealed/download_manifest.json",
+    "sealed_manifest_sha256": "86cd87cf3dec2d5c0c8883c64e97935adfa7fa5521ab276a918937742b325c36",
+    "prepared_holdout": "data_external/epa_aqs_las_vegas/prepared_holdout/las_vegas_2025.npz",
+    "prepared_dataset_name": "epa_aqs_las_vegas_2025_holdout",
+    "preparation_report": "data_external/epa_aqs_las_vegas/prepared_holdout/preparation_report.json",
+    "availability_table": "data_external/epa_aqs_las_vegas/prepared_holdout/availability.csv",
+    "holdout_start_utc": "2025-01-01T08:00:00Z",
+    "holdout_end_utc": "2026-01-01T07:00:00Z",
+    "expected_holdout_hours": 8760,
+    "context_hours_from_development": 168,
+    "embargo_hours_not_scored": 168,
+    "first_scored_target_utc": "2025-01-08T08:00:00Z",
+    "calendar_clock": "fixed UTC-08:00 local standard time",
+    "local_standard_utc_offset_hours": -8
+  },
+  "forecast": {
+    "lookback": 168,
+    "horizon": 48,
+    "reported_horizons": [
+      1,
+      6,
+      12,
+      24,
+      48
+    ],
+    "test_stride": 6,
+    "fill_limit": 6,
+    "corruption_seed": 81317
+  },
+  "conditions": {
+    "primary": [
+      "each_station_trailing_6h_outage",
+      "each_station_trailing_24h_outage"
+    ],
+    "secondary": [
+      "clean",
+      "random_block_6h",
+      "random_block_24h",
+      "each_station_full_history_dropout",
+      "natural_comissingness_6h",
+      "natural_comissingness_24h"
+    ]
+  },
+  "endpoints": {
+    "primary": [
+      "mase",
+      "q95_brier"
+    ],
+    "secondary": [
+      "q95_ap",
+      "picp80",
+      "width80_mase_scaled",
+      "interval_score80_mase_scaled",
+      "crps_mase_scaled",
+      "negative_mass"
+    ],
+    "clean_guardrail": {
+      "endpoints": [
+        "mase",
+        "q95_brier"
+      ],
+      "maximum_relative_degradation_vs_each_local_control": 0.01,
+      "local_controls": [
+        "local_tcn",
+        "local_capacity_residual",
+        "impute_then_local_tcn"
+      ]
+    }
+  },
+  "calibration": {
+    "method": "per-pollutant multiplicative Gaussian sigma factor fitted on clean 2024 validation predictions",
+    "source": "frozen calibration.npz for each development model/seed",
+    "duration_specific_calibration": false,
+    "uncalibrated_results_required": true,
+    "test_label_fitting_forbidden": true
+  },
+  "statistics": {
+    "temporal_block_length_hours": 168,
+    "bootstrap_resamples": 10000,
+    "pairing": "same test origin, horizon, station, pollutant, condition, and optimization seed",
+    "seed_aggregation": "average aligned per-origin losses over seeds before temporal inference",
+    "multiplicity": "Holm correction across candidate-versus-all-comparator primary tests",
+    "report_all_prespecified_primary_results": true
+  },
+  "output": "experiment_protocol/results_external/holdout_2025",
+  "access_rule": "The external 2025 gzip/JSON files may be opened only after the external final execution freeze exists, authorizes evaluation, and every recorded hash verifies.",
+  "rerun_rule": "Report all external results regardless of direction. Never revise the candidate, calibration, endpoint family, or protocol using Clark County 2025 labels.",
+  "development_protocol": "journal_protocol/external_comparison_protocol.json"
+}

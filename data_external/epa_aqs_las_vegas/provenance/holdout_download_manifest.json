@@ -1,0 +1,74 @@
+{
+  "source": "US EPA Air Quality System (AQS) AirData",
+  "source_page": "https://aqs.epa.gov/aqsweb/airdata/download_files.html",
+  "stage": "holdout_api",
+  "created_utc": "2026-09-20T23:54:03.504567+00:00",
+  "holdout_data_included": true,
+  "sealed_without_content_audit": true,
+  "state_fips": "32",
+  "county_fips": "003",
+  "files": [
+    {
+      "file": "sampleData_state-32_county-003_88101-PM2.5_duration-1H_2025.json.gz",
+      "url": "https://aqs.epa.gov/data/api/sampleData/byCounty?param=88101&bdate=20250101&edate=20251231&state=32&county=003&duration=1&credentials=REDACTED",
+      "compressed_bytes": 1848457,
+      "raw_bytes": 130913843,
+      "sha256": "51f249ebe30c8eff2384ba3ad288e9fc8a7547f46ef94b3fa67b7e763e2a3076",
+      "status": "downloaded",
+      "year": 2025,
+      "parameter_code": "88101",
+      "pollutant": "PM2.5",
+      "sample_duration_code": "1"
+    },
+    {
+      "file": "sampleData_state-32_county-003_42602-NO2_duration-1H_2025.json.gz",
+      "url": "https://aqs.epa.gov/data/api/sampleData/byCounty?param=42602&bdate=20250101&edate=20251231&state=32&county=003&duration=1&credentials=REDACTED",
+      "compressed_bytes": 775720,
+      "raw_bytes": 50846535,
+      "sha256": "cd5fcd39bc08a5e406307b426219bf2adfe9445bb7083a8d84f95954efcbd106",
+      "status": "downloaded",
+      "year": 2025,
+      "parameter_code": "42602",
+      "pollutant": "NO2",
+      "sample_duration_code": "1"
+    },
+    {
+      "file": "sampleData_state-32_county-003_44201-O3_duration-1H_2025.json.gz",
+      "url": "https://aqs.epa.gov/data/api/sampleData/byCounty?param=44201&bdate=20250101&edate=20251231&state=32&county=003&duration=1&credentials=REDACTED",
+      "compressed_bytes": 1626197,
+      "raw_bytes": 109495310,
+      "sha256": "218ec7e81bf91f9ff1b307f42c1a0069fa9d6400fbb7757ca7ba319a4a17df22",
+      "status": "downloaded",
+      "year": 2025,
+      "parameter_code": "44201",
+      "pollutant": "O3",
+      "sample_duration_code": "1"
+    },
+    {
+      "file": "sampleData_state-32_county-003_42101-CO_duration-1H_2025.json.gz",
+      "url": "https://aqs.epa.gov/data/api/sampleData/byCounty?param=42101&bdate=20250101&edate=20251231&state=32&county=003&duration=1&credentials=REDACTED",
+      "compressed_bytes": 482121,
+      "raw_bytes": 33238993,
+      "sha256": "83403bf076df817883b82a26437f8fdd99c05dff7764edc675e5cb0c80cc1689",
+      "status": "downloaded",
+      "year": 2025,
+      "parameter_code": "42101",
+      "pollutant": "CO",
+      "sample_duration_code": "1"
+    },
+    {
+      "file": "sampleData_state-32_county-003_42401-SO2_duration-1H_2025.json.gz",
+      "url": "https://aqs.epa.gov/data/api/sampleData/byCounty?param=42401&bdate=20250101&edate=20251231&state=32&county=003&duration=1&credentials=REDACTED",
+      "compressed_bytes": 112831,
+      "raw_bytes": 8248615,
+      "sha256": "a228f096788c832cffa41d934974bc4bc79b3f5f4a035d0ecbfa4c567ae2719b",
+      "status": "downloaded",
+      "year": 2025,
+      "parameter_code": "42401",
+      "pollutant": "SO2",
+      "sample_duration_code": "1"
+    }
+  ],
+  "protocol_file_at_download": "journal_protocol/external_development_runs_freeze.json",
+  "protocol_sha256_at_download": "8b4ee32c7c65e4d71700dc96b832913794f47f547ad3ed3a2dacc934510b594e"
+}

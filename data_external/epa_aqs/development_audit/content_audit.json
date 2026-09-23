@@ -1,0 +1,940 @@
+{
+  "status": "PASS",
+  "scope": "EPA AQS development data only; 2025 holdout not accessed",
+  "protocol": "journal_protocol\\unseen_holdout_protocol.json",
+  "protocol_sha256": "6f9b39694455c0df127ef179ac04f82871289f724a0ef50d09413759a9d08fe3",
+  "manifest": "data_external\\epa_aqs\\raw_development_api\\download_manifest.json",
+  "manifest_sha256": "13d951d9ec10d76ca860370be18011d6119d41c82b95932f100bc9a3ed365100",
+  "stations": [
+    "49-035-2005",
+    "49-035-3006",
+    "49-035-3010",
+    "49-035-3013",
+    "49-035-3015",
+    "49-035-3016",
+    "49-035-4002"
+  ],
+  "pollutants": [
+    "PM2.5",
+    "NO2",
+    "O3",
+    "CO",
+    "SO2"
+  ],
+  "units": {
+    "PM2.5": [
+      "Micrograms/cubic meter (LC)"
+    ],
+    "NO2": [
+      "Parts per billion"
+    ],
+    "O3": [
+      "Parts per million"
+    ],
+    "CO": [
+      "Parts per million"
+    ],
+    "SO2": [
+      "Parts per billion"
+    ]
+  },
+  "unit_checks": {
+    "PM2.5": true,
+    "NO2": true,
+    "O3": true,
+    "CO": true,
+    "SO2": true
+  },
+  "by_pollutant": {
+    "PM2.5": {
+      "api_rows": 347928,
+      "selected_station_rows": 314160,
+      "finite_measurements": 309539,
+      "qualified_finite_measurements": 25581,
+      "negative_finite_measurements": 638,
+      "hourly_station_groups": 241698,
+      "duplicate_hourly_station_groups": 67841,
+      "duplicate_extra_rows": 67841,
+      "maximum_group_multiplicity": 2,
+      "civil_time_utc_clock_mismatches": 205596,
+      "local_standard_time_utc_clock_mismatches": 0,
+      "minimum_measurement": -5.7,
+      "maximum_measurement": 287.6,
+      "station_finite_rows": {
+        "49-035-2005": 34801,
+        "49-035-3006": 68960,
+        "49-035-3010": 34805,
+        "49-035-3013": 68828,
+        "49-035-3015": 34995,
+        "49-035-3016": 32180,
+        "49-035-4002": 34970
+      },
+      "station_hourly_groups": {
+        "49-035-2005": 34801,
+        "49-035-3006": 35034,
+        "49-035-3010": 34805,
+        "49-035-3013": 34913,
+        "49-035-3015": 34995,
+        "49-035-3016": 32180,
+        "49-035-4002": 34970
+      },
+      "qualified_fraction_of_finite": 0.08264225186487002,
+      "negative_fraction_of_finite": 0.0020611296153311863
+    },
+    "NO2": {
+      "api_rows": 322800,
+      "selected_station_rows": 278952,
+      "finite_measurements": 270586,
+      "qualified_finite_measurements": 13544,
+      "negative_finite_measurements": 427,
+      "hourly_station_groups": 237922,
+      "duplicate_hourly_station_groups": 32664,
+      "duplicate_extra_rows": 32664,
+      "maximum_group_multiplicity": 2,
+      "civil_time_utc_clock_mismatches": 182752,
+      "local_standard_time_utc_clock_mismatches": 0,
+      "minimum_measurement": -1.5,
+      "maximum_measurement": 88.2,
+      "station_finite_rows": {
+        "49-035-2005": 34287,
+        "49-035-3006": 66974,
+        "49-035-3010": 34345,
+        "49-035-3013": 34227,
+        "49-035-3015": 34001,
+        "49-035-3016": 32328,
+        "49-035-4002": 34424
+      },
+      "station_hourly_groups": {
+        "49-035-2005": 34287,
+        "49-035-3006": 34310,
+        "49-035-3010": 34345,
+        "49-035-3013": 34227,
+        "49-035-3015": 34001,
+        "49-035-3016": 32328,
+        "49-035-4002": 34424
+      },
+      "qualified_fraction_of_finite": 0.05005432653574095,
+      "negative_fraction_of_finite": 0.0015780565143799013
+    },
+    "O3": {
+      "api_rows": 306194,
+      "selected_station_rows": 243888,
+      "finite_measurements": 239442,
+      "qualified_finite_measurements": 17021,
+      "negative_finite_measurements": 508,
+      "hourly_station_groups": 239442,
+      "duplicate_hourly_station_groups": 0,
+      "duplicate_extra_rows": 0,
+      "maximum_group_multiplicity": 1,
+      "civil_time_utc_clock_mismatches": 159908,
+      "local_standard_time_utc_clock_mismatches": 0,
+      "minimum_measurement": -0.003,
+      "maximum_measurement": 0.108,
+      "station_finite_rows": {
+        "49-035-2005": 34511,
+        "49-035-3006": 33959,
+        "49-035-3010": 34642,
+        "49-035-3013": 34653,
+        "49-035-3015": 34406,
+        "49-035-3016": 32602,
+        "49-035-4002": 34669
+      },
+      "station_hourly_groups": {
+        "49-035-2005": 34511,
+        "49-035-3006": 33959,
+        "49-035-3010": 34642,
+        "49-035-3013": 34653,
+        "49-035-3015": 34406,
+        "49-035-3016": 32602,
+        "49-035-4002": 34669
+      },
+      "qualified_fraction_of_finite": 0.07108610853567879,
+      "negative_fraction_of_finite": 0.0021215993852373434
+    },
+    "CO": {
+      "api_rows": 175200,
+      "selected_station_rows": 175200,
+      "finite_measurements": 171894,
+      "qualified_finite_measurements": 3,
+      "negative_finite_measurements": 10058,
+      "hourly_station_groups": 171894,
+      "duplicate_hourly_station_groups": 0,
+      "duplicate_extra_rows": 0,
+      "maximum_group_multiplicity": 1,
+      "civil_time_utc_clock_mismatches": 114220,
+      "local_standard_time_utc_clock_mismatches": 0,
+      "minimum_measurement": -0.4,
+      "maximum_measurement": 2.3,
+      "station_finite_rows": {
+        "49-035-2005": 34452,
+        "49-035-3006": 33663,
+        "49-035-3010": 34568,
+        "49-035-3015": 34461,
+        "49-035-4002": 34750
+      },
+      "station_hourly_groups": {
+        "49-035-2005": 34452,
+        "49-035-3006": 33663,
+        "49-035-3010": 34568,
+        "49-035-3015": 34461,
+        "49-035-4002": 34750
+      },
+      "qualified_fraction_of_finite": 1.745261614716046e-05,
+      "negative_fraction_of_finite": 0.0585128044027133
+    },
+    "SO2": {
+      "api_rows": 140160,
+      "selected_station_rows": 140160,
+      "finite_measurements": 137382,
+      "qualified_finite_measurements": 14,
+      "negative_finite_measurements": 4957,
+      "hourly_station_groups": 137382,
+      "duplicate_hourly_station_groups": 0,
+      "duplicate_extra_rows": 0,
+      "maximum_group_multiplicity": 1,
+      "civil_time_utc_clock_mismatches": 91376,
+      "local_standard_time_utc_clock_mismatches": 0,
+      "minimum_measurement": -2.1,
+      "maximum_measurement": 18.5,
+      "station_finite_rows": {
+        "49-035-2005": 34298,
+        "49-035-3006": 33998,
+        "49-035-3010": 34618,
+        "49-035-3015": 34468
+      },
+      "station_hourly_groups": {
+        "49-035-2005": 34298,
+        "49-035-3006": 33998,
+        "49-035-3010": 34618,
+        "49-035-3015": 34468
+      },
+      "qualified_fraction_of_finite": 0.00010190563538163661,
+      "negative_fraction_of_finite": 0.03608187389905519
+    }
+  },
+  "qualifiers": {
+    "PM2.5": {
+      "3 - Field Issue.": 3674,
+      "5 - Outlier.": 107,
+      "<NONE>": 283958,
+      "AE - Shelter Temperature Outside Limits.": 864,
+      "AI - Insufficient Data (cannot calculate).": 263,
+      "AL - Voided by Operator.": 20,
+      "AN - Machine Malfunction.": 2188,
+      "AQ - Collection Error.": 34,
+      "AT - Calibration.": 336,
+      "AV - Power Failure.": 383,
+      "AY - Q C Control Points (zero/span).": 82,
+      "AZ - Q C Audit.": 19,
+      "BA - Maintenance/Routine Repairs.": 133,
+      "BJ - Operator Error.": 222,
+      "BK - Site computer/data logger down.": 25,
+      "BR - Sample Value Below Acceptable Range.": 34,
+      "DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).": 18,
+      "IF - Fire - Canadian.": 191,
+      "IH - Fireworks.": 125,
+      "IJ - High Winds.": 2644,
+      "IP - Structural Fire.": 1,
+      "IT - Wildfire-U. S.": 5859,
+      "J - Construction.": 12884,
+      "NS - Influenced by nearby source.": 12,
+      "RL - Other.": 84
+    },
+    "NO2": {
+      "5 - Outlier.": 2,
+      "<NONE>": 257042,
+      "AE - Shelter Temperature Outside Limits.": 1442,
+      "AF - Scheduled but not Collected.": 12,
+      "AI - Insufficient Data (cannot calculate).": 600,
+      "AL - Voided by Operator.": 2,
+      "AM - Miscellaneous Void.": 11,
+      "AN - Machine Malfunction.": 328,
+      "AS - Poor Quality Assurance Results.": 20,
+      "AT - Calibration.": 552,
+      "AV - Power Failure.": 331,
+      "AX - Precision Check.": 70,
+      "AY - Q C Control Points (zero/span).": 3883,
+      "AZ - Q C Audit.": 227,
+      "BA - Maintenance/Routine Repairs.": 194,
+      "BH - Interference/co-elution/misidentification.": 5,
+      "BJ - Operator Error.": 625,
+      "BK - Site computer/data logger down.": 19,
+      "DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).": 45,
+      "J - Construction.": 13542
+    },
+    "O3": {
+      "5 - Outlier.": 1,
+      "<NONE>": 222421,
+      "AE - Shelter Temperature Outside Limits.": 597,
+      "AF - Scheduled but not Collected.": 12,
+      "AI - Insufficient Data (cannot calculate).": 477,
+      "AM - Miscellaneous Void.": 13,
+      "AN - Machine Malfunction.": 165,
+      "AT - Calibration.": 304,
+      "AV - Power Failure.": 413,
+      "AX - Precision Check.": 48,
+      "AY - Q C Control Points (zero/span).": 1820,
+      "AZ - Q C Audit.": 127,
+      "BA - Maintenance/Routine Repairs.": 196,
+      "BH - Interference/co-elution/misidentification.": 35,
+      "BJ - Operator Error.": 213,
+      "BK - Site computer/data logger down.": 18,
+      "BR - Sample Value Below Acceptable Range.": 1,
+      "DA - Aberrant Data (Corrupt Files, Aberrant Chromatography, Spikes, Shifts).": 6,
+      "IF - Fire - Canadian.": 22,
+      "IT - Wildfire-U. S.": 3334,
+      "J - Construction.": 13663,
+      "TS - Holding Time Or Transport Temperature Is Out Of Specs.": 1,
+      "VB - Value below normal; no reason to invalidate.": 1
+    },
+    "CO": {
+      "<NONE>": 171891,
+      "AE - Shelter Temperature Outside Limits.": 620,
+      "AI - Insufficient Data (cannot calculate).": 239,
+      "AM - Miscellaneous Void.": 11,
+      "AN - Machine Malfunction.": 247,
+      "AS - Poor Quality Assurance Results.": 407,
+      "AT - Calibration.": 189,
+      "AV - Power Failure.": 87,
+      "AX - Precision Check.": 35,
+      "AY - Q C Control Points (zero/span).": 1274,
+      "AZ - Q C Audit.": 76,
+      "BA - Maintenance/Routine Repairs.": 65,
+      "BH - Interference/co-elution/misidentification.": 2,
+      "BJ - Operator Error.": 53,
+      "BK - Site computer/data logger down.": 1,
+      "J - Construction.": 3
+    },
+    "SO2": {
+      "5 - Outlier.": 10,
+      "<NONE>": 137368,
+      "AE - Shelter Temperature Outside Limits.": 591,
+      "AI - Insufficient Data (cannot calculate).": 266,
+      "AM - Miscellaneous Void.": 9,
+      "AN - Machine Malfunction.": 239,
+      "AT - Calibration.": 166,
+      "AV - Power Failure.": 71,
+      "AX - Precision Check.": 34,
+      "AY - Q C Control Points (zero/span).": 1127,
+      "AZ - Q C Audit.": 64,
+      "BA - Maintenance/Routine Repairs.": 62,
+      "BH - Interference/co-elution/misidentification.": 12,
+      "BJ - Operator Error.": 123,
+      "BR - Sample Value Below Acceptable Range.": 14,
+      "IH - Fireworks.": 1,
+      "J - Construction.": 3
+    }
+  },
+  "monitor_methods": {
+    "CO|49-035-2005": [
+      {
+        "poc": "1",
+        "method_code": "093",
+        "method_type": "FRM"
+      },
+      {
+        "poc": "1",
+        "method_code": "593",
+        "method_type": "FRM"
+      }
+    ],
+    "CO|49-035-3006": [
+      {
+        "poc": "1",
+        "method_code": "593",
+        "method_type": "FRM"
+      }
+    ],
+    "CO|49-035-3010": [
+      {
+        "poc": "1",
+        "method_code": "093",
+        "method_type": "FRM"
+      }
+    ],
+    "CO|49-035-3015": [
+      {
+        "poc": "1",
+        "method_code": "093",
+        "method_type": "FRM"
+      },
+      {
+        "poc": "1",
+        "method_code": "594",
+        "method_type": "FRM"
+      }
+    ],
+    "CO|49-035-4002": [
+      {
+        "poc": "1",
+        "method_code": "093",
+        "method_type": "FRM"
+      }
+    ],
+    "NO2|49-035-2005": [
+      {
+        "poc": "1",
+        "method_code": "099",
+        "method_type": "FRM"
+      }
+    ],
+    "NO2|49-035-3006": [
+      {
+        "poc": "1",
+        "method_code": "099",
+        "method_type": "FRM"
+      },
+      {
+        "poc": "3",
+        "method_code": "200",
+        "method_type": "FEM"
+      },
+      {
+        "poc": "3",
+        "method_code": "256",
+        "method_type": "FEM"
+      }
+    ],
+    "NO2|49-035-3010": [
+      {
+        "poc": "1",
+        "method_code": "099",
+        "method_type": "FRM"
+      }
+    ],
+    "NO2|49-035-3013": [
+      {
+        "poc": "1",
+        "method_code": "099",
+        "method_type": "FRM"
+      }
+    ],
+    "NO2|49-035-3015": [
+      {
+        "poc": "1",
+        "method_code": "099",
+        "method_type": "FRM"
+      }
+    ],
+    "NO2|49-035-3016": [
+      {
+        "poc": "1",
+        "method_code": "099",
+        "method_type": "FRM"
+      }
+    ],
+    "NO2|49-035-4002": [
+      {
+        "poc": "1",
+        "method_code": "099",
+        "method_type": "FRM"
+      }
+    ],
+    "O3|49-035-2005": [
+      {
+        "poc": "1",
+        "method_code": "087",
+        "method_type": "FEM"
+      }
+    ],
+    "O3|49-035-3006": [
+      {
+        "poc": "1",
+        "method_code": "087",
+        "method_type": "FEM"
+      }
+    ],
+    "O3|49-035-3010": [
+      {
+        "poc": "1",
+        "method_code": "087",
+        "method_type": "FEM"
+      }
+    ],
+    "O3|49-035-3013": [
+      {
+        "poc": "1",
+        "method_code": "087",
+        "method_type": "FEM"
+      }
+    ],
+    "O3|49-035-3015": [
+      {
+        "poc": "1",
+        "method_code": "087",
+        "method_type": "FEM"
+      }
+    ],
+    "O3|49-035-3016": [
+      {
+        "poc": "1",
+        "method_code": "087",
+        "method_type": "FEM"
+      }
+    ],
+    "O3|49-035-4002": [
+      {
+        "poc": "1",
+        "method_code": "087",
+        "method_type": "FEM"
+      }
+    ],
+    "PM2.5|49-035-2005": [
+      {
+        "poc": "4",
+        "method_code": "184",
+        "method_type": "FEM"
+      }
+    ],
+    "PM2.5|49-035-3006": [
+      {
+        "poc": "2",
+        "method_code": "184",
+        "method_type": "FEM"
+      },
+      {
+        "poc": "4",
+        "method_code": "184",
+        "method_type": "FEM"
+      }
+    ],
+    "PM2.5|49-035-3010": [
+      {
+        "poc": "3",
+        "method_code": "184",
+        "method_type": "FEM"
+      }
+    ],
+    "PM2.5|49-035-3013": [
+      {
+        "poc": "2",
+        "method_code": "184",
+        "method_type": "FEM"
+      },
+      {
+        "poc": "5",
+        "method_code": "184",
+        "method_type": "FEM"
+      }
+    ],
+    "PM2.5|49-035-3015": [
+      {
+        "poc": "3",
+        "method_code": "184",
+        "method_type": "FEM"
+      }
+    ],
+    "PM2.5|49-035-3016": [
+      {
+        "poc": "1",
+        "method_code": "184",
+        "method_type": "FEM"
+      }
+    ],
+    "PM2.5|49-035-4002": [
+      {
+        "poc": "1",
+        "method_code": "184",
+        "method_type": "FEM"
+      }
+    ],
+    "SO2|49-035-2005": [
+      {
+        "poc": "1",
+        "method_code": "100",
+        "method_type": "FEM"
+      }
+    ],
+    "SO2|49-035-3006": [
+      {
+        "poc": "1",
+        "method_code": "100",
+        "method_type": "FEM"
+      },
+      {
+        "poc": "1",
+        "method_code": "600",
+        "method_type": "FEM"
+      }
+    ],
+    "SO2|49-035-3010": [
+      {
+        "poc": "1",
+        "method_code": "100",
+        "method_type": "FEM"
+      },
+      {
+        "poc": "1",
+        "method_code": "600",
+        "method_type": "FEM"
+      }
+    ],
+    "SO2|49-035-3015": [
+      {
+        "poc": "1",
+        "method_code": "100",
+        "method_type": "FEM"
+      },
+      {
+        "poc": "1",
+        "method_code": "600",
+        "method_type": "FEM"
+      }
+    ]
+  },
+  "station_coordinates": {
+    "49-035-2005": {
+      "latitude_median": 40.598056,
+      "longitude_median": -111.894167,
+      "latitude_range": [
+        40.598056,
+        40.598056
+      ],
+      "longitude_range": [
+        -111.894167,
+        -111.894167
+      ],
+      "records": 175320
+    },
+    "49-035-3006": {
+      "latitude_median": 40.736389,
+      "longitude_median": -111.872222,
+      "latitude_range": [
+        40.736389,
+        40.736389
+      ],
+      "longitude_range": [
+        -111.872222,
+        -111.872222
+      ],
+      "records": 245448
+    },
+    "49-035-3010": {
+      "latitude_median": 40.78422,
+      "longitude_median": -111.931,
+      "latitude_range": [
+        40.78422,
+        40.78422
+      ],
+      "longitude_range": [
+        -111.931,
+        -111.931
+      ],
+      "records": 175320
+    },
+    "49-035-3013": {
+      "latitude_median": 40.496392,
+      "longitude_median": -112.036298,
+      "latitude_range": [
+        40.496392,
+        40.496392
+      ],
+      "longitude_range": [
+        -112.036298,
+        -112.036298
+      ],
+      "records": 140256
+    },
+    "49-035-3015": {
+      "latitude_median": 40.777145,
+      "longitude_median": -111.945849,
+      "latitude_range": [
+        40.777145,
+        40.777145
+      ],
+      "longitude_range": [
+        -111.945849,
+        -111.945849
+      ],
+      "records": 174816
+    },
+    "49-035-3016": {
+      "latitude_median": 40.807897,
+      "longitude_median": -112.087717,
+      "latitude_range": [
+        40.807897,
+        40.807897
+      ],
+      "longitude_range": [
+        -112.087717,
+        -112.087717
+      ],
+      "records": 100944
+    },
+    "49-035-4002": {
+      "latitude_median": 40.662961,
+      "longitude_median": -111.901851,
+      "latitude_range": [
+        40.662961,
+        40.662961
+      ],
+      "longitude_range": [
+        -111.901851,
+        -111.901851
+      ],
+      "records": 140256
+    }
+  },
+  "files": [
+    {
+      "file": "sampleData_state-49_county-035_88101-PM2.5_duration-1H_2021.json.gz",
+      "sha256": "151e5ab393f9828577941f6f3f227a5a5431b21a062ef45403d97171219f18e8",
+      "pollutant": "PM2.5",
+      "year": 2021,
+      "api_rows": 77424,
+      "selected_station_rows": 77424,
+      "finite_measurements": 75602,
+      "hourly_station_groups": 58680,
+      "duplicate_hourly_station_groups": 16922,
+      "civil_time_utc_clock_mismatches": 51399,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_42602-NO2_duration-1H_2021.json.gz",
+      "sha256": "4bf02bba70f34a78fece1cd6d784a40e93b6662b9bfac45b9fb6f4996539f125",
+      "pollutant": "NO2",
+      "year": 2021,
+      "api_rows": 77280,
+      "selected_station_rows": 68520,
+      "finite_measurements": 66012,
+      "hourly_station_groups": 57772,
+      "duplicate_hourly_station_groups": 8240,
+      "civil_time_utc_clock_mismatches": 45688,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_44201-O3_duration-1H_2021.json.gz",
+      "sha256": "36715bf9e94063f55b097d25ce1ef99eb8941db894140ce794acca8bbdfe16e7",
+      "pollutant": "O3",
+      "year": 2021,
+      "api_rows": 73346,
+      "selected_station_rows": 59760,
+      "finite_measurements": 58093,
+      "hourly_station_groups": 58093,
+      "duplicate_hourly_station_groups": 0,
+      "civil_time_utc_clock_mismatches": 39977,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_42101-CO_duration-1H_2021.json.gz",
+      "sha256": "42b2235ec54f168c39da87a69725deb65ab1bcd6b4cff4dab7486a47612814f5",
+      "pollutant": "CO",
+      "year": 2021,
+      "api_rows": 43680,
+      "selected_station_rows": 43680,
+      "finite_measurements": 42491,
+      "hourly_station_groups": 42491,
+      "duplicate_hourly_station_groups": 0,
+      "civil_time_utc_clock_mismatches": 28555,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_42401-SO2_duration-1H_2021.json.gz",
+      "sha256": "eea0ba5ea8814edd98096b6329a8eb86827111069cdcf163e8267fd4081c78b3",
+      "pollutant": "SO2",
+      "year": 2021,
+      "api_rows": 34944,
+      "selected_station_rows": 34944,
+      "finite_measurements": 34226,
+      "hourly_station_groups": 34226,
+      "duplicate_hourly_station_groups": 0,
+      "civil_time_utc_clock_mismatches": 22844,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_88101-PM2.5_duration-1H_2022.json.gz",
+      "sha256": "9032650e34b51446f6324badf76f5c55d77fdef17de0ac71c885d7afbe0f289e",
+      "pollutant": "PM2.5",
+      "year": 2022,
+      "api_rows": 86280,
+      "selected_station_rows": 78840,
+      "finite_measurements": 77236,
+      "hourly_station_groups": 60680,
+      "duplicate_hourly_station_groups": 16556,
+      "civil_time_utc_clock_mismatches": 51399,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_42602-NO2_duration-1H_2022.json.gz",
+      "sha256": "53104b222fe635a6a56a9f458c76d2539ad8e8192f81d1f3a1ec6ece8aeb9898",
+      "pollutant": "NO2",
+      "year": 2022,
+      "api_rows": 78840,
+      "selected_station_rows": 70080,
+      "finite_measurements": 67358,
+      "hourly_station_groups": 59668,
+      "duplicate_hourly_station_groups": 7690,
+      "civil_time_utc_clock_mismatches": 45688,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_44201-O3_duration-1H_2022.json.gz",
+      "sha256": "0505d0a817a45aad0c04208386dabda66cf4a978a76ca0a23793236a2f008332",
+      "pollutant": "O3",
+      "year": 2022,
+      "api_rows": 74928,
+      "selected_station_rows": 61320,
+      "finite_measurements": 60086,
+      "hourly_station_groups": 60086,
+      "duplicate_hourly_station_groups": 0,
+      "civil_time_utc_clock_mismatches": 39977,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_42101-CO_duration-1H_2022.json.gz",
+      "sha256": "9d8555aca97d3d4584e36265fa1557f8b1025f8e8ed9d3e1649b71f1c3707aed",
+      "pollutant": "CO",
+      "year": 2022,
+      "api_rows": 43800,
+      "selected_station_rows": 43800,
+      "finite_measurements": 42796,
+      "hourly_station_groups": 42796,
+      "duplicate_hourly_station_groups": 0,
+      "civil_time_utc_clock_mismatches": 28555,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_42401-SO2_duration-1H_2022.json.gz",
+      "sha256": "8d2a5489b4bc123f160c98aadaa262d7b30280d2bace41a69bc1b3a0d76027f0",
+      "pollutant": "SO2",
+      "year": 2022,
+      "api_rows": 35040,
+      "selected_station_rows": 35040,
+      "finite_measurements": 34064,
+      "hourly_station_groups": 34064,
+      "duplicate_hourly_station_groups": 0,
+      "civil_time_utc_clock_mismatches": 22844,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_88101-PM2.5_duration-1H_2023.json.gz",
+      "sha256": "de7d3fa6ff2399028a4923b377a0ce5eee7afe009115014bba68aeda893c2408",
+      "pollutant": "PM2.5",
+      "year": 2023,
+      "api_rows": 87600,
+      "selected_station_rows": 78840,
+      "finite_measurements": 78424,
+      "hourly_station_groups": 61199,
+      "duplicate_hourly_station_groups": 17225,
+      "civil_time_utc_clock_mismatches": 51399,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_42602-NO2_duration-1H_2023.json.gz",
+      "sha256": "52620c4ac07d374ae1656bb5009ce0ac81c0fc9f121c47b70b1948a9653924b0",
+      "pollutant": "NO2",
+      "year": 2023,
+      "api_rows": 78840,
+      "selected_station_rows": 70080,
+      "finite_measurements": 68612,
+      "hourly_station_groups": 60342,
+      "duplicate_hourly_station_groups": 8270,
+      "civil_time_utc_clock_mismatches": 45688,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_44201-O3_duration-1H_2023.json.gz",
+      "sha256": "ab67e76462927110e9e2e3c1d16abf32c2180f3dd4d7c33cef2a4d52ac9803a8",
+      "pollutant": "O3",
+      "year": 2023,
+      "api_rows": 70080,
+      "selected_station_rows": 61320,
+      "finite_measurements": 60637,
+      "hourly_station_groups": 60637,
+      "duplicate_hourly_station_groups": 0,
+      "civil_time_utc_clock_mismatches": 39977,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_42101-CO_duration-1H_2023.json.gz",
+      "sha256": "bce2050e4e92e5e65cc4394312575b25d0fcfc217e0084178de1f4bc89306728",
+      "pollutant": "CO",
+      "year": 2023,
+      "api_rows": 43800,
+      "selected_station_rows": 43800,
+      "finite_measurements": 43313,
+      "hourly_station_groups": 43313,
+      "duplicate_hourly_station_groups": 0,
+      "civil_time_utc_clock_mismatches": 28555,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_42401-SO2_duration-1H_2023.json.gz",
+      "sha256": "d2338783670ba6db4dc88861e4bd8ea7ac4c2ced0be9dbd7d5e36e7278c4472d",
+      "pollutant": "SO2",
+      "year": 2023,
+      "api_rows": 35040,
+      "selected_station_rows": 35040,
+      "finite_measurements": 34520,
+      "hourly_station_groups": 34520,
+      "duplicate_hourly_station_groups": 0,
+      "civil_time_utc_clock_mismatches": 22844,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_88101-PM2.5_duration-1H_2024.json.gz",
+      "sha256": "0760c497c93f37d3ae4f1fa8ac803778c03430a90637bbb30a5434c5c0fd79c7",
+      "pollutant": "PM2.5",
+      "year": 2024,
+      "api_rows": 96624,
+      "selected_station_rows": 79056,
+      "finite_measurements": 78277,
+      "hourly_station_groups": 61139,
+      "duplicate_hourly_station_groups": 17138,
+      "civil_time_utc_clock_mismatches": 51399,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_42602-NO2_duration-1H_2024.json.gz",
+      "sha256": "42cdba93b313ee3e497ef2aaad25f7b4ae100c5908ec0e2679f18656953bd302",
+      "pollutant": "NO2",
+      "year": 2024,
+      "api_rows": 87840,
+      "selected_station_rows": 70272,
+      "finite_measurements": 68604,
+      "hourly_station_groups": 60140,
+      "duplicate_hourly_station_groups": 8464,
+      "civil_time_utc_clock_mismatches": 45688,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_44201-O3_duration-1H_2024.json.gz",
+      "sha256": "79fd6c34af762cab84b2b2fbb1c807684ea0e92fd5e3b5d5a870a57bc56d749c",
+      "pollutant": "O3",
+      "year": 2024,
+      "api_rows": 87840,
+      "selected_station_rows": 61488,
+      "finite_measurements": 60626,
+      "hourly_station_groups": 60626,
+      "duplicate_hourly_station_groups": 0,
+      "civil_time_utc_clock_mismatches": 39977,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_42101-CO_duration-1H_2024.json.gz",
+      "sha256": "9da4d41b422c08c7d34ca279fbcbf6f45c499d27a3da21faa22f62b1542258b5",
+      "pollutant": "CO",
+      "year": 2024,
+      "api_rows": 43920,
+      "selected_station_rows": 43920,
+      "finite_measurements": 43294,
+      "hourly_station_groups": 43294,
+      "duplicate_hourly_station_groups": 0,
+      "civil_time_utc_clock_mismatches": 28555,
+      "local_standard_time_utc_clock_mismatches": 0
+    },
+    {
+      "file": "sampleData_state-49_county-035_42401-SO2_duration-1H_2024.json.gz",
+      "sha256": "44149521cfbd333ce4ee959d81745024293b0f51a8eb14d883be65ad868da600",
+      "pollutant": "SO2",
+      "year": 2024,
+      "api_rows": 35136,
+      "selected_station_rows": 35136,
+      "finite_measurements": 34572,
+      "hourly_station_groups": 34572,
+      "duplicate_hourly_station_groups": 0,
+      "civil_time_utc_clock_mismatches": 22844,
+      "local_standard_time_utc_clock_mismatches": 0
+    }
+  ]
+}

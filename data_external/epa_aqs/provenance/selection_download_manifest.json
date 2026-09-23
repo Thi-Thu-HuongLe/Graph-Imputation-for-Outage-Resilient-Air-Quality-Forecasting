@@ -1,0 +1,51 @@
+{
+  "source": "US EPA Air Quality System (AQS) AirData",
+  "source_page": "https://aqs.epa.gov/aqsweb/airdata/download_files.html",
+  "stage": "selection",
+  "created_utc": "2026-09-14T04:04:41.767756+00:00",
+  "holdout_data_included": false,
+  "files": [
+    {
+      "file": "aqs_sites.zip",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/aqs_sites.zip",
+      "bytes": 1018314,
+      "sha256": "56b322f6a3d5368d055bce53d0988275c0b27fbcced3d57a6ce8f2e2b539e15a",
+      "status": "downloaded"
+    },
+    {
+      "file": "aqs_monitors.zip",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/aqs_monitors.zip",
+      "bytes": 6919360,
+      "sha256": "e8325216d4ec5df462a23c201e6ffa1176b2fce363c9f6b0e3f18ce6ad958525",
+      "status": "downloaded"
+    },
+    {
+      "file": "annual_conc_by_monitor_2021.zip",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/annual_conc_by_monitor_2021.zip",
+      "bytes": 4936189,
+      "sha256": "499e4b022f0b01882477e42664b5ba4441b2d6082f4f317707c31d150cc1b61b",
+      "status": "downloaded"
+    },
+    {
+      "file": "annual_conc_by_monitor_2022.zip",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/annual_conc_by_monitor_2022.zip",
+      "bytes": 4263402,
+      "sha256": "200440796d5fbe66c604648d8ac115751971f6d25694abad13171883f978aab9",
+      "status": "downloaded"
+    },
+    {
+      "file": "annual_conc_by_monitor_2023.zip",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/annual_conc_by_monitor_2023.zip",
+      "bytes": 4347093,
+      "sha256": "5e118442dd01791c08880cb5836d9b5b13d461b7230fe39f2cb2718c4d2ecc96",
+      "status": "downloaded"
+    },
+    {
+      "file": "annual_conc_by_monitor_2024.zip",
+      "url": "https://aqs.epa.gov/aqsweb/airdata/annual_conc_by_monitor_2024.zip",
+      "bytes": 3979542,
+      "sha256": "8af92d1ec8ac9271babc84e3512cb2068e6a8849af438448c4170fd9e99ea5bb",
+      "status": "downloaded"
+    }
+  ]
+}

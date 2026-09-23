@@ -1,0 +1,446 @@
+CBSA Name,eligible_sites,pm25_sites,pm25_plus_any_two_sites,core_pm25_no2_o3_sites,mean_pollutants_per_site,network_pollutant_count,selection_score
+"Las Vegas-Henderson-Paradise, NV",16,14,14,3,3.1875,6,130
+"Salt Lake City, UT",9,8,8,8,3.888888888888889,5,126
+"Phoenix-Mesa-Scottsdale, AZ",44,11,9,2,2.0,6,100
+"Boston-Cambridge-Newton, MA-NH",13,10,7,4,2.6923076923076925,6,99
+"Houston-The Woodlands-Sugar Land, TX",25,8,4,4,2.16,5,89
+"New York-Newark-Jersey City, NY-NJ-PA",29,9,5,3,1.9310344827586208,5,87
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",20,13,5,1,2.0,6,80
+"Dallas-Fort Worth-Arlington, TX",21,5,4,3,1.9047619047619047,5,75
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",18,7,5,2,2.2222222222222223,6,74
+"Riverside-San Bernardino-Ontario, CA",23,5,3,3,2.347826086956522,6,72
+"Chicago-Naperville-Elgin, IL-IN-WI",31,12,3,1,1.6774193548387097,6,70
+"Minneapolis-St. Paul-Bloomington, MN-WI",19,8,3,2,1.894736842105263,6,69
+"Pittsburgh, PA",15,8,6,1,2.2,6,69
+"Cincinnati, OH-KY-IN",15,7,4,2,1.9333333333333333,6,67
+"Denver-Aurora-Lakewood, CO",16,7,3,2,1.9375,6,64
+"Sacramento--Roseville--Arden-Arcade, CA",15,7,3,2,1.9333333333333333,5,62
+"St. Louis, MO-IL",25,7,3,1,1.68,6,60
+"Detroit-Warren-Dearborn, MI",13,8,6,0,2.4615384615384617,6,59
+"Fresno, CA",9,6,4,2,2.6666666666666665,5,58
+"Indianapolis-Carmel-Anderson, IN",12,5,2,2,1.75,6,52
+"Tampa-St. Petersburg-Clearwater, FL",18,4,3,1,1.6666666666666667,6,52
+"Albuquerque, NM",7,5,3,2,2.857142857142857,6,51
+"Louisville/Jefferson County, KY-IN",9,6,4,1,2.3333333333333335,6,51
+"Charlotte-Concord-Gastonia, NC-SC",9,5,2,2,2.0,6,49
+"San Antonio-New Braunfels, TX",6,4,3,2,2.3333333333333335,5,47
+"Cleveland-Elyria, OH",13,4,3,1,1.8461538461538463,6,47
+"Reno, NV",7,4,4,1,2.5714285714285716,6,45
+"Seattle-Tacoma-Bellevue, WA",11,8,1,1,1.5454545454545454,5,44
+"Oxnard-Thousand Oaks-Ventura, CA",5,5,2,2,2.8,4,43
+"Miami-Fort Lauderdale-West Palm Beach, FL",14,7,2,0,1.9285714285714286,6,42
+"Springfield, MA",3,3,3,2,3.3333333333333335,4,41
+"Santa Maria-Santa Barbara, CA",8,3,3,1,3.125,6,40
+"Riverton, WY",4,3,2,2,2.25,5,39
+"San Luis Obispo-Paso Robles-Arroyo Grande, CA",9,4,2,1,2.111111111111111,5,38
+"Allentown-Bethlehem-Easton, PA-NJ",3,3,2,2,3.3333333333333335,4,37
+"Tucson, AZ",15,2,1,1,1.5333333333333334,6,37
+"Kansas City, MO-KS",10,5,3,0,2.0,5,37
+"Bismarck, ND",2,2,2,2,5.0,6,36
+"Bishop, CA",15,4,2,0,1.4666666666666666,5,36
+"Ogden-Clearfield, UT",3,2,2,2,3.0,4,35
+"Los Angeles-Long Beach-Anaheim, CA",15,1,1,1,2.933333333333333,6,35
+"Provo-Orem, UT",2,2,2,2,3.5,4,34
+"Oklahoma City, OK",6,3,2,1,2.3333333333333335,6,34
+"Beaumont-Port Arthur, TX",11,3,1,1,1.6363636363636365,4,33
+"Atlanta-Sandy Springs-Roswell, GA",11,2,1,1,1.7272727272727273,6,33
+"Urban Honolulu, HI",4,3,2,1,3.25,6,32
+"Richmond, VA",6,2,2,1,2.5,6,32
+"Austin-Round Rock, TX",4,3,2,1,2.25,5,31
+"Raleigh, NC",3,3,2,1,3.6666666666666665,6,31
+"Las Cruces, NM",9,3,1,1,1.6666666666666667,4,31
+"Salinas, CA",3,3,2,1,3.0,5,30
+"Grand Rapids-Wyoming, MI",3,2,2,1,3.3333333333333335,6,29
+"Huntington-Ashland, WV-KY-OH",5,2,2,1,2.2,4,29
+"Baton Rouge, LA",9,1,1,1,2.2222222222222223,6,29
+"New Orleans-Metairie, LA",9,1,1,1,1.5555555555555556,6,29
+"Milwaukee-Waukesha-West Allis, WI",7,4,2,0,2.2857142857142856,6,29
+"Hartford-West Hartford-East Hartford, CT",4,2,2,1,2.25,4,28
+"Tulsa, OK",6,2,1,1,2.0,6,28
+"Evansville, IN-KY",8,1,1,1,1.625,6,28
+"Hilo, HI",10,8,0,0,1.6,2,28
+"Knoxville, TN",10,6,0,0,1.6,6,28
+"Modesto, CA",2,2,2,1,3.5,5,27
+"Winston-Salem, NC",4,3,1,1,2.25,5,27
+"El Centro, CA",5,2,1,1,2.6,5,26
+"Nashville-Davidson--Murfreesboro--Franklin, TN",8,4,1,0,1.75,6,26
+"Gulfport-Biloxi-Pascagoula, MS",3,3,1,1,2.6666666666666665,4,25
+"El Paso, TX",6,1,1,1,2.0,5,25
+"San Francisco-Oakland-Hayward, CA",8,8,0,0,1.0,1,25
+"New Haven-Milford, CT",3,2,1,1,2.3333333333333335,5,24
+"Virginia Beach-Norfolk-Newport News, VA-NC",4,1,1,1,2.5,6,24
+"Vernal, UT",6,1,1,1,1.8333333333333333,3,23
+"Hanford-Corcoran, CA",2,2,1,1,3.0,4,22
+"Wichita, KS",3,1,1,1,2.6666666666666665,5,22
+"Baltimore-Columbia-Towson, MD",7,3,1,0,2.0,5,22
+"Jacksonville, FL",8,2,1,0,1.625,6,22
+"Cheyenne, WY",1,1,1,1,6.0,6,21
+"Gettysburg, PA",2,1,1,1,3.0,5,21
+"Little Rock-North Little Rock-Conway, AR",2,1,1,1,3.0,5,21
+"Portland-South Portland, ME",4,1,1,1,1.5,3,21
+"South Bend-Mishawaka, IN-MI",4,1,1,1,1.5,3,21
+"Duluth, MN-WI",5,4,1,0,1.6,4,21
+"San Jose-Sunnyvale-Santa Clara, CA",6,4,1,0,1.3333333333333333,3,21
+"Memphis, TN-MS-AR",7,2,1,0,2.0,6,21
+"Casper, WY",2,1,1,1,3.0,4,20
+"Chico, CA",1,1,1,1,5.0,5,20
+"Erie, PA",1,1,1,1,5.0,5,20
+"Johnstown, PA",1,1,1,1,5.0,5,20
+"Lansing-East Lansing, MI",2,1,1,1,2.5,4,20
+"Lexington-Fayette, KY",2,1,1,1,3.0,4,20
+"Marshall, TX",2,1,1,1,2.0,4,20
+"Roanoke, VA",1,1,1,1,5.0,5,20
+"Rutland, VT",1,1,1,1,5.0,5,20
+"Scranton--Wilkes-Barre--Hazleton, PA",2,1,1,1,2.5,4,20
+"Sioux Falls, SD",1,1,1,1,5.0,5,20
+"State College, PA",2,1,1,1,2.5,4,20
+"York-Hanover, PA",2,1,1,1,2.5,4,20
+"Yuba City, CA",2,1,1,1,2.5,4,20
+"Rapid City, SD",3,2,2,0,3.0,5,20
+"Providence-Warwick, RI-MA",5,4,1,0,1.8,3,20
+"Bakersfield, CA",11,2,0,0,1.7272727272727273,5,20
+"Cadillac, MI",2,1,1,1,2.0,3,19
+"Fargo, ND-MN",1,1,1,1,4.0,4,19
+"Minot, ND",1,1,1,1,4.0,4,19
+"St. George, UT",2,1,1,1,2.0,3,19
+"Omaha-Council Bluffs, NE-IA",6,2,1,0,1.8333333333333333,5,19
+"Columbus, OH",8,1,1,0,1.375,5,19
+"Cedar City, UT",1,1,1,1,3.0,3,18
+"Hobbs, NM",1,1,1,1,3.0,3,18
+"Logan, UT-ID",1,1,1,1,3.0,3,18
+"Vineland-Bridgeton, NJ",1,1,1,1,3.0,3,18
+"Bridgeport-Stamford-Norwalk, CT",5,2,1,0,1.8,5,18
+"Dayton, OH",5,2,1,0,2.0,5,18
+"Davenport-Moline-Rock Island, IA-IL",4,2,1,0,2.0,5,17
+"Jackson, WY-ID",4,2,1,0,1.75,5,17
+"Orlando-Kissimmee-Sanford, FL",5,1,1,0,1.8,5,16
+"San Diego-Carlsbad, CA",9,1,0,0,2.2222222222222223,5,16
+"Jackson, MS",2,2,1,0,3.5,5,15
+"Worcester, MA-CT",4,1,1,0,1.75,5,15
+"Helena, MT",2,2,1,0,2.5,4,14
+"Augusta-Richmond County, GA-SC",4,1,1,0,1.75,4,14
+"Greenville-Anderson-Mauldin, SC",3,1,1,0,2.0,5,14
+"Rochester, NY",3,1,1,0,2.3333333333333335,5,14
+"Weirton-Steubenville, WV-OH",4,1,1,0,2.5,4,14
+"Eugene, OR",5,3,0,0,1.2,3,14
+"Missoula, MT",2,2,1,0,2.0,3,13
+"Pensacola-Ferry Pass-Brent, FL",3,1,1,0,2.0,4,13
+"North Port-Sarasota-Bradenton, FL",7,1,0,0,1.1428571428571428,4,13
+"Portland-Vancouver-Hillsboro, OR-WA",6,1,0,0,1.8333333333333333,5,13
+"Anchorage, AK",3,1,1,0,1.6666666666666667,3,12
+"Beaver Dam, WI",1,1,1,0,5.0,5,12
+"Decatur, IL",3,1,1,0,1.6666666666666667,3,12
+"Durham-Chapel Hill, NC",2,1,1,0,2.5,4,12
+"Lakeland-Winter Haven, FL",2,1,1,0,2.5,4,12
+"Madera, CA",2,1,1,0,2.5,4,12
+"Manchester-Nashua, NH",2,1,1,0,2.5,4,12
+"Kingsport-Bristol-Bristol, TN-VA",7,1,0,0,1.0,3,12
+"Rock Springs, WY",5,1,0,0,2.0,5,12
+"Birmingham-Hoover, AL",7,0,0,0,1.7142857142857142,5,12
+"Burlington-South Burlington, VT",1,1,1,0,4.0,4,11
+"Cambridge, MD",2,1,1,0,2.0,3,11
+"Champaign-Urbana, IL",2,1,1,0,2.0,3,11
+"Charleston, WV",1,1,1,0,4.0,4,11
+"Corning, NY",1,1,1,0,4.0,4,11
+"Deltona-Daytona Beach-Ormond Beach, FL",2,1,1,0,2.0,3,11
+"Greensboro-High Point, NC",2,1,1,0,2.0,3,11
+"Palm Bay-Melbourne-Titusville, FL",2,1,1,0,2.0,3,11
+"Reading, PA",2,1,1,0,2.0,3,11
+"Springfield, MO",2,1,1,0,2.0,3,11
+"Terre Haute, IN",2,1,1,0,2.0,3,11
+"Torrington, CT",1,1,1,0,4.0,4,11
+"Spokane-Spokane Valley, WA",4,2,0,0,1.5,3,11
+"Ukiah, CA",4,2,0,0,1.0,3,11
+"Youngstown-Warren-Boardman, OH-PA",5,2,0,0,1.2,2,11
+"Asheville, NC",6,1,0,0,1.0,3,11
+"Altoona, PA",1,1,1,0,3.0,3,10
+"Atlantic City-Hammonton, NJ",1,1,1,0,3.0,3,10
+"Baraboo, WI",1,1,1,0,3.0,3,10
+"Bozeman, MT",1,1,1,0,3.0,3,10
+"Brookings, SD",1,1,1,0,3.0,3,10
+"Dickinson, ND",1,1,1,0,3.0,3,10
+"Eau Claire, WI",1,1,1,0,3.0,3,10
+"Indiana, PA",1,1,1,0,3.0,3,10
+"Lima, OH",1,1,1,0,3.0,3,10
+"Macon, GA",1,1,1,0,3.0,3,10
+"Mount Vernon-Anacortes, WA",1,1,1,0,3.0,3,10
+"Topeka, KS",1,1,1,0,3.0,3,10
+"Watertown, SD",1,1,1,0,3.0,3,10
+"Wilmington, NC",1,1,1,0,3.0,3,10
+"Winchester, VA-WV",1,1,1,0,3.0,3,10
+"Yuma, AZ",1,1,1,0,3.0,3,10
+"Harrisburg-Carlisle, PA",3,2,0,0,1.6666666666666667,3,10
+"Madison, WI",3,2,0,0,1.6666666666666667,3,10
+"Trenton, NJ",3,2,0,0,1.3333333333333333,2,9
+"Amarillo, TX",4,1,0,0,1.0,3,9
+"Bellingham, WA",4,1,0,0,1.0,3,9
+"Fort Collins, CO",4,1,0,0,1.25,3,9
+"Greeley, CO",4,1,0,0,1.25,3,9
+"Kalispell, MT",4,1,0,0,1.25,3,9
+"Peoria, IL",4,1,0,0,1.0,3,9
+"Wheeling, WV-OH",3,1,0,0,1.6666666666666667,4,9
+"Buffalo-Cheektowaga-Niagara Falls, NY",5,0,0,0,1.6,4,9
+"Payson, AZ",6,0,0,0,1.1666666666666667,3,9
+"Brainerd, MN",2,2,0,0,1.5,2,8
+"Clarksville, TN-KY",2,2,0,0,1.5,2,8
+"Lancaster, PA",2,2,0,0,2.0,2,8
+"Pittsfield, MA",2,2,0,0,1.5,2,8
+"Santa Cruz-Watsonville, CA",2,2,0,0,1.5,2,8
+"Yakima, WA",2,2,0,0,1.5,2,8
+"Akron, OH",3,1,0,0,1.3333333333333333,3,8
+"Canton-Massillon, OH",4,1,0,0,1.0,2,8
+"Corpus Christi, TX",3,1,0,0,1.6666666666666667,3,8
+"Santa Rosa, CA",4,1,0,0,1.0,2,8
+"Stockton-Lodi, CA",2,1,0,0,2.5,4,8
+"Farmington, NM",5,0,0,0,2.0,3,8
+"Albany-Schenectady-Troy, NY",3,1,0,0,1.0,2,7
+"Appleton, WI",2,1,0,0,1.5,3,7
+"Chattanooga, TN-GA",3,1,0,0,1.0,2,7
+"Colorado Springs, CO",3,1,0,0,1.0,2,7
+"Fayetteville, NC",2,1,0,0,1.5,3,7
+"Green Bay, WI",3,1,0,0,1.0,2,7
+"Hickory-Lenoir-Morganton, NC",3,1,0,0,1.0,2,7
+"Killeen-Temple, TX",2,1,0,0,2.0,3,7
+"Miami, OK",2,1,0,0,1.5,3,7
+"Salisbury, MD-DE",2,1,0,0,2.0,3,7
+"Savannah, GA",2,1,0,0,2.0,3,7
+"Springfield, OH",3,1,0,0,1.0,2,7
+"St. Joseph, MO-KS",2,1,0,0,1.5,3,7
+"Visalia-Porterville, CA",3,1,0,0,1.3333333333333333,2,7
+"Columbia, SC",3,0,0,0,2.0,4,7
+"Laramie, WY",5,0,0,0,1.0,2,7
+"Ann Arbor, MI",2,1,0,0,1.5,2,6
+"Bangor, ME",2,1,0,0,1.0,2,6
+"Billings, MT",2,1,0,0,1.0,2,6
+"Bloomington, IN",2,1,0,0,1.0,2,6
+"Boulder, CO",2,1,0,0,1.0,2,6
+"Bowling Green, KY",2,1,0,0,1.5,2,6
+"Brownsville-Harlingen, TX",2,1,0,0,1.0,2,6
+"College Station-Bryan, TX",2,1,0,0,1.0,2,6
+"Columbus, IN",2,1,0,0,1.0,2,6
+"Des Moines-West Des Moines, IA",2,1,0,0,1.5,2,6
+"Elkhart-Goshen, IN",2,1,0,0,1.0,2,6
+"Flint, MI",2,1,0,0,1.5,2,6
+"Fort Wayne, IN",2,1,0,0,1.0,2,6
+"Grand Junction, CO",2,1,0,0,1.0,2,6
+"Hagerstown-Martinsburg, MD-WV",2,1,0,0,1.5,2,6
+"Lafayette-West Lafayette, IN",2,1,0,0,1.0,2,6
+"Lewiston-Auburn, ME",2,1,0,0,1.0,2,6
+"Red Bluff, CA",2,1,0,0,1.5,2,6
+"Rockford, IL",2,1,0,0,1.0,2,6
+"Springfield, IL",2,1,0,0,1.0,2,6
+"Syracuse, NY",2,1,0,0,1.5,2,6
+"Vallejo-Fairfield, CA",2,1,0,0,1.0,2,6
+"Boise City, ID",2,0,0,0,2.5,4,6
+"Lake Charles, LA",3,0,0,0,1.3333333333333333,3,6
+"Aberdeen, SD",1,1,0,0,2.0,2,5
+"Adrian, MI",1,1,0,0,2.0,2,5
+"Athens-Clarke County, GA",1,1,0,0,2.0,2,5
+"Bennington, VT",1,1,0,0,2.0,2,5
+"Bloomington, IL",1,1,0,0,2.0,2,5
+"Butte-Silver Bow, MT",1,1,0,0,2.0,2,5
+"Carson City, NV",1,1,0,0,2.0,2,5
+"Charlottesville, VA",1,1,0,0,2.0,2,5
+"Claremont-Lebanon, NH-VT",1,1,0,0,2.0,2,5
+"Cleveland, MS",1,1,0,0,2.0,2,5
+"Decatur, AL",1,1,0,0,2.0,2,5
+"Dover, DE",1,1,0,0,2.0,2,5
+"Gainesville, FL",1,1,0,0,2.0,2,5
+"Greenfield Town, MA",1,1,0,0,2.0,2,5
+"Greenville, NC",1,1,0,0,2.0,2,5
+"Holland, MI",1,1,0,0,2.0,2,5
+"Kalamazoo-Portage, MI",1,1,0,0,2.0,2,5
+"Keene, NH",1,1,0,0,2.0,2,5
+"Kokomo, IN",1,1,0,0,2.0,2,5
+"Lawton, OK",1,1,0,0,2.0,2,5
+"Lebanon, PA",1,1,0,0,2.0,2,5
+"Marshall, MN",1,1,0,0,2.0,2,5
+"McAlester, OK",1,1,0,0,2.0,2,5
+"Middlesborough, KY",1,1,0,0,2.0,2,5
+"Mount Vernon, IL",1,1,0,0,2.0,2,5
+"Nogales, AZ",1,1,0,0,2.0,2,5
+"Norwich-New London, CT",1,1,0,0,2.0,2,5
+"Ponca City, OK",1,1,0,0,2.0,2,5
+"Roanoke Rapids, NC",1,1,0,0,2.0,2,5
+"Rochester, MN",1,1,0,0,2.0,2,5
+"Santa Fe, NM",1,1,0,0,2.0,2,5
+"Somerset, KY",1,1,0,0,2.0,2,5
+"St. Cloud, MN",1,1,0,0,2.0,2,5
+"Charleston-North Charleston, SC",3,0,0,0,1.0,2,5
+"Corsicana, TX",2,0,0,0,2.0,3,5
+"Durango, CO",3,0,0,0,2.0,2,5
+"Eureka-Arcata-Fortuna, CA",1,0,0,0,4.0,4,5
+"Fairbanks, AK",1,0,0,0,4.0,4,5
+"Longview, TX",2,0,0,0,2.0,3,5
+"Pahrump, NV",4,0,0,0,1.0,1,5
+"Pocatello, ID",2,0,0,0,1.5,3,5
+"Point Pleasant, WV-OH",4,0,0,0,1.0,1,5
+"Portsmouth, OH",3,0,0,0,1.6666666666666667,2,5
+"Shreveport-Bossier City, LA",2,0,0,0,2.0,3,5
+"Sierra Vista-Douglas, AZ",3,0,0,0,1.0,2,5
+"Toledo, OH",4,0,0,0,1.0,1,5
+"Albany, GA",1,1,0,0,1.0,1,4
+"Ardmore, OK",1,1,0,0,1.0,1,4
+"Athens, TN",1,1,0,0,1.0,1,4
+"Bay City, MI",1,1,0,0,1.0,1,4
+"Beatrice, NE",1,1,0,0,1.0,1,4
+"Bemidji, MN",1,1,0,0,1.0,1,4
+"Bremerton-Silverdale, WA",1,1,0,0,1.0,1,4
+"Cookeville, TN",1,1,0,0,1.0,1,4
+"Dyersburg, TN",1,1,0,0,1.0,1,4
+"Eagle Pass, TX",1,1,0,0,1.0,1,4
+"Ellensburg, WA",1,1,0,0,1.0,1,4
+"Gainesville, GA",1,1,0,0,1.0,1,4
+"Gardnerville Ranchos, NV",1,1,0,0,1.0,1,4
+"Grand Island, NE",1,1,0,0,1.0,1,4
+"Hattiesburg, MS",1,1,0,0,1.0,1,4
+"Jackson, TN",1,1,0,0,1.0,1,4
+"Kahului-Wailuku-Lahaina, HI",1,1,0,0,1.0,1,4
+"Kingsville, TX",1,1,0,0,1.0,1,4
+"Klamath Falls, OR",1,1,0,0,1.0,1,4
+"Laredo, TX",1,1,0,0,1.0,1,4
+"Lawrenceburg, TN",1,1,0,0,1.0,1,4
+"Lubbock, TX",1,1,0,0,1.0,1,4
+"Merced, CA",1,1,0,0,1.0,1,4
+"Odessa, TX",1,1,0,0,1.0,1,4
+"Pierre, SD",1,1,0,0,1.0,1,4
+"Platteville, WI",1,1,0,0,1.0,1,4
+"Scottsbluff, NE",1,1,0,0,1.0,1,4
+"Taos, NM",1,1,0,0,1.0,1,4
+"Texarkana, TX-AR",1,1,0,0,1.0,1,4
+"Truckee-Grass Valley, CA",1,1,0,0,1.0,1,4
+"Valdosta, GA",1,1,0,0,1.0,1,4
+"Warner Robins, GA",1,1,0,0,1.0,1,4
+"Blacksburg-Christiansburg-Radford, VA",2,0,0,0,1.0,2,4
+"Carlsbad-Artesia, NM",2,0,0,0,1.5,2,4
+"Cedar Rapids, IA",2,0,0,0,1.5,2,4
+"Clinton, IA",2,0,0,0,1.0,2,4
+"Concord, NH",2,0,0,0,1.0,2,4
+"Harrisonburg, VA",1,0,0,0,3.0,3,4
+"Joplin, MO",2,0,0,0,1.0,2,4
+"Kennewick-Richland, WA",2,0,0,0,1.0,2,4
+"Lafayette, LA",2,0,0,0,1.5,2,4
+"Marietta, OH",2,0,0,0,1.0,2,4
+"Mobile, AL",2,0,0,0,1.5,2,4
+"Port Angeles, WA",1,0,0,0,3.0,3,4
+"Redding, CA",3,0,0,0,1.0,1,4
+"Tallahassee, FL",2,0,0,0,1.5,2,4
+"Waco, TX",1,0,0,0,3.0,3,4
+"Walla Walla, WA",2,0,0,0,1.0,2,4
+"Columbus, GA-AL",2,0,0,0,1.0,1,3
+"Fayetteville-Springdale-Rogers, AR-MO",2,0,0,0,1.0,1,3
+"Fort Smith, AR-OK",1,0,0,0,2.0,2,3
+"Gillette, WY",1,0,0,0,2.0,2,3
+"Glenwood Springs, CO",2,0,0,0,1.0,1,3
+"Huntsville, AL",2,0,0,0,1.0,1,3
+"Michigan City-La Porte, IN",2,0,0,0,1.0,1,3
+"Montgomery, AL",2,0,0,0,1.0,1,3
+"Morgantown, WV",1,0,0,0,2.0,2,3
+"Muscatine, IA",2,0,0,0,1.0,1,3
+"Ocala, FL",2,0,0,0,1.0,1,3
+"Ogdensburg-Massena, NY",2,0,0,0,1.0,1,3
+"Palatka, FL",1,0,0,0,2.0,2,3
+"Parkersburg-Vienna, WV",1,0,0,0,2.0,2,3
+"Port St. Lucie, FL",2,0,0,0,1.0,1,3
+"Price, UT",1,0,0,0,2.0,2,3
+"Salem, OR",2,0,0,0,1.0,1,3
+"Sevierville, TN",2,0,0,0,1.0,1,3
+"Sheboygan, WI",2,0,0,0,1.0,1,3
+"Tyler, TX",1,0,0,0,2.0,2,3
+"Warren, PA",2,0,0,0,1.0,1,3
+"Williston, ND",2,0,0,0,1.0,1,3
+"Americus, GA",1,0,0,0,1.0,1,2
+"Arkadelphia, AR",1,0,0,0,1.0,1,2
+"Ashtabula, OH",1,0,0,0,1.0,1,2
+"Augusta-Waterville, ME",1,0,0,0,1.0,1,2
+"Barnstable Town, MA",1,0,0,0,1.0,1,2
+"Berlin, NH-VT",1,0,0,0,1.0,1,2
+"Big Spring, TX",1,0,0,0,1.0,1,2
+"Borger, TX",1,0,0,0,1.0,1,2
+"Brunswick, GA",1,0,0,0,1.0,1,2
+"Cape Coral-Fort Myers, FL",1,0,0,0,1.0,1,2
+"Chambersburg-Waynesboro, PA",1,0,0,0,1.0,1,2
+"Clearlake, CA",1,0,0,0,1.0,1,2
+"Columbia, MO",1,0,0,0,1.0,1,2
+"Dalton, GA",1,0,0,0,1.0,1,2
+"Daphne-Fairhope-Foley, AL",1,0,0,0,1.0,1,2
+"Deming, NM",1,0,0,0,1.0,1,2
+"Dodge City, KS",1,0,0,0,1.0,1,2
+"East Stroudsburg, PA",1,0,0,0,1.0,1,2
+"Effingham, IL",1,0,0,0,1.0,1,2
+"Elko, NV",1,0,0,0,1.0,1,2
+"Enid, OK",1,0,0,0,1.0,1,2
+"Espa¤ola, NM",1,0,0,0,1.0,1,2
+"Fallon, NV",1,0,0,0,1.0,1,2
+"Fernley, NV",1,0,0,0,1.0,1,2
+"Findlay, OH",1,0,0,0,1.0,1,2
+"Flagstaff, AZ",1,0,0,0,1.0,1,2
+"Florence, SC",1,0,0,0,1.0,1,2
+"Fond du Lac, WI",1,0,0,0,1.0,1,2
+"Fort Payne, AL",1,0,0,0,1.0,1,2
+"Harrison, AR",1,0,0,0,1.0,1,2
+"Hermiston-Pendleton, OR",1,0,0,0,1.0,1,2
+"Homosassa Springs, FL",1,0,0,0,1.0,1,2
+"Houma-Thibodaux, LA",1,0,0,0,1.0,1,2
+"Idaho Falls, ID",1,0,0,0,1.0,1,2
+"Ithaca, NY",1,0,0,0,1.0,1,2
+"Jamestown-Dunkirk-Fredonia, NY",1,0,0,0,1.0,1,2
+"Janesville-Beloit, WI",1,0,0,0,1.0,1,2
+"Jefferson City, MO",1,0,0,0,1.0,1,2
+"Juneau, AK",1,0,0,0,1.0,1,2
+"Kapaa, HI",1,0,0,0,1.0,1,2
+"Kinston, NC",1,0,0,0,1.0,1,2
+"La Crosse-Onalaska, WI-MN",1,0,0,0,1.0,1,2
+"Lake City, FL",1,0,0,0,1.0,1,2
+"Lake Havasu City-Kingman, AZ",1,0,0,0,1.0,1,2
+"Lincoln, NE",1,0,0,0,1.0,1,2
+"Ludington, MI",1,0,0,0,1.0,1,2
+"Manitowoc, WI",1,0,0,0,1.0,1,2
+"Mayaguez, PR",1,0,0,0,1.0,1,2
+"Medford, OR",1,0,0,0,1.0,1,2
+"Meridian, MS",1,0,0,0,1.0,1,2
+"Monroe, LA",1,0,0,0,1.0,1,2
+"Morehead City, NC",1,0,0,0,1.0,1,2
+"Morristown, TN",1,0,0,0,1.0,1,2
+"Mount Pleasant, TX",1,0,0,0,1.0,1,2
+"Mount Vernon, OH",1,0,0,0,1.0,1,2
+"Muncie, IN",1,0,0,0,1.0,1,2
+"Muskegon, MI",1,0,0,0,1.0,1,2
+"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",1,0,0,0,1.0,1,2
+"Naples-Immokalee-Marco Island, FL",1,0,0,0,1.0,1,2
+"Niles-Benton Harbor, MI",1,0,0,0,1.0,1,2
+"Ottawa-Peru, IL",1,0,0,0,1.0,1,2
+"Owensboro, KY",1,0,0,0,1.0,1,2
+"Oxford, NC",1,0,0,0,1.0,1,2
+"Paducah, KY-IL",1,0,0,0,1.0,1,2
+"Panama City, FL",1,0,0,0,1.0,1,2
+"Prescott, AZ",1,0,0,0,1.0,1,2
+"Quincy, IL-MO",1,0,0,0,1.0,1,2
+"Racine, WI",1,0,0,0,1.0,1,2
+"Red Wing, MN",1,0,0,0,1.0,1,2
+"Rockland, ME",1,0,0,0,1.0,1,2
+"Rocky Mount, NC",1,0,0,0,1.0,1,2
+"Sayre, PA",1,0,0,0,1.0,1,2
+"Sebastian-Vero Beach, FL",1,0,0,0,1.0,1,2
+"Sebring, FL",1,0,0,0,1.0,1,2
+"Sheridan, WY",1,0,0,0,1.0,1,2
+"Show Low, AZ",1,0,0,0,1.0,1,2
+"Somerset, PA",1,0,0,0,1.0,1,2
+"Sonora, CA",1,0,0,0,1.0,1,2
+"Spartanburg, SC",1,0,0,0,1.0,1,2
+"St. Marys, PA",1,0,0,0,1.0,1,2
+"Summerville, GA",1,0,0,0,1.0,1,2
+"Traverse City, MI",1,0,0,0,1.0,1,2
+"Tupelo, MS",1,0,0,0,1.0,1,2
+"Victoria, TX",1,0,0,0,1.0,1,2
+"Vincennes, IN",1,0,0,0,1.0,1,2
+"Vineyard Haven, MA",1,0,0,0,1.0,1,2
+"Wabash, IN",1,0,0,0,1.0,1,2
+"Washington, NC",1,0,0,0,1.0,1,2
+"Waterloo-Cedar Falls, IA",1,0,0,0,1.0,1,2
+"Watertown-Fort Atkinson, WI",1,0,0,0,1.0,1,2
+"Watertown-Fort Drum, NY",1,0,0,0,1.0,1,2
+"Wausau, WI",1,0,0,0,1.0,1,2
+"Whitewater-Elkhorn, WI",1,0,0,0,1.0,1,2
+"Williamsport, PA",1,0,0,0,1.0,1,2
+"Wilmington, OH",1,0,0,0,1.0,1,2

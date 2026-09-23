@@ -1,0 +1,160 @@
+{
+  "status": "EXTERNAL_DEVELOPMENT_PROTOCOL_LOCKED_HOLDOUT_NOT_DOWNLOADED",
+  "name": "las_vegas_external_outage_resilience_replication",
+  "prepared_development": "data_external/epa_aqs_las_vegas/prepared_development/las_vegas_2021_2024.npz",
+  "candidate": "adaptive_graph_impute_tcn",
+  "learned_models": [
+    "local_tcn",
+    "local_capacity_residual",
+    "impute_then_local_tcn",
+    "dcrnn",
+    "graph_wavenet"
+  ],
+  "deterministic_models": [
+    "persistence",
+    "seasonal_naive_24h"
+  ],
+  "seeds": [
+    42,
+    123,
+    2026,
+    3407,
+    7777
+  ],
+  "lookback": 168,
+  "horizon": 48,
+  "reported_horizons": [
+    1,
+    6,
+    12,
+    24,
+    48
+  ],
+  "train_stride": 3,
+  "validation_stride": 6,
+  "test_stride": 6,
+  "architecture": {
+    "hidden": 128,
+    "hidden_by_model": {
+      "dcrnn": 48,
+      "graph_wavenet": 77
+    },
+    "layers": 4,
+    "dropout": 0.1,
+    "spatial_residual_attention_width": 32,
+    "spatial_residual_hidden": 64,
+    "parameter_matching": "At the locked 7-station, 5-pollutant, 48-hour shape, spatial_residual has 284490 parameters, DCRNN width 48 has 282576 (-0.67%), and Graph WaveNet width 77 has 284134 (-0.13%)."
+  },
+  "training": {
+    "batch_size": 32,
+    "epochs": 20,
+    "patience": 5,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.001,
+    "gradient_clip": 1.0,
+    "precision": "bf16 encoder with float32 loss",
+    "cpu_threads": 4,
+    "checkpoint_selection": "minimum clean-validation scaled_MAE + 2*Q95_Brier - 0.25*Q95_AP",
+    "loss": {
+      "nll": 1.0,
+      "huber": 0.5,
+      "brier": 2.0,
+      "quantile_weights": [
+        1.0,
+        2.0,
+        4.0
+      ]
+    },
+    "corruption_probabilities": {
+      "clean": 0.5,
+      "block_6h": 0.125,
+      "block_24h": 0.125,
+      "station_dropout": 0.25
+    }
+  },
+  "fill_limit": 6,
+  "corruption_seed": 81317,
+  "development_conditions": [
+    "clean",
+    "random_block_6h",
+    "random_block_24h",
+    "each_station_full_history_dropout",
+    "each_station_trailing_6h_outage",
+    "each_station_trailing_24h_outage"
+  ],
+  "natural_comissingness": {
+    "core_pollutants": [
+      "PM2.5",
+      "NO2",
+      "O3"
+    ],
+    "durations_hours": [
+      6,
+      24
+    ],
+    "origin": "event-aligned last missing hour before at least one core reading resumes",
+    "network_availability": "at least one other station has a core reading at the origin",
+    "interpretation": "secondary natural co-missingness case analysis; do not assert verified hardware failure and do not use for primary inference"
+  },
+  "primary_test_conditions": [
+    "each_station_trailing_6h_outage",
+    "each_station_trailing_24h_outage"
+  ],
+  "primary_endpoints": [
+    "mase",
+    "q95_brier"
+  ],
+  "clean_guardrail": {
+    "endpoints": [
+      "mase",
+      "q95_brier"
+    ],
+    "maximum_relative_degradation_vs_each_local_control": 0.01
+  },
+  "secondary_endpoints": [
+    "q95_ap",
+    "picp80",
+    "width80_mase_scaled",
+    "interval_score80_mase_scaled",
+    "crps_mase_scaled",
+    "negative_mass"
+  ],
+  "calibration": {
+    "method": "per-pollutant multiplicative Gaussian scale fitted by masked validation NLL",
+    "factor_bounds": [
+      0.25,
+      4.0
+    ],
+    "fit_condition": "clean validation predictions pooled across horizons and stations within each pollutant",
+    "uncalibrated_results_required": true,
+    "test_labels_used": false
+  },
+  "statistics": {
+    "temporal_block_length_hours": 168,
+    "bootstrap_resamples": 10000,
+    "pairing": "same forecast origin, horizon, station, pollutant, condition, and seed",
+    "multiplicity": "Holm correction over all candidate-versus-comparator primary tests",
+    "seed_interpretation": "optimization variability, not independent replication"
+  },
+  "reporting": {
+    "pollutant_strata": [
+      "all_valid_cells",
+      "common_core_PM2.5_NO2_O3",
+      "partial_CO_SO2"
+    ],
+    "report_all_prespecified_outcomes": true,
+    "holdout_rule": "Do not download or parse Clark County 2025 data until all external development runs, calibration files, final checkpoint paths, and evaluation code are frozen."
+  },
+  "replication_lock": {
+    "network_selection": "journal_protocol/external_replication_selection.json",
+    "network_selection_sha256": "e17250cba722ca5bc90f10358994aae9279cd8a6ed78439343ef0822c152d9a0",
+    "parent_protocol": "journal_protocol/external_unseen_holdout_protocol.json",
+    "preprocessing_protocol": "journal_protocol/external_development_preprocessing_protocol.json",
+    "candidate_fixed_from_salt_lake": true,
+    "hyperparameters_changed": false,
+    "external_holdout_downloaded": false,
+    "external_holdout_accessed": false,
+    "source_salt_lake_candidate_freeze_sha256": "7ebc77f42b7b8d52b2773bb71fdec4c1a178ca4d188ab8492a3cf582aeba514e",
+    "source_salt_lake_final_protocol_sha256": "db323e7042ffe3ea08ac18d9cdcab897c3d4d529482ff19083725aef74636cb0"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "status": "PASS_HOLDOUT_PREPARED_AFTER_FINAL_FREEZE",
+  "holdout_content_accessed": true,
+  "test_metrics_computed": false,
+  "protocol_sha256": "0b0d1ae772d537ccebe7e99340961f145a1b875aae85814eb8f5dba7512bb6e7",
+  "preprocessing_protocol_sha256": "3cc818664a7f87ea0c289e4ecad8868ed6c2911bda1cafc9f276e59692c371f2",
+  "raw_manifest_sha256": "86cd87cf3dec2d5c0c8883c64e97935adfa7fa5521ab276a918937742b325c36",
+  "development_prepared_sha256": "257fec87d49fb9cd4f366f9e89f22c880bd73547852f4d3e49b8362d233d48ce",
+  "shape_including_context": [
+    8928,
+    7,
+    5
+  ],
+  "context_hours": 168,
+  "embargo_hours_not_scored": 168,
+  "test_split_bounds": [
+    336,
+    8927
+  ],
+  "test_target_timestamps_utc": [
+    "2025-01-08 08:00:00",
+    "2026-01-01 07:00:00"
+  ],
+  "stations": [
+    "32-003-0540",
+    "32-003-2003",
+    "32-003-0075",
+    "32-003-1501",
+    "32-003-0561",
+    "32-003-0071",
+    "32-003-0043"
+  ],
+  "pollutants": [
+    "PM2.5",
+    "NO2",
+    "O3",
+    "CO",
+    "SO2"
+  ],
+  "observed_fraction_by_pollutant": {
+    "PM2.5": 0.9955805609915199,
+    "NO2": 0.6664872798434442,
+    "O3": 0.6784083496412263,
+    "CO": 0.5248206131767775,
+    "SO2": 0.1395140247879974
+  },
+  "merge_report": {
+    "PM2.5": {
+      "api_rows": 131400,
+      "selected_rows": 61320,
+      "finite_rows": 61049,
+      "merged_hourly_values": 61049,
+      "duplicate_groups": 0,
+      "duplicate_extra_rows": 0,
+      "maximum_multiplicity": 1,
+      "maximum_duplicate_range": 0.0
+    },
+    "NO2": {
+      "api_rows": 52560,
+      "selected_rows": 43800,
+      "finite_rows": 40869,
+      "merged_hourly_values": 40869,
+      "duplicate_groups": 0,
+      "duplicate_extra_rows": 0,
+      "maximum_multiplicity": 1,
+      "maximum_duplicate_range": 0.0
+    },
+    "O3": {
+      "api_rows": 118296,
+      "selected_rows": 43800,
+      "finite_rows": 41600,
+      "merged_hourly_values": 41600,
+      "duplicate_groups": 0,
+      "duplicate_extra_rows": 0,
+      "maximum_multiplicity": 1,
+      "maximum_duplicate_range": 0.0
+    },
+    "CO": {
+      "api_rows": 35040,
+      "selected_rows": 35040,
+      "finite_rows": 32182,
+      "merged_hourly_values": 32182,
+      "duplicate_groups": 0,
+      "duplicate_extra_rows": 0,
+      "maximum_multiplicity": 1,
+      "maximum_duplicate_range": 0.0
+    },
+    "SO2": {
+      "api_rows": 8760,
+      "selected_rows": 8760,
+      "finite_rows": 8555,
+      "merged_hourly_values": 8555,
+      "duplicate_groups": 0,
+      "duplicate_extra_rows": 0,
+      "maximum_multiplicity": 1,
+      "maximum_duplicate_range": 0.0
+    }
+  },
+  "native_holdout_values_sha256": "35f1afdec3fd5fbc395de4dab820b582cd775961b250dccdf52fc52018719cb6",
+  "native_holdout_mask_sha256": "e817844a5d803f3809f2135062d9423db885e63f552b70cf9a898b27e953f9d3",
+  "calendar_clock": {
+    "kind": "fixed local standard time",
+    "utc_offset_hours": -8.0
+  },
+  "completed_utc": "2026-09-20T23:55:50.425893+00:00",
+  "execution_freeze_sha256": "80cd98b1b7562610d6b70a9a6508793a602025a674f0b88677fca006d483cb3c",
+  "prepared_file": "data_external\\epa_aqs_las_vegas\\prepared_holdout\\las_vegas_2025.npz",
+  "prepared_sha256": "fc722b52b829f214bcf07a78f641733d17f582abea75d3ef50324e7da2099869",
+  "availability_file": "data_external\\epa_aqs_las_vegas\\prepared_holdout\\availability.csv",
+  "availability_sha256": "085265191807f5e9d00697f77396889ea7a61fafda3b33eb2295941c046d8aa1"
+}

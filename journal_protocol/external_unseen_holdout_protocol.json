@@ -1,0 +1,121 @@
+{
+  "protocol_status": "EXTERNAL_DATASET_AND_SPLITS_LOCKED_HOLDOUT_NOT_DOWNLOADED",
+  "created_utc": "2026-09-18T06:35:17.284658+00:00",
+  "purpose": "Geographic replication of the already frozen Salt Lake candidate on a second EPA AQS network. No model selection is permitted on this network.",
+  "selection_lock": "journal_protocol/external_replication_selection.json",
+  "selection_lock_sha256": "e17250cba722ca5bc90f10358994aae9279cd8a6ed78439343ef0822c152d9a0",
+  "dataset": {
+    "name": "US EPA AQS Las Vegas-Clark County hourly sensor network",
+    "source_url": "https://aqs.epa.gov/aqsweb/airdata/download_files.html",
+    "api_endpoint": "https://aqs.epa.gov/data/api/sampleData/byCounty",
+    "license_or_terms": "US EPA public monitoring data; preserve source attribution and retrieval metadata",
+    "download_or_snapshot_date": "2026-09-18",
+    "development_download_manifest": "data_external/epa_aqs_las_vegas/raw_development_api/download_manifest.json",
+    "development_download_manifest_sha256": "5f360f89a412aac7591a4dcb266ea09535eee8cec563af9168bfe62992b71fe8",
+    "development_validation_summary": "data_external/epa_aqs_las_vegas/raw_development_api/validation_summary.json",
+    "development_validation_status_at_freeze": "NOT_YET_RUN",
+    "holdout_download_manifest": "NOT_DOWNLOADED",
+    "state_fips": "32",
+    "county_fips": "003",
+    "civil_time_zone": "America/Los_Angeles",
+    "local_standard_utc_offset_hours": -8,
+    "time_zone": "America/Los_Angeles civil clock audited against AQS local fields; fixed UTC-08:00 local standard time used for the canonical calendar",
+    "units": {
+      "PM2.5": "Micrograms/cubic meter (LC)",
+      "NO2": "Parts per billion",
+      "O3": "Parts per million",
+      "CO": "Parts per million",
+      "SO2": "Parts per billion"
+    },
+    "sample_duration_code": "1",
+    "sample_duration": "1 HOUR",
+    "station_count": 7,
+    "station_ids": [
+      "32-003-0540",
+      "32-003-2003",
+      "32-003-0075",
+      "32-003-1501",
+      "32-003-0561",
+      "32-003-0071",
+      "32-003-0043"
+    ],
+    "station_selection_rule": "Require PM2.5, then sort by relevant pollutant count, complete PM2.5-NO2-O3 core, PM2.5-plus-O3 availability, mean of the minimum annual coverage percentages, and site ID. All descending except site ID.",
+    "station_coordinates_available": true,
+    "pollutants": [
+      "PM2.5",
+      "NO2",
+      "O3",
+      "CO",
+      "SO2"
+    ],
+    "common_core_pollutants": [
+      "PM2.5",
+      "NO2",
+      "O3"
+    ],
+    "partial_pollutants": [
+      "CO",
+      "SO2"
+    ],
+    "target_policy": "Score every prespecified station-pollutant cell with an observed target; also report pollutant and availability strata.",
+    "natural_missingness_retained": true
+  },
+  "split_policy": {
+    "type": "strict_chronological",
+    "train": "2021-01-01 through 2023-12-31 fixed local standard time",
+    "validation": "2024-01-01 through 2024-12-31 fixed local standard time",
+    "test": "2025-01-01 through 2025-12-31; not downloaded until final freeze",
+    "embargo_hours_between_splits": 168,
+    "test_access_rule": "Do not download or parse 2025 until external development runs, exact candidate/checkpoint paths, calibration, inference, and reporting code are frozen."
+  },
+  "forecast": {
+    "lookback_hours": 168,
+    "maximum_horizon_hours": 48,
+    "reported_horizons_hours": [
+      1,
+      6,
+      12,
+      24,
+      48
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2",
+      "O3",
+      "CO",
+      "SO2"
+    ]
+  },
+  "candidate": "adaptive_graph_impute_tcn",
+  "candidate_selected_on_this_network": false,
+  "required_comparators": [
+    "persistence",
+    "seasonal_naive_24h",
+    "local_tcn",
+    "local_capacity_residual",
+    "impute_then_local_tcn",
+    "dcrnn",
+    "graph_wavenet"
+  ],
+  "seeds": [
+    42,
+    123,
+    2026,
+    3407,
+    7777
+  ],
+  "primary_conditions": [
+    "target_station_trailing_6h_outage",
+    "target_station_trailing_24h_outage"
+  ],
+  "primary_endpoints": [
+    "mase",
+    "q95_brier"
+  ],
+  "calibration": {
+    "method": "per-pollutant multiplicative Gaussian sigma factor fitted on clean 2024 validation predictions",
+    "duration_specific_calibration": false,
+    "test_label_fitting": false
+  },
+  "reporting_rule": "Report all prespecified external-network results regardless of direction; do not revise the model from external 2025 outcomes."
+}

@@ -1,0 +1,446 @@
+{
+  "validation_status": "PASS",
+  "manifest": "data_external/epa_aqs/raw_development_api/download_manifest.json",
+  "file_count": 20,
+  "total_rows": 1292282,
+  "errors": [],
+  "files": [
+    {
+      "file": "sampleData_state-49_county-035_88101-PM2.5_duration-1H_2021.json.gz",
+      "year": 2021,
+      "pollutant": "PM2.5",
+      "parameter_code": "88101",
+      "rows": 77424,
+      "site_count": 7,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3013",
+        "3015",
+        "3016",
+        "4002"
+      ],
+      "units": {
+        "Micrograms/cubic meter (LC)": 77424
+      },
+      "sha256": "151e5ab393f9828577941f6f3f227a5a5431b21a062ef45403d97171219f18e8",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_42602-NO2_duration-1H_2021.json.gz",
+      "year": 2021,
+      "pollutant": "NO2",
+      "parameter_code": "42602",
+      "rows": 77280,
+      "site_count": 8,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3013",
+        "3014",
+        "3015",
+        "3016",
+        "4002"
+      ],
+      "units": {
+        "Parts per billion": 77280
+      },
+      "sha256": "4bf02bba70f34a78fece1cd6d784a40e93b6662b9bfac45b9fb6f4996539f125",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_44201-O3_duration-1H_2021.json.gz",
+      "year": 2021,
+      "pollutant": "O3",
+      "parameter_code": "44201",
+      "rows": 73346,
+      "site_count": 9,
+      "sites": [
+        "0015",
+        "2005",
+        "3006",
+        "3010",
+        "3013",
+        "3014",
+        "3015",
+        "3016",
+        "4002"
+      ],
+      "units": {
+        "Parts per million": 73346
+      },
+      "sha256": "36715bf9e94063f55b097d25ce1ef99eb8941db894140ce794acca8bbdfe16e7",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_42101-CO_duration-1H_2021.json.gz",
+      "year": 2021,
+      "pollutant": "CO",
+      "parameter_code": "42101",
+      "rows": 43680,
+      "site_count": 5,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3015",
+        "4002"
+      ],
+      "units": {
+        "Parts per million": 43680
+      },
+      "sha256": "42b2235ec54f168c39da87a69725deb65ab1bcd6b4cff4dab7486a47612814f5",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_42401-SO2_duration-1H_2021.json.gz",
+      "year": 2021,
+      "pollutant": "SO2",
+      "parameter_code": "42401",
+      "rows": 34944,
+      "site_count": 4,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3015"
+      ],
+      "units": {
+        "Parts per billion": 34944
+      },
+      "sha256": "eea0ba5ea8814edd98096b6329a8eb86827111069cdcf163e8267fd4081c78b3",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_88101-PM2.5_duration-1H_2022.json.gz",
+      "year": 2022,
+      "pollutant": "PM2.5",
+      "parameter_code": "88101",
+      "rows": 86280,
+      "site_count": 8,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3013",
+        "3014",
+        "3015",
+        "3016",
+        "4002"
+      ],
+      "units": {
+        "Micrograms/cubic meter (LC)": 86280
+      },
+      "sha256": "9032650e34b51446f6324badf76f5c55d77fdef17de0ac71c885d7afbe0f289e",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_42602-NO2_duration-1H_2022.json.gz",
+      "year": 2022,
+      "pollutant": "NO2",
+      "parameter_code": "42602",
+      "rows": 78840,
+      "site_count": 8,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3013",
+        "3014",
+        "3015",
+        "3016",
+        "4002"
+      ],
+      "units": {
+        "Parts per billion": 78840
+      },
+      "sha256": "53104b222fe635a6a56a9f458c76d2539ad8e8192f81d1f3a1ec6ece8aeb9898",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_44201-O3_duration-1H_2022.json.gz",
+      "year": 2022,
+      "pollutant": "O3",
+      "parameter_code": "44201",
+      "rows": 74928,
+      "site_count": 9,
+      "sites": [
+        "0015",
+        "2005",
+        "3006",
+        "3010",
+        "3013",
+        "3014",
+        "3015",
+        "3016",
+        "4002"
+      ],
+      "units": {
+        "Parts per million": 74928
+      },
+      "sha256": "0505d0a817a45aad0c04208386dabda66cf4a978a76ca0a23793236a2f008332",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_42101-CO_duration-1H_2022.json.gz",
+      "year": 2022,
+      "pollutant": "CO",
+      "parameter_code": "42101",
+      "rows": 43800,
+      "site_count": 5,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3015",
+        "4002"
+      ],
+      "units": {
+        "Parts per million": 43800
+      },
+      "sha256": "9d8555aca97d3d4584e36265fa1557f8b1025f8e8ed9d3e1649b71f1c3707aed",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_42401-SO2_duration-1H_2022.json.gz",
+      "year": 2022,
+      "pollutant": "SO2",
+      "parameter_code": "42401",
+      "rows": 35040,
+      "site_count": 4,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3015"
+      ],
+      "units": {
+        "Parts per billion": 35040
+      },
+      "sha256": "8d2a5489b4bc123f160c98aadaa262d7b30280d2bace41a69bc1b3a0d76027f0",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_88101-PM2.5_duration-1H_2023.json.gz",
+      "year": 2023,
+      "pollutant": "PM2.5",
+      "parameter_code": "88101",
+      "rows": 87600,
+      "site_count": 8,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3013",
+        "3014",
+        "3015",
+        "3016",
+        "4002"
+      ],
+      "units": {
+        "Micrograms/cubic meter (LC)": 87600
+      },
+      "sha256": "de7d3fa6ff2399028a4923b377a0ce5eee7afe009115014bba68aeda893c2408",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_42602-NO2_duration-1H_2023.json.gz",
+      "year": 2023,
+      "pollutant": "NO2",
+      "parameter_code": "42602",
+      "rows": 78840,
+      "site_count": 8,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3013",
+        "3014",
+        "3015",
+        "3016",
+        "4002"
+      ],
+      "units": {
+        "Parts per billion": 78840
+      },
+      "sha256": "52620c4ac07d374ae1656bb5009ce0ac81c0fc9f121c47b70b1948a9653924b0",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_44201-O3_duration-1H_2023.json.gz",
+      "year": 2023,
+      "pollutant": "O3",
+      "parameter_code": "44201",
+      "rows": 70080,
+      "site_count": 8,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3013",
+        "3014",
+        "3015",
+        "3016",
+        "4002"
+      ],
+      "units": {
+        "Parts per million": 70080
+      },
+      "sha256": "ab67e76462927110e9e2e3c1d16abf32c2180f3dd4d7c33cef2a4d52ac9803a8",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_42101-CO_duration-1H_2023.json.gz",
+      "year": 2023,
+      "pollutant": "CO",
+      "parameter_code": "42101",
+      "rows": 43800,
+      "site_count": 5,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3015",
+        "4002"
+      ],
+      "units": {
+        "Parts per million": 43800
+      },
+      "sha256": "bce2050e4e92e5e65cc4394312575b25d0fcfc217e0084178de1f4bc89306728",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_42401-SO2_duration-1H_2023.json.gz",
+      "year": 2023,
+      "pollutant": "SO2",
+      "parameter_code": "42401",
+      "rows": 35040,
+      "site_count": 4,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3015"
+      ],
+      "units": {
+        "Parts per billion": 35040
+      },
+      "sha256": "d2338783670ba6db4dc88861e4bd8ea7ac4c2ced0be9dbd7d5e36e7278c4472d",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_88101-PM2.5_duration-1H_2024.json.gz",
+      "year": 2024,
+      "pollutant": "PM2.5",
+      "parameter_code": "88101",
+      "rows": 96624,
+      "site_count": 9,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3013",
+        "3014",
+        "3015",
+        "3016",
+        "3018",
+        "4002"
+      ],
+      "units": {
+        "Micrograms/cubic meter (LC)": 96624
+      },
+      "sha256": "0760c497c93f37d3ae4f1fa8ac803778c03430a90637bbb30a5434c5c0fd79c7",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_42602-NO2_duration-1H_2024.json.gz",
+      "year": 2024,
+      "pollutant": "NO2",
+      "parameter_code": "42602",
+      "rows": 87840,
+      "site_count": 9,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3013",
+        "3014",
+        "3015",
+        "3016",
+        "3018",
+        "4002"
+      ],
+      "units": {
+        "Parts per billion": 87840
+      },
+      "sha256": "42cdba93b313ee3e497ef2aaad25f7b4ae100c5908ec0e2679f18656953bd302",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_44201-O3_duration-1H_2024.json.gz",
+      "year": 2024,
+      "pollutant": "O3",
+      "parameter_code": "44201",
+      "rows": 87840,
+      "site_count": 10,
+      "sites": [
+        "0015",
+        "2005",
+        "3006",
+        "3010",
+        "3013",
+        "3014",
+        "3015",
+        "3016",
+        "3018",
+        "4002"
+      ],
+      "units": {
+        "Parts per million": 87840
+      },
+      "sha256": "79fd6c34af762cab84b2b2fbb1c807684ea0e92fd5e3b5d5a870a57bc56d749c",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_42101-CO_duration-1H_2024.json.gz",
+      "year": 2024,
+      "pollutant": "CO",
+      "parameter_code": "42101",
+      "rows": 43920,
+      "site_count": 5,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3015",
+        "4002"
+      ],
+      "units": {
+        "Parts per million": 43920
+      },
+      "sha256": "9da4d41b422c08c7d34ca279fbcbf6f45c499d27a3da21faa22f62b1542258b5",
+      "status": "PASS"
+    },
+    {
+      "file": "sampleData_state-49_county-035_42401-SO2_duration-1H_2024.json.gz",
+      "year": 2024,
+      "pollutant": "SO2",
+      "parameter_code": "42401",
+      "rows": 35136,
+      "site_count": 4,
+      "sites": [
+        "2005",
+        "3006",
+        "3010",
+        "3015"
+      ],
+      "units": {
+        "Parts per billion": 35136
+      },
+      "sha256": "44149521cfbd333ce4ee959d81745024293b0f51a8eb14d883be65ad868da600",
+      "status": "PASS"
+    }
+  ]
+}

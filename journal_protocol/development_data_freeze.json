@@ -1,0 +1,27 @@
+{
+  "status": "DEVELOPMENT_DATA_PREPARATION_FROZEN_HOLDOUT_CONTENT_UNOPENED",
+  "purpose": "Hash lock for the EPA AQS development audit, preprocessing artifact, and final matched smoke test.",
+  "files": {
+    "journal_protocol/unseen_holdout_protocol.json": "6f9b39694455c0df127ef179ac04f82871289f724a0ef50d09413759a9d08fe3",
+    "journal_protocol/development_preprocessing_protocol.json": "d6f57f16a4d7cdf16f5cccbcdd7d2850a4479d22042df25bcb23e1ea9c05b555",
+    "journal_protocol/comparison_protocol.json": "e8bd499262040f90e8d679b083cb099dcf35332fd90f6119e81239422ff9d267",
+    "data_external/epa_aqs/raw_development_api/download_manifest.json": "13d951d9ec10d76ca860370be18011d6119d41c82b95932f100bc9a3ed365100",
+    "data_external/epa_aqs/development_audit/content_audit.json": "c90f7c48259c6ac78c615cb7acca1bad0d1bb5c21cb0b2c76fb69fe045b3fb20",
+    "data_external/epa_aqs/development_audit/natural_comissingness.json": "45df6bab882f18d7e4b6499a1427c1d3c6cf0d0fbae0055b873585f3dbfdd9df",
+    "data_external/epa_aqs/prepared_development/salt_lake_2021_2024.npz": "f31abe1782a5495a311263aff4151d9f364a4f50ab8e85a1d6048aadedfbaa2a",
+    "data_external/epa_aqs/prepared_development/preprocessing_report.json": "826e8d2f75f6469b714385bc225a09deaa46ab0fe0542f72d2d371991e974593",
+    "data_external/epa_aqs/prepared_development/availability.csv": "e048ef16f46228eedcd8059b8ce7e790b7e1500430fc29e3e188df269093462d",
+    "experiment_protocol/results_journal/development/smoke_calibrated/launch_manifest.json": "500c3cb7feada57aadc16626f33ff621840db9be3397e190d6d2246fecbaee7e",
+    "experiment_protocol/results_journal/development/smoke_calibrated/status.json": "f11bc35fcaf561e0b7cb170df3de182d3ea144b295ad2c5fa6b8a3dc916ae062"
+  },
+  "sealed_holdout_evidence": {
+    "data_external/epa_aqs/raw_holdout_sealed/download_manifest.json": "10223c6975fdf7b9dc03688382034649da927cf8394135d0385ecdfd0d5810f1",
+    "journal_protocol/holdout_seal_status.json": "4616ddc06588e064801293ce30dcba459a94c65319f4128ca6f1a84e2b856a2",
+    "holdout_content_parsed": false
+  },
+  "notes": [
+    "The failed smoke directories are retained as debugging provenance and are not scientific results.",
+    "The completed smoke run uses only 64 training windows, one epoch, one seed, and a subset of synthetic conditions; its metrics must not be reported as model evidence.",
+    "The full development run, calibration, natural-missingness definition, statistical reporting, and final executable freeze remain pending."
+  ]
+}

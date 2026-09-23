@@ -1,0 +1,116 @@
+{
+  "protocol_status": "DATASET_AND_SPLITS_LOCKED_HOLDOUT_NOT_EVALUATED",
+  "purpose": "Prospective confirmation of spatial-residual outage resilience on a sensor network not used in model development.",
+  "dataset": {
+    "name": "US EPA AQS Salt Lake County hourly sensor network",
+    "source_url": "https://aqs.epa.gov/aqsweb/airdata/download_files.html",
+    "api_endpoint": "https://aqs.epa.gov/data/api/sampleData/byCounty",
+    "license_or_terms": "US EPA public monitoring data; preserve source attribution and retrieval metadata",
+    "download_or_snapshot_date": "2026-09-14",
+    "development_download_manifest": "data_external/epa_aqs/raw_development_api/download_manifest.json",
+    "development_download_manifest_sha256": "13d951d9ec10d76ca860370be18011d6119d41c82b95932f100bc9a3ed365100",
+    "development_validation_summary": "data_external/epa_aqs/raw_development_api/validation_summary.json",
+    "development_validation_summary_sha256": "62884a57c88b5ceca3fcee541619f47fdce1e51a6275b47797a4958d91e799b0",
+    "holdout_download_manifest": "TO_BE_CREATED_WITHOUT_READING_CONCENTRATION_VALUES",
+    "state_fips": "49",
+    "county_fips": "035",
+    "time_zone": "America/Denver; AQS local and GMT timestamps will both be retained and DST duplicates/gaps audited on development data",
+    "units": {
+      "PM2.5": "Micrograms/cubic meter (LC)",
+      "NO2": "Parts per billion",
+      "O3": "Parts per million",
+      "CO": "Parts per million",
+      "SO2": "Parts per billion"
+    },
+    "sample_duration_code": "1",
+    "sample_duration": "1 HOUR",
+    "station_count": 7,
+    "station_ids": [
+      "49-035-2005",
+      "49-035-3006",
+      "49-035-3010",
+      "49-035-3013",
+      "49-035-3015",
+      "49-035-3016",
+      "49-035-4002"
+    ],
+    "station_selection_rule": "Intersection of Salt Lake County sites with at least 50% annual observation coverage for PM2.5, NO2, and O3 in every development year 2021-2024; selection made without 2025 data.",
+    "station_coordinates_available": true,
+    "pollutants": ["PM2.5", "NO2", "O3", "CO", "SO2"],
+    "common_core_pollutants": ["PM2.5", "NO2", "O3"],
+    "partial_pollutants": ["CO", "SO2"],
+    "target_policy": "Evaluate every prespecified station-pollutant cell with valid observed targets; report common-core and partial-pollutant strata separately as well as the prespecified masked macro.",
+    "natural_missingness_retained": true
+  },
+  "split_policy": {
+    "type": "strict_chronological",
+    "train": "2021-01-01 through 2023-12-31 local time",
+    "validation": "2024-01-01 through 2024-12-31 local time",
+    "test": "2025-01-01 through 2025-12-31 local time; sealed and untouched until final protocol freeze",
+    "embargo_hours_between_splits": 168,
+    "test_access_rule": "No test metrics, plots, examples, or aggregate summaries may be viewed until code, hyperparameters, hypotheses, and calibration are frozen."
+  },
+  "forecast": {
+    "lookback_hours": 168,
+    "maximum_horizon_hours": 48,
+    "reported_horizons_hours": [1, 6, 12, 24, 48],
+    "target_pollutants": "intersection of prespecified pollutant set and verified dataset variables"
+  },
+  "candidate": "spatial_always",
+  "required_comparators": [
+    "persistence",
+    "seasonal_naive_24h",
+    "local_tcn",
+    "local_capacity_residual",
+    "dcrnn_matched",
+    "graph_wavenet_matched",
+    "impute_then_local_tcn"
+  ],
+  "fairness_constraints": [
+    "same forecast origins and observed targets",
+    "same train-fitted preprocessing",
+    "same input variables and availability unless the model definition requires a documented graph",
+    "same Gaussian output parameterization",
+    "same probabilistic objective and validation selection rule",
+    "same training budget and early-stopping rule",
+    "same seeds"
+  ],
+  "seeds": [42, 123, 2026, 3407, 7777],
+  "primary_conditions": [
+    "target_station_trailing_6h_outage",
+    "target_station_trailing_24h_outage"
+  ],
+  "primary_endpoints": ["mase", "q95_brier"],
+  "clean_guardrail": {
+    "endpoints": ["mase", "q95_brier"],
+    "maximum_relative_degradation_vs_each_local_control": 0.01
+  },
+  "secondary_conditions": [
+    "clean",
+    "target_station_full_history_dropout",
+    "natural_outage_intervals",
+    "random_block_6h",
+    "random_block_24h"
+  ],
+  "secondary_endpoints": [
+    "q95_average_precision",
+    "picp80",
+    "width80_mase_scaled",
+    "interval_score80_mase_scaled",
+    "crps_mase_scaled_approximation",
+    "negative_predictive_mass"
+  ],
+  "calibration": {
+    "allowed": true,
+    "fit_data": "validation_only",
+    "method": "TO_BE_SELECTED_BEFORE_TEST",
+    "uncalibrated_results_also_required": true
+  },
+  "statistical_plan": {
+    "pairing": "aligned forecast origins within dataset, station, pollutant, horizon, condition, and seed",
+    "temporal_dependence": "paired moving-block procedure with block length locked before test",
+    "multiplicity": "Holm correction over the prespecified primary comparison family",
+    "seed_interpretation": "optimization variability only; not independent geographic replication"
+  },
+  "reporting_rule": "Report all prespecified primary and guardrail outcomes regardless of direction. Do not select the final architecture, distribution, threshold, calibration method, or comparator after viewing test results."
+}

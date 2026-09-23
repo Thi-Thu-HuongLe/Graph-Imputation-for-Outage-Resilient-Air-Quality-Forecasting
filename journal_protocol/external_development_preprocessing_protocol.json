@@ -1,0 +1,112 @@
+{
+  "status": "EXTERNAL_PREPROCESSING_LOCKED_BEFORE_2025_DOWNLOAD",
+  "parent_protocol": "journal_protocol/external_unseen_holdout_protocol.json",
+  "purpose": "Deterministic preparation of Clark County 2021-2024 development data.",
+  "prepared_dataset_name": "epa_aqs_las_vegas_development",
+  "scope": {
+    "manifest": "data_external/epa_aqs_las_vegas/raw_development_api/download_manifest.json",
+    "allowed_local_years": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "forbidden_local_years": [
+      2025
+    ],
+    "stations": [
+      "32-003-0540",
+      "32-003-2003",
+      "32-003-0075",
+      "32-003-1501",
+      "32-003-0561",
+      "32-003-0071",
+      "32-003-0043"
+    ],
+    "pollutants": [
+      "PM2.5",
+      "NO2",
+      "O3",
+      "CO",
+      "SO2"
+    ],
+    "parameter_codes": {
+      "PM2.5": "88101",
+      "NO2": "42602",
+      "O3": "44201",
+      "CO": "42101",
+      "SO2": "42401"
+    }
+  },
+  "time_axis": {
+    "canonical": "continuous hourly UTC",
+    "stored_representation": "timezone-naive datetime64[ns] whose values denote UTC",
+    "calendar_clock": "AQS local standard time, fixed UTC-08:00",
+    "local_standard_utc_offset_hours": -8,
+    "development_start_utc": "2021-01-01T08:00:00Z",
+    "development_end_utc": "2025-01-01T07:00:00Z",
+    "expected_hours": 35064,
+    "audit_requirement": "development audit must report zero fixed-local-standard clock mismatches"
+  },
+  "measurement_policy": {
+    "accepted_sample_duration_code": "1",
+    "accepted_measurements": "finite numeric sample_measurement values returned by AQS",
+    "qualifiers": "retain finite measurements regardless of qualifier and report qualifier prevalence; nonfinite or absent measurements remain missing",
+    "negative_measurements": "retain as reported instrument values; do not clamp or reinterpret as missing",
+    "concurrent_monitor_merge": "median across finite POC/method readings sharing station, pollutant, and UTC hour",
+    "units": {
+      "PM2.5": "Micrograms/cubic meter (LC)",
+      "NO2": "Parts per billion",
+      "O3": "Parts per million",
+      "CO": "Parts per million",
+      "SO2": "Parts per billion"
+    }
+  },
+  "split_bounds_utc": {
+    "train": [
+      "2021-01-01T08:00:00Z",
+      "2024-01-01T07:00:00Z"
+    ],
+    "embargo_not_scored": [
+      "2024-01-01T08:00:00Z",
+      "2024-01-08T07:00:00Z"
+    ],
+    "validation": [
+      "2024-01-08T08:00:00Z",
+      "2025-01-01T07:00:00Z"
+    ],
+    "embargo_hours": 168,
+    "operational_lookback_rule": "Validation inputs may use observations before the first validation target, but no embargo timestamp is a training or validation target."
+  },
+  "missingness": {
+    "native_mask": "preserve before filling",
+    "input_causal_forward_fill_limit_hours": 6,
+    "fallback_after_limit": "training station-pollutant median, represented by zero after scaling",
+    "time_since_observation": "recomputed causally after every experimental outage; log1p at model input",
+    "target_rule": "score only finite observed targets"
+  },
+  "training_only_transforms": {
+    "scaler": "station-pollutant median and IQR; pollutant-wide training fallback for empty or constant cells",
+    "exceedance_quantiles": [
+      0.8,
+      0.9,
+      0.95
+    ],
+    "exceedance_pooling": "each pollutant pooled across all selected stations in the training split",
+    "mase_season_hours": 24,
+    "mase_denominator": "station-pollutant mean absolute seasonal difference over jointly observed training pairs"
+  },
+  "station_graph": {
+    "source": "AQS WGS84 station coordinates only",
+    "distance": "haversine kilometers",
+    "neighbors": 3,
+    "construction": "symmetric union of directed 3-nearest-neighbor edges",
+    "edge_weight": "exp(-(distance / median_nonzero_pairwise_distance)^2)",
+    "diagonal": 0,
+    "outcome_values_used": false
+  },
+  "development_audit": "data_external/epa_aqs_las_vegas/development_audit/content_audit.json",
+  "prepared_output": "data_external/epa_aqs_las_vegas/prepared_development/las_vegas_2021_2024.npz",
+  "preprocessing_report": "data_external/epa_aqs_las_vegas/prepared_development/preprocessing_report.json",
+  "availability_table": "data_external/epa_aqs_las_vegas/prepared_development/availability.csv"
+}

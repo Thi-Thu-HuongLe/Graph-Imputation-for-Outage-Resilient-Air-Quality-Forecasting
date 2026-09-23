@@ -1,0 +1,224 @@
+{
+  "selection_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "holdout_year_inspected": false,
+  "minimum_observation_percent_each_year": 50.0,
+  "pollutants": [
+    "PM2.5",
+    "PM10",
+    "NO2",
+    "O3",
+    "CO",
+    "SO2"
+  ],
+  "annual_filtered_rows": 14540,
+  "eligible_site_pollutant_records": 2739,
+  "candidate_cbsa_count": 445,
+  "top_candidates": [
+    {
+      "CBSA Name": "Las Vegas-Henderson-Paradise, NV",
+      "eligible_sites": 16,
+      "pm25_sites": 14,
+      "pm25_plus_any_two_sites": 14,
+      "core_pm25_no2_o3_sites": 3,
+      "mean_pollutants_per_site": 3.1875,
+      "network_pollutant_count": 6,
+      "selection_score": 130
+    },
+    {
+      "CBSA Name": "Salt Lake City, UT",
+      "eligible_sites": 9,
+      "pm25_sites": 8,
+      "pm25_plus_any_two_sites": 8,
+      "core_pm25_no2_o3_sites": 8,
+      "mean_pollutants_per_site": 3.888888888888889,
+      "network_pollutant_count": 5,
+      "selection_score": 126
+    },
+    {
+      "CBSA Name": "Phoenix-Mesa-Scottsdale, AZ",
+      "eligible_sites": 44,
+      "pm25_sites": 11,
+      "pm25_plus_any_two_sites": 9,
+      "core_pm25_no2_o3_sites": 2,
+      "mean_pollutants_per_site": 2.0,
+      "network_pollutant_count": 6,
+      "selection_score": 100
+    },
+    {
+      "CBSA Name": "Boston-Cambridge-Newton, MA-NH",
+      "eligible_sites": 13,
+      "pm25_sites": 10,
+      "pm25_plus_any_two_sites": 7,
+      "core_pm25_no2_o3_sites": 4,
+      "mean_pollutants_per_site": 2.6923076923076925,
+      "network_pollutant_count": 6,
+      "selection_score": 99
+    },
+    {
+      "CBSA Name": "Houston-The Woodlands-Sugar Land, TX",
+      "eligible_sites": 25,
+      "pm25_sites": 8,
+      "pm25_plus_any_two_sites": 4,
+      "core_pm25_no2_o3_sites": 4,
+      "mean_pollutants_per_site": 2.16,
+      "network_pollutant_count": 5,
+      "selection_score": 89
+    },
+    {
+      "CBSA Name": "New York-Newark-Jersey City, NY-NJ-PA",
+      "eligible_sites": 29,
+      "pm25_sites": 9,
+      "pm25_plus_any_two_sites": 5,
+      "core_pm25_no2_o3_sites": 3,
+      "mean_pollutants_per_site": 1.9310344827586208,
+      "network_pollutant_count": 5,
+      "selection_score": 87
+    },
+    {
+      "CBSA Name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+      "eligible_sites": 20,
+      "pm25_sites": 13,
+      "pm25_plus_any_two_sites": 5,
+      "core_pm25_no2_o3_sites": 1,
+      "mean_pollutants_per_site": 2.0,
+      "network_pollutant_count": 6,
+      "selection_score": 80
+    },
+    {
+      "CBSA Name": "Dallas-Fort Worth-Arlington, TX",
+      "eligible_sites": 21,
+      "pm25_sites": 5,
+      "pm25_plus_any_two_sites": 4,
+      "core_pm25_no2_o3_sites": 3,
+      "mean_pollutants_per_site": 1.9047619047619047,
+      "network_pollutant_count": 5,
+      "selection_score": 75
+    },
+    {
+      "CBSA Name": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+      "eligible_sites": 18,
+      "pm25_sites": 7,
+      "pm25_plus_any_two_sites": 5,
+      "core_pm25_no2_o3_sites": 2,
+      "mean_pollutants_per_site": 2.2222222222222223,
+      "network_pollutant_count": 6,
+      "selection_score": 74
+    },
+    {
+      "CBSA Name": "Riverside-San Bernardino-Ontario, CA",
+      "eligible_sites": 23,
+      "pm25_sites": 5,
+      "pm25_plus_any_two_sites": 3,
+      "core_pm25_no2_o3_sites": 3,
+      "mean_pollutants_per_site": 2.347826086956522,
+      "network_pollutant_count": 6,
+      "selection_score": 72
+    },
+    {
+      "CBSA Name": "Chicago-Naperville-Elgin, IL-IN-WI",
+      "eligible_sites": 31,
+      "pm25_sites": 12,
+      "pm25_plus_any_two_sites": 3,
+      "core_pm25_no2_o3_sites": 1,
+      "mean_pollutants_per_site": 1.6774193548387097,
+      "network_pollutant_count": 6,
+      "selection_score": 70
+    },
+    {
+      "CBSA Name": "Minneapolis-St. Paul-Bloomington, MN-WI",
+      "eligible_sites": 19,
+      "pm25_sites": 8,
+      "pm25_plus_any_two_sites": 3,
+      "core_pm25_no2_o3_sites": 2,
+      "mean_pollutants_per_site": 1.894736842105263,
+      "network_pollutant_count": 6,
+      "selection_score": 69
+    },
+    {
+      "CBSA Name": "Pittsburgh, PA",
+      "eligible_sites": 15,
+      "pm25_sites": 8,
+      "pm25_plus_any_two_sites": 6,
+      "core_pm25_no2_o3_sites": 1,
+      "mean_pollutants_per_site": 2.2,
+      "network_pollutant_count": 6,
+      "selection_score": 69
+    },
+    {
+      "CBSA Name": "Cincinnati, OH-KY-IN",
+      "eligible_sites": 15,
+      "pm25_sites": 7,
+      "pm25_plus_any_two_sites": 4,
+      "core_pm25_no2_o3_sites": 2,
+      "mean_pollutants_per_site": 1.9333333333333333,
+      "network_pollutant_count": 6,
+      "selection_score": 67
+    },
+    {
+      "CBSA Name": "Denver-Aurora-Lakewood, CO",
+      "eligible_sites": 16,
+      "pm25_sites": 7,
+      "pm25_plus_any_two_sites": 3,
+      "core_pm25_no2_o3_sites": 2,
+      "mean_pollutants_per_site": 1.9375,
+      "network_pollutant_count": 6,
+      "selection_score": 64
+    },
+    {
+      "CBSA Name": "Sacramento--Roseville--Arden-Arcade, CA",
+      "eligible_sites": 15,
+      "pm25_sites": 7,
+      "pm25_plus_any_two_sites": 3,
+      "core_pm25_no2_o3_sites": 2,
+      "mean_pollutants_per_site": 1.9333333333333333,
+      "network_pollutant_count": 5,
+      "selection_score": 62
+    },
+    {
+      "CBSA Name": "St. Louis, MO-IL",
+      "eligible_sites": 25,
+      "pm25_sites": 7,
+      "pm25_plus_any_two_sites": 3,
+      "core_pm25_no2_o3_sites": 1,
+      "mean_pollutants_per_site": 1.68,
+      "network_pollutant_count": 6,
+      "selection_score": 60
+    },
+    {
+      "CBSA Name": "Detroit-Warren-Dearborn, MI",
+      "eligible_sites": 13,
+      "pm25_sites": 8,
+      "pm25_plus_any_two_sites": 6,
+      "core_pm25_no2_o3_sites": 0,
+      "mean_pollutants_per_site": 2.4615384615384617,
+      "network_pollutant_count": 6,
+      "selection_score": 59
+    },
+    {
+      "CBSA Name": "Fresno, CA",
+      "eligible_sites": 9,
+      "pm25_sites": 6,
+      "pm25_plus_any_two_sites": 4,
+      "core_pm25_no2_o3_sites": 2,
+      "mean_pollutants_per_site": 2.6666666666666665,
+      "network_pollutant_count": 5,
+      "selection_score": 58
+    },
+    {
+      "CBSA Name": "Indianapolis-Carmel-Anderson, IN",
+      "eligible_sites": 12,
+      "pm25_sites": 5,
+      "pm25_plus_any_two_sites": 2,
+      "core_pm25_no2_o3_sites": 2,
+      "mean_pollutants_per_site": 1.75,
+      "network_pollutant_count": 6,
+      "selection_score": 52
+    }
+  ],
+  "selection_warning": "Ranking is a development-data audit, not final network selection. Hourly data and duplicate-monitor rules must be audited before freezing."
+}

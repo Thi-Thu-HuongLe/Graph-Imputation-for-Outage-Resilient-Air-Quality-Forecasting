@@ -1,0 +1,16 @@
+{
+  "status": "DOWNLOADED_AND_SEALED_NOT_PARSED",
+  "completed_utc": "2026-09-14T05:32:04Z",
+  "protocol_file": "journal_protocol/unseen_holdout_protocol.json",
+  "protocol_sha256_at_download": "6f9b39694455c0df127ef179ac04f82871289f724a0ef50d09413759a9d08fe3",
+  "holdout_manifest": "data_external/epa_aqs/raw_holdout_sealed/download_manifest.json",
+  "holdout_manifest_sha256": "10223c6975fdf7b9dc03688382034649da927cf8394135d0385ecdfd0d5810f1",
+  "file_count": 5,
+  "compressed_bytes": 5001447,
+  "byte_level_sha256_verified": true,
+  "gzip_or_json_content_opened": false,
+  "concentration_values_inspected": false,
+  "api_headers_or_row_counts_inspected": false,
+  "test_metrics_computed": false,
+  "test_access_condition": "Do not parse these files until preprocessing, comparator implementations, hyperparameters, calibration, statistical block length, and reporting code are frozen from 2021-2024 only."
+}

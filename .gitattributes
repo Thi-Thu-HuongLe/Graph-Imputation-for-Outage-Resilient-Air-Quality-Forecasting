@@ -1,0 +1,10 @@
+*.npz binary
+*.gz binary
+*.zip binary
+*.pt binary
+*.pth binary
+*.ckpt binary
+*.csv text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.md text eol=lf

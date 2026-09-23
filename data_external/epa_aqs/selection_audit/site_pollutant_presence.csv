@@ -1,0 +1,1469 @@
+CBSA Name,site_id,CO,NO2,O3,PM10,PM2.5,SO2,pollutant_count,has_pm25,pm25_plus_any_two,core_pm25_no2_o3
+"Aberdeen, SD",46-013-0004,,,,95.0,90.0,,2,True,False,False
+"Adrian, MI",26-091-0007,,,96.0,,87.0,,2,True,False,False
+"Akron, OH",39-133-1001,,,98.0,,,,1,False,False,False
+"Akron, OH",39-153-0017,,,,,86.0,98.0,2,True,False,False
+"Akron, OH",39-153-0026,,,82.0,,,,1,False,False,False
+"Albany, GA",13-095-0007,,,,,87.0,,1,True,False,False
+"Albany-Schenectady-Troy, NY",36-001-0005,,,,,96.0,,1,True,False,False
+"Albany-Schenectady-Troy, NY",36-001-0012,,,96.0,,,,1,False,False,False
+"Albany-Schenectady-Troy, NY",36-091-0004,,,99.0,,,,1,False,False,False
+"Albuquerque, NM",35-001-0023,79.0,90.0,90.0,96.0,96.0,87.0,6,True,True,True
+"Albuquerque, NM",35-001-0026,,,,90.0,90.0,,2,True,False,False
+"Albuquerque, NM",35-001-0029,80.0,88.0,95.0,94.0,94.0,,5,True,True,True
+"Albuquerque, NM",35-001-1012,,,96.0,98.0,97.0,,3,True,True,False
+"Albuquerque, NM",35-001-1013,,,,97.0,97.0,,2,True,False,False
+"Albuquerque, NM",35-043-1001,,,93.0,,,,1,False,False,False
+"Albuquerque, NM",35-061-0008,,,98.0,,,,1,False,False,False
+"Allentown-Bethlehem-Easton, PA-NJ",34-041-0007,,91.0,98.0,,87.0,92.0,4,True,True,True
+"Allentown-Bethlehem-Easton, PA-NJ",42-077-0004,,,91.0,,87.0,,2,True,False,False
+"Allentown-Bethlehem-Easton, PA-NJ",42-095-0025,,84.0,89.0,,95.0,93.0,4,True,True,True
+"Altoona, PA",42-013-0801,,,57.0,,89.0,88.0,3,True,True,False
+"Amarillo, TX",48-375-0320,,,,,87.0,,1,True,False,False
+"Amarillo, TX",48-375-1025,,,,,,92.0,1,False,False,False
+"Amarillo, TX",48-375-1077,,,,,,93.0,1,False,False,False
+"Amarillo, TX",48-381-9991,,,91.0,,,,1,False,False,False
+"Americus, GA",13-261-1001,,,97.0,,,,1,False,False,False
+"Anchorage, AK",02-020-0018,82.0,,,87.0,96.0,,3,True,True,False
+"Anchorage, AK",02-020-0045,,,,93.0,,,1,False,False,False
+"Anchorage, AK",02-020-1004,,,,90.0,,,1,False,False,False
+"Ann Arbor, MI",26-161-0008,,,97.0,,97.0,,2,True,False,False
+"Ann Arbor, MI",26-161-9991,,,94.0,,,,1,False,False,False
+"Appleton, WI",55-087-0009,,,98.0,,99.0,,2,True,False,False
+"Appleton, WI",55-087-0015,,,,,,98.0,1,False,False,False
+"Ardmore, OK",40-019-0297,,,,,87.0,,1,True,False,False
+"Arkadelphia, AR",05-019-9991,,,90.0,,,,1,False,False,False
+"Asheville, NC",37-021-0030,,,99.0,,,,1,False,False,False
+"Asheville, NC",37-021-0034,,,,,97.0,,1,True,False,False
+"Asheville, NC",37-087-0008,,,99.0,,,,1,False,False,False
+"Asheville, NC",37-087-0013,,,,,,92.0,1,False,False,False
+"Asheville, NC",37-087-0035,,,87.0,,,,1,False,False,False
+"Asheville, NC",37-087-0036,,,94.0,,,,1,False,False,False
+"Ashtabula, OH",39-007-1001,,,98.0,,,,1,False,False,False
+"Athens, TN",47-107-1002,,,,,97.0,,1,True,False,False
+"Athens-Clarke County, GA",13-059-0002,,,99.0,,98.0,,2,True,False,False
+"Atlanta-Sandy Springs-Roswell, GA",13-067-0003,,,99.0,,,,1,False,False,False
+"Atlanta-Sandy Springs-Roswell, GA",13-085-0001,,,100.0,,,,1,False,False,False
+"Atlanta-Sandy Springs-Roswell, GA",13-089-0002,91.0,55.0,99.0,90.0,97.0,95.0,6,True,True,True
+"Atlanta-Sandy Springs-Roswell, GA",13-089-0003,,93.0,,,,,1,False,False,False
+"Atlanta-Sandy Springs-Roswell, GA",13-097-0004,,,99.0,,,,1,False,False,False
+"Atlanta-Sandy Springs-Roswell, GA",13-121-0055,,,95.0,,,95.0,2,False,False,False
+"Atlanta-Sandy Springs-Roswell, GA",13-121-0056,95.0,95.0,,,,,2,False,False,False
+"Atlanta-Sandy Springs-Roswell, GA",13-135-0002,,,96.0,,89.0,,2,True,False,False
+"Atlanta-Sandy Springs-Roswell, GA",13-151-0002,,,94.0,,,,1,False,False,False
+"Atlanta-Sandy Springs-Roswell, GA",13-231-9991,,,95.0,,,,1,False,False,False
+"Atlanta-Sandy Springs-Roswell, GA",13-247-0001,,,99.0,,,,1,False,False,False
+"Atlantic City-Hammonton, NJ",34-001-0006,,,92.0,,84.0,93.0,3,True,True,False
+"Augusta-Richmond County, GA-SC",13-073-0001,,,70.0,,,,1,False,False,False
+"Augusta-Richmond County, GA-SC",13-245-0091,,,97.0,53.0,86.0,94.0,4,True,True,False
+"Augusta-Richmond County, GA-SC",45-003-0003,,,97.0,,,,1,False,False,False
+"Augusta-Richmond County, GA-SC",45-037-0001,,,92.0,,,,1,False,False,False
+"Augusta-Waterville, ME",23-011-2001,,,86.0,,,,1,False,False,False
+"Austin-Round Rock, TX",48-453-0014,,75.0,93.0,,93.0,76.0,4,True,True,True
+"Austin-Round Rock, TX",48-453-0020,,,81.0,,,,1,False,False,False
+"Austin-Round Rock, TX",48-453-0021,,,,,83.0,,1,True,False,False
+"Austin-Round Rock, TX",48-453-1068,79.0,76.0,,,95.0,,3,True,True,False
+"Bakersfield, CA",06-029-0007,,91.0,98.0,,,,2,False,False,False
+"Bakersfield, CA",06-029-0008,,,77.0,,,,1,False,False,False
+"Bakersfield, CA",06-029-0010,,,,,86.0,,1,True,False,False
+"Bakersfield, CA",06-029-0014,,77.0,98.0,91.0,,,3,False,False,False
+"Bakersfield, CA",06-029-0017,,,,86.0,,,1,False,False,False
+"Bakersfield, CA",06-029-0018,,,,98.0,96.0,,2,True,False,False
+"Bakersfield, CA",06-029-0232,,,85.0,96.0,,,2,False,False,False
+"Bakersfield, CA",06-029-2012,91.0,90.0,91.0,,,,3,False,False,False
+"Bakersfield, CA",06-029-2019,,83.0,,,,,1,False,False,False
+"Bakersfield, CA",06-029-5002,,,94.0,,,,1,False,False,False
+"Bakersfield, CA",06-029-6001,,87.0,93.0,,,,2,False,False,False
+"Baltimore-Columbia-Towson, MD",24-005-0009,,97.0,,,,,1,False,False,False
+"Baltimore-Columbia-Towson, MD",24-005-1007,,,98.0,,93.0,,2,True,False,False
+"Baltimore-Columbia-Towson, MD",24-005-3001,73.0,96.0,92.0,,,93.0,4,False,False,False
+"Baltimore-Columbia-Towson, MD",24-013-0001,,,99.0,,,,1,False,False,False
+"Baltimore-Columbia-Towson, MD",24-025-1001,,,84.0,,94.0,,2,True,False,False
+"Baltimore-Columbia-Towson, MD",24-025-9001,,,99.0,,,,1,False,False,False
+"Baltimore-Columbia-Towson, MD",24-027-0006,85.0,91.0,,,85.0,,3,True,True,False
+"Bangor, ME",23-019-0017,,,,,69.0,,1,True,False,False
+"Bangor, ME",23-019-4008,,,98.0,,,,1,False,False,False
+"Baraboo, WI",55-111-0007,,,98.0,98.0,98.0,,3,True,True,False
+"Barnstable Town, MA",25-001-0002,,,96.0,,,,1,False,False,False
+"Baton Rouge, LA",22-005-0004,,90.0,95.0,,,,2,False,False,False
+"Baton Rouge, LA",22-033-0003,,,94.0,,,,1,False,False,False
+"Baton Rouge, LA",22-033-0009,71.0,84.0,97.0,97.0,94.0,94.0,6,True,True,True
+"Baton Rouge, LA",22-033-0013,,94.0,98.0,,,,2,False,False,False
+"Baton Rouge, LA",22-047-0009,,93.0,96.0,,,,2,False,False,False
+"Baton Rouge, LA",22-047-0012,,,93.0,,,,1,False,False,False
+"Baton Rouge, LA",22-063-0002,,82.0,86.0,,,,2,False,False,False
+"Baton Rouge, LA",22-077-0001,,,95.0,,,,1,False,False,False
+"Baton Rouge, LA",22-121-0001,,90.0,98.0,,,92.0,3,False,False,False
+"Bay City, MI",26-017-0014,,,,,98.0,,1,True,False,False
+"Beatrice, NE",31-067-0005,,,,,52.0,,1,True,False,False
+"Beaumont-Port Arthur, TX",48-245-0009,,95.0,93.0,,,93.0,3,False,False,False
+"Beaumont-Port Arthur, TX",48-245-0011,,,84.0,,,93.0,2,False,False,False
+"Beaumont-Port Arthur, TX",48-245-0021,,,,,96.0,,1,True,False,False
+"Beaumont-Port Arthur, TX",48-245-0022,,79.0,82.0,,78.0,,3,True,True,True
+"Beaumont-Port Arthur, TX",48-245-0101,,,88.0,,,,1,False,False,False
+"Beaumont-Port Arthur, TX",48-245-0102,,,92.0,,,,1,False,False,False
+"Beaumont-Port Arthur, TX",48-245-1035,,52.0,57.0,,,,2,False,False,False
+"Beaumont-Port Arthur, TX",48-245-1071,,,,,,77.0,1,False,False,False
+"Beaumont-Port Arthur, TX",48-361-1001,,92.0,95.0,,,,2,False,False,False
+"Beaumont-Port Arthur, TX",48-361-1083,,,,,,80.0,1,False,False,False
+"Beaumont-Port Arthur, TX",48-361-1100,,,,,89.0,,1,True,False,False
+"Beaver Dam, WI",55-027-0001,93.0,,99.0,100.0,100.0,92.0,5,True,True,False
+"Bellingham, WA",53-073-0005,,,88.0,,,,1,False,False,False
+"Bellingham, WA",53-073-0013,,,,,,93.0,1,False,False,False
+"Bellingham, WA",53-073-0017,,,,,,95.0,1,False,False,False
+"Bellingham, WA",53-073-0019,,,,,80.0,,1,True,False,False
+"Bemidji, MN",27-007-2304,,,,,93.0,,1,True,False,False
+"Bennington, VT",50-003-0004,,,96.0,,91.0,,2,True,False,False
+"Berlin, NH-VT",33-007-4002,,,98.0,,,,1,False,False,False
+"Big Spring, TX",48-227-1072,,,,,,73.0,1,False,False,False
+"Billings, MT",30-111-0066,,,,,,87.0,1,False,False,False
+"Billings, MT",30-111-0087,,,,,93.0,,1,True,False,False
+"Birmingham-Hoover, AL",01-073-0023,91.0,87.0,93.0,94.0,,89.0,5,False,False,False
+"Birmingham-Hoover, AL",01-073-1005,,,75.0,,,,1,False,False,False
+"Birmingham-Hoover, AL",01-073-1010,,,91.0,,,,1,False,False,False
+"Birmingham-Hoover, AL",01-073-2003,,,,99.0,,,1,False,False,False
+"Birmingham-Hoover, AL",01-073-6002,,,98.0,93.0,,,2,False,False,False
+"Birmingham-Hoover, AL",01-117-0004,,,97.0,,,,1,False,False,False
+"Birmingham-Hoover, AL",01-117-9001,,,,,,91.0,1,False,False,False
+"Bishop, CA",06-027-0002,83.0,,78.0,96.0,96.0,68.0,5,True,True,False
+"Bishop, CA",06-027-0022,,,,97.0,,,1,False,False,False
+"Bishop, CA",06-027-0023,,,,98.0,,,1,False,False,False
+"Bishop, CA",06-027-0025,,,,98.0,,,1,False,False,False
+"Bishop, CA",06-027-0026,,,,97.0,,,1,False,False,False
+"Bishop, CA",06-027-0028,,,,92.0,,,1,False,False,False
+"Bishop, CA",06-027-0029,,,,95.0,,,1,False,False,False
+"Bishop, CA",06-027-0030,,,,98.0,,,1,False,False,False
+"Bishop, CA",06-027-0031,,,,97.0,,,1,False,False,False
+"Bishop, CA",06-027-0101,,,95.0,,,,1,False,False,False
+"Bishop, CA",06-027-1001,,,,98.0,,,1,False,False,False
+"Bishop, CA",06-027-1003,,,,98.0,97.0,,2,True,False,False
+"Bishop, CA",06-027-1023,,,52.0,85.0,94.0,,3,True,True,False
+"Bishop, CA",06-027-1028,,,,52.0,,,1,False,False,False
+"Bishop, CA",06-027-1033,,,,,55.0,,1,True,False,False
+"Bismarck, ND",38-015-0003,84.0,97.0,71.0,88.0,88.0,96.0,6,True,True,True
+"Bismarck, ND",38-065-0002,,94.0,58.0,,97.0,93.0,4,True,True,True
+"Blacksburg-Christiansburg-Radford, VA",51-071-0007,,,,,,86.0,1,False,False,False
+"Blacksburg-Christiansburg-Radford, VA",51-071-9992,,,92.0,,,,1,False,False,False
+"Bloomington, IL",17-113-2003,,,100.0,,99.0,,2,True,False,False
+"Bloomington, IN",18-055-0001,,,94.0,,,,1,False,False,False
+"Bloomington, IN",18-105-0003,,,,,92.0,,1,True,False,False
+"Boise City, ID",16-001-0010,96.0,94.0,94.0,,,97.0,4,False,False,False
+"Boise City, ID",16-001-0017,,,90.0,,,,1,False,False,False
+"Borger, TX",48-233-1073,,,,,,82.0,1,False,False,False
+"Boston-Cambridge-Newton, MA-NH",25-009-2006,,66.0,95.0,,73.0,,3,True,True,True
+"Boston-Cambridge-Newton, MA-NH",25-017-0009,,,83.0,,,,1,False,False,False
+"Boston-Cambridge-Newton, MA-NH",25-017-0010,,95.0,93.0,,99.0,,3,True,True,True
+"Boston-Cambridge-Newton, MA-NH",25-021-2005,,71.0,86.0,,74.0,,3,True,True,True
+"Boston-Cambridge-Newton, MA-NH",25-021-3003,,92.0,80.0,,,,2,False,False,False
+"Boston-Cambridge-Newton, MA-NH",25-023-0005,,,96.0,,90.0,,2,True,False,False
+"Boston-Cambridge-Newton, MA-NH",25-025-0002,,94.0,,,97.0,80.0,3,True,True,False
+"Boston-Cambridge-Newton, MA-NH",25-025-0042,63.0,80.0,86.0,,99.0,92.0,5,True,True,True
+"Boston-Cambridge-Newton, MA-NH",25-025-0044,,93.0,,,98.0,,2,True,False,False
+"Boston-Cambridge-Newton, MA-NH",25-025-1004,,,,,71.0,,1,True,False,False
+"Boston-Cambridge-Newton, MA-NH",33-015-0014,,,96.0,94.0,94.0,96.0,4,True,True,False
+"Boston-Cambridge-Newton, MA-NH",33-015-0016,,,88.0,,,,1,False,False,False
+"Boston-Cambridge-Newton, MA-NH",33-015-0018,87.0,,96.0,96.0,96.0,87.0,5,True,True,False
+"Boulder, CO",08-013-0003,,,,,93.0,,1,True,False,False
+"Boulder, CO",08-013-0014,,,92.0,,,,1,False,False,False
+"Bowling Green, KY",21-061-0501,,,98.0,,,,1,False,False,False
+"Bowling Green, KY",21-227-0009,,,98.0,,98.0,,2,True,False,False
+"Bozeman, MT",30-031-0017,73.0,85.0,,,92.0,,3,True,True,False
+"Brainerd, MN",27-021-3410,,,,,96.0,,1,True,False,False
+"Brainerd, MN",27-035-3204,,,94.0,,89.0,,2,True,False,False
+"Bremerton-Silverdale, WA",53-035-0007,,,,,96.0,,1,True,False,False
+"Bridgeport-Stamford-Norwalk, CT",09-001-0010,,,,99.0,99.0,92.0,3,True,True,False
+"Bridgeport-Stamford-Norwalk, CT",09-001-0017,,,94.0,,,,1,False,False,False
+"Bridgeport-Stamford-Norwalk, CT",09-001-1123,,,96.0,,98.0,,2,True,False,False
+"Bridgeport-Stamford-Norwalk, CT",09-001-3007,,,87.0,,,,1,False,False,False
+"Bridgeport-Stamford-Norwalk, CT",09-001-9003,,90.0,96.0,,,,2,False,False,False
+"Brookings, SD",46-011-0003,,,85.0,91.0,93.0,,3,True,True,False
+"Brownsville-Harlingen, TX",48-061-1023,,,95.0,,,,1,False,False,False
+"Brownsville-Harlingen, TX",48-061-2004,,,,,87.0,,1,True,False,False
+"Brunswick, GA",13-127-0006,,,98.0,,,,1,False,False,False
+"Buffalo-Cheektowaga-Niagara Falls, NY",36-029-0002,,,88.0,,,,1,False,False,False
+"Buffalo-Cheektowaga-Niagara Falls, NY",36-029-0005,87.0,68.0,,,,98.0,3,False,False,False
+"Buffalo-Cheektowaga-Niagara Falls, NY",36-029-0023,91.0,86.0,,,,,2,False,False,False
+"Buffalo-Cheektowaga-Niagara Falls, NY",36-029-1014,,,,,,95.0,1,False,False,False
+"Buffalo-Cheektowaga-Niagara Falls, NY",36-063-1006,,,84.0,,,,1,False,False,False
+"Burlington-South Burlington, VT",50-007-0007,77.0,,87.0,,95.0,50.0,4,True,True,False
+"Butte-Silver Bow, MT",30-093-0005,,,,95.0,96.0,,2,True,False,False
+"Cadillac, MI",26-113-0001,,84.0,98.0,,95.0,,3,True,True,True
+"Cadillac, MI",26-165-9991,,,98.0,,,,1,False,False,False
+"Cambridge, MD",24-019-0004,,,99.0,,96.0,94.0,3,True,True,False
+"Cambridge, MD",24-019-9991,,,96.0,,,,1,False,False,False
+"Canton-Massillon, OH",39-151-0016,,,99.0,,,,1,False,False,False
+"Canton-Massillon, OH",39-151-0020,,,,,92.0,,1,True,False,False
+"Canton-Massillon, OH",39-151-0022,,,100.0,,,,1,False,False,False
+"Canton-Massillon, OH",39-151-4005,,,93.0,,,,1,False,False,False
+"Cape Coral-Fort Myers, FL",12-071-2002,,,82.0,,,,1,False,False,False
+"Carlsbad-Artesia, NM",35-015-0010,,,93.0,,,,1,False,False,False
+"Carlsbad-Artesia, NM",35-015-1005,,92.0,94.0,,,,2,False,False,False
+"Carson City, NV",32-510-0020,,,93.0,,95.0,,2,True,False,False
+"Casper, WY",56-025-0100,,91.0,96.0,,98.0,,3,True,True,True
+"Casper, WY",56-025-2601,,84.0,72.0,,,96.0,3,False,False,False
+"Cedar City, UT",49-021-0005,,98.0,99.0,,92.0,,3,True,True,True
+"Cedar Rapids, IA",19-113-0033,,,98.0,,,,1,False,False,False
+"Cedar Rapids, IA",19-113-0040,,,95.0,,,92.0,2,False,False,False
+"Chambersburg-Waynesboro, PA",42-055-0001,,,93.0,,,,1,False,False,False
+"Champaign-Urbana, IL",17-019-0007,,,99.0,,,,1,False,False,False
+"Champaign-Urbana, IL",17-019-1001,,,95.0,,97.0,86.0,3,True,True,False
+"Charleston, WV",54-039-0020,61.0,,83.0,,85.0,87.0,4,True,True,False
+"Charleston-North Charleston, SC",45-015-1002,,,95.0,,,,1,False,False,False
+"Charleston-North Charleston, SC",45-019-0003,,,,,,95.0,1,False,False,False
+"Charleston-North Charleston, SC",45-019-0046,,,86.0,,,,1,False,False,False
+"Charlotte-Concord-Gastonia, NC-SC",37-109-0004,,,99.0,,,,1,False,False,False
+"Charlotte-Concord-Gastonia, NC-SC",37-119-0041,96.0,91.0,99.0,97.0,97.0,94.0,6,True,True,True
+"Charlotte-Concord-Gastonia, NC-SC",37-119-0045,97.0,,,,97.0,,2,True,False,False
+"Charlotte-Concord-Gastonia, NC-SC",37-119-0046,,,100.0,,,,1,False,False,False
+"Charlotte-Concord-Gastonia, NC-SC",37-119-0048,,,,,96.0,,1,True,False,False
+"Charlotte-Concord-Gastonia, NC-SC",37-159-0021,,89.0,98.0,,95.0,,3,True,True,True
+"Charlotte-Concord-Gastonia, NC-SC",37-179-0003,,,99.0,,,,1,False,False,False
+"Charlotte-Concord-Gastonia, NC-SC",45-091-0008,,,98.0,,,,1,False,False,False
+"Charlotte-Concord-Gastonia, NC-SC",45-091-8801,,,96.0,,96.0,,2,True,False,False
+"Charlottesville, VA",51-003-0001,,,99.0,,93.0,,2,True,False,False
+"Chattanooga, TN-GA",13-295-0004,,,,,65.0,,1,True,False,False
+"Chattanooga, TN-GA",47-065-1011,,,98.0,,,,1,False,False,False
+"Chattanooga, TN-GA",47-065-4003,,,97.0,,,,1,False,False,False
+"Cheyenne, WY",56-021-0100,70.0,95.0,96.0,73.0,94.0,94.0,6,True,True,True
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-0001,,,93.0,,,,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-0022,,,,88.0,,,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-0032,,,90.0,,,,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-0076,,78.0,93.0,,,91.0,3,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-0119,94.0,99.0,,,96.0,,3,True,True,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-0219,,96.0,,,,,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-1003,,,89.0,,,,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-1016,,,,92.0,,,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-1601,,,95.0,,,91.0,2,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-3103,,99.0,94.0,,,,2,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-4002,,75.0,84.0,,,,2,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-4007,,,98.0,,97.0,,2,True,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-4201,87.0,,95.0,,58.0,91.0,4,True,True,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-031-7002,,,94.0,,,,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-043-4002,,,,,96.0,,1,True,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-043-6001,,,96.0,,,,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-089-0005,,,94.0,,,,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-097-1007,,,99.0,,,,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-111-0001,,,98.0,,56.0,,2,True,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-197-1002,,,,,94.0,,1,True,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",17-197-1011,,,97.0,,99.0,,2,True,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",18-089-0022,,98.0,97.0,80.0,94.0,97.0,5,True,True,True
+"Chicago-Naperville-Elgin, IL-IN-WI",18-089-0034,,,,,99.0,94.0,2,True,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",18-089-0036,,,,,99.0,,1,True,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",18-089-2008,,,95.0,,,91.0,2,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",18-127-0023,,,,95.0,,,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",18-127-0024,,,97.0,,94.0,,2,True,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",18-127-0026,,,97.0,,,,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",18-127-0028,,,,,,93.0,1,False,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",55-059-0019,,,97.0,,89.0,,2,True,False,False
+"Chicago-Naperville-Elgin, IL-IN-WI",55-059-0025,,,99.0,,,,1,False,False,False
+"Chico, CA",06-007-0008,88.0,93.0,94.0,92.0,95.0,,5,True,True,True
+"Cincinnati, OH-KY-IN",21-037-3002,,90.0,97.0,,96.0,92.0,4,True,True,True
+"Cincinnati, OH-KY-IN",39-017-0018,,,99.0,,,,1,False,False,False
+"Cincinnati, OH-KY-IN",39-017-0019,,,,,,97.0,1,False,False,False
+"Cincinnati, OH-KY-IN",39-017-0020,,,,93.0,93.0,98.0,3,True,True,False
+"Cincinnati, OH-KY-IN",39-017-0021,,,,,,96.0,1,False,False,False
+"Cincinnati, OH-KY-IN",39-017-0023,,,96.0,,,,1,False,False,False
+"Cincinnati, OH-KY-IN",39-017-9991,,,90.0,,,,1,False,False,False
+"Cincinnati, OH-KY-IN",39-025-0022,,,96.0,,,,1,False,False,False
+"Cincinnati, OH-KY-IN",39-061-0006,,,99.0,,94.0,,2,True,False,False
+"Cincinnati, OH-KY-IN",39-061-0010,,,99.0,,,97.0,2,False,False,False
+"Cincinnati, OH-KY-IN",39-061-0014,,,,,99.0,,1,True,False,False
+"Cincinnati, OH-KY-IN",39-061-0040,89.0,91.0,98.0,96.0,96.0,98.0,6,True,True,True
+"Cincinnati, OH-KY-IN",39-061-0042,,,,,99.0,,1,True,False,False
+"Cincinnati, OH-KY-IN",39-061-0048,88.0,91.0,,,96.0,,3,True,True,False
+"Cincinnati, OH-KY-IN",39-165-0007,,,100.0,,,,1,False,False,False
+"Claremont-Lebanon, NH-VT",33-009-0010,,,91.0,,98.0,,2,True,False,False
+"Clarksville, TN-KY",21-047-0006,,,97.0,,98.0,,2,True,False,False
+"Clarksville, TN-KY",47-125-2001,,,,,96.0,,1,True,False,False
+"Clearlake, CA",06-033-3002,,,97.0,,,,1,False,False,False
+"Cleveland, MS",28-011-0002,,,97.0,,98.0,,2,True,False,False
+"Cleveland-Elyria, OH",39-035-0034,,,93.0,,,,1,False,False,False
+"Cleveland-Elyria, OH",39-035-0038,,,,77.0,77.0,95.0,3,True,True,False
+"Cleveland-Elyria, OH",39-035-0051,81.0,,,,,,1,False,False,False
+"Cleveland-Elyria, OH",39-035-0060,87.0,92.0,97.0,98.0,97.0,92.0,6,True,True,True
+"Cleveland-Elyria, OH",39-035-0064,,,98.0,,,,1,False,False,False
+"Cleveland-Elyria, OH",39-035-0065,,,,,,96.0,1,False,False,False
+"Cleveland-Elyria, OH",39-035-0073,84.0,87.0,,,98.0,,3,True,True,False
+"Cleveland-Elyria, OH",39-035-5002,,,89.0,,,,1,False,False,False
+"Cleveland-Elyria, OH",39-055-0004,,,88.0,,,,1,False,False,False
+"Cleveland-Elyria, OH",39-085-0003,,,100.0,,,,1,False,False,False
+"Cleveland-Elyria, OH",39-085-0007,,,99.0,,,99.0,2,False,False,False
+"Cleveland-Elyria, OH",39-093-0018,,,94.0,,,,1,False,False,False
+"Cleveland-Elyria, OH",39-103-0004,,,98.0,,94.0,,2,True,False,False
+"Clinton, IA",19-045-0019,,,,,,94.0,1,False,False,False
+"Clinton, IA",19-045-0021,,,98.0,,,,1,False,False,False
+"College Station-Bryan, TX",48-041-1086,,,,,95.0,,1,True,False,False
+"College Station-Bryan, TX",48-395-1076,,,,,,91.0,1,False,False,False
+"Colorado Springs, CO",08-041-0013,,,95.0,,,,1,False,False,False
+"Colorado Springs, CO",08-041-0016,,,99.0,,,,1,False,False,False
+"Colorado Springs, CO",08-041-0017,,,,,95.0,,1,True,False,False
+"Columbia, MO",29-019-0011,,,100.0,,,,1,False,False,False
+"Columbia, SC",45-079-0007,88.0,,93.0,,,87.0,3,False,False,False
+"Columbia, SC",45-079-0021,,,97.0,,,,1,False,False,False
+"Columbia, SC",45-079-1001,,68.0,99.0,,,,2,False,False,False
+"Columbus, GA-AL",01-113-0003,,,96.0,,,,1,False,False,False
+"Columbus, GA-AL",13-215-0008,,,98.0,,,,1,False,False,False
+"Columbus, IN",18-005-0007,,,92.0,,,,1,False,False,False
+"Columbus, IN",18-005-0008,,,,,93.0,,1,True,False,False
+"Columbus, OH",39-041-0002,,,98.0,,,,1,False,False,False
+"Columbus, OH",39-049-0029,,,100.0,,,,1,False,False,False
+"Columbus, OH",39-049-0034,,90.0,,,,88.0,2,False,False,False
+"Columbus, OH",39-049-0038,74.0,95.0,,,82.0,,3,True,True,False
+"Columbus, OH",39-049-0081,,,98.0,,,,1,False,False,False
+"Columbus, OH",39-089-0005,,,98.0,,,,1,False,False,False
+"Columbus, OH",39-089-0008,,,100.0,,,,1,False,False,False
+"Columbus, OH",39-097-0007,,,93.0,,,,1,False,False,False
+"Concord, NH",33-013-1006,,,,,,95.0,1,False,False,False
+"Concord, NH",33-013-1007,,,99.0,,,,1,False,False,False
+"Cookeville, TN",47-141-0005,,,,,95.0,,1,True,False,False
+"Corning, NY",36-101-0003,84.0,,95.0,,87.0,94.0,4,True,True,False
+"Corpus Christi, TX",48-355-0025,,,95.0,,,96.0,2,False,False,False
+"Corpus Christi, TX",48-355-0026,,,96.0,,,,1,False,False,False
+"Corpus Christi, TX",48-355-0032,,,,,94.0,64.0,2,True,False,False
+"Corsicana, TX",48-349-1051,,78.0,94.0,,,83.0,3,False,False,False
+"Corsicana, TX",48-349-1081,,,,,,97.0,1,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-085-0005,,,97.0,,,,1,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-113-0069,92.0,96.0,84.0,,85.0,62.0,5,True,True,True
+"Dallas-Fort Worth-Arlington, TX",48-113-0075,,73.0,87.0,,,,2,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-113-0087,,77.0,89.0,,,,2,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-113-1067,,71.0,,,,,1,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-121-0034,,77.0,76.0,,86.0,,3,True,True,True
+"Dallas-Fort Worth-Arlington, TX",48-121-1032,,,98.0,,,,1,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-139-1044,,,91.0,,,,1,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-221-0001,,,96.0,,,,1,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-231-1006,,93.0,92.0,,,,2,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-251-0003,,,93.0,,,,1,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-257-0005,,88.0,92.0,,,93.0,3,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-367-0081,,,93.0,,,,1,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-397-0001,,,92.0,,,,1,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-439-0075,,75.0,96.0,,,,2,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-439-1002,,94.0,95.0,,94.0,,3,True,True,True
+"Dallas-Fort Worth-Arlington, TX",48-439-1006,,,,,94.0,,1,True,False,False
+"Dallas-Fort Worth-Arlington, TX",48-439-1053,63.0,63.0,,,93.0,,3,True,True,False
+"Dallas-Fort Worth-Arlington, TX",48-439-2003,,82.0,93.0,,,,2,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-439-3009,,95.0,98.0,,,,2,False,False,False
+"Dallas-Fort Worth-Arlington, TX",48-439-3011,,84.0,59.0,,,,2,False,False,False
+"Dalton, GA",13-213-0003,,,98.0,,,,1,False,False,False
+"Daphne-Fairhope-Foley, AL",01-003-0010,,,92.0,,,,1,False,False,False
+"Davenport-Moline-Rock Island, IA-IL",17-161-3002,,,91.0,,98.0,,2,True,False,False
+"Davenport-Moline-Rock Island, IA-IL",19-163-0014,,,98.0,,,,1,False,False,False
+"Davenport-Moline-Rock Island, IA-IL",19-163-0015,76.0,,96.0,,95.0,89.0,4,True,True,False
+"Davenport-Moline-Rock Island, IA-IL",19-163-0017,,,,92.0,,,1,False,False,False
+"Dayton, OH",39-057-0006,,,96.0,,,,1,False,False,False
+"Dayton, OH",39-109-0005,,,100.0,,,,1,False,False,False
+"Dayton, OH",39-113-0037,,,99.0,,,,1,False,False,False
+"Dayton, OH",39-113-0038,,,,98.0,98.0,,2,True,False,False
+"Dayton, OH",39-135-1001,87.0,,96.0,94.0,95.0,85.0,5,True,True,False
+"Decatur, AL",01-103-0011,,,98.0,,93.0,,2,True,False,False
+"Decatur, IL",17-115-0013,,,98.0,,97.0,92.0,3,True,True,False
+"Decatur, IL",17-115-0217,,,,,,99.0,1,False,False,False
+"Decatur, IL",17-115-0317,,,,,,97.0,1,False,False,False
+"Deltona-Daytona Beach-Ormond Beach, FL",12-035-0004,,,97.0,,,,1,False,False,False
+"Deltona-Daytona Beach-Ormond Beach, FL",12-127-5002,,,98.0,94.0,94.0,,3,True,True,False
+"Deming, NM",35-029-0003,,,,97.0,,,1,False,False,False
+"Denver-Aurora-Lakewood, CO",08-001-0010,,,,,79.0,,1,True,False,False
+"Denver-Aurora-Lakewood, CO",08-001-3001,,83.0,84.0,77.0,,80.0,4,False,False,False
+"Denver-Aurora-Lakewood, CO",08-005-0002,,,97.0,,,,1,False,False,False
+"Denver-Aurora-Lakewood, CO",08-005-0006,,,92.0,,,,1,False,False,False
+"Denver-Aurora-Lakewood, CO",08-019-0006,,,95.0,,,,1,False,False,False
+"Denver-Aurora-Lakewood, CO",08-031-0002,,74.0,70.0,,77.0,77.0,4,True,True,True
+"Denver-Aurora-Lakewood, CO",08-031-0013,,,,,97.0,,1,True,False,False
+"Denver-Aurora-Lakewood, CO",08-031-0026,94.0,86.0,91.0,,96.0,89.0,5,True,True,True
+"Denver-Aurora-Lakewood, CO",08-031-0027,95.0,87.0,,,98.0,,3,True,True,False
+"Denver-Aurora-Lakewood, CO",08-031-0028,,93.0,,,95.0,,2,True,False,False
+"Denver-Aurora-Lakewood, CO",08-035-0004,,,97.0,,93.0,,2,True,False,False
+"Denver-Aurora-Lakewood, CO",08-047-0003,,,99.0,,,,1,False,False,False
+"Denver-Aurora-Lakewood, CO",08-059-0006,,88.0,93.0,,,,2,False,False,False
+"Denver-Aurora-Lakewood, CO",08-059-0011,,,98.0,,,,1,False,False,False
+"Denver-Aurora-Lakewood, CO",08-059-0014,,,88.0,,,,1,False,False,False
+"Denver-Aurora-Lakewood, CO",08-093-0001,,,74.0,,,,1,False,False,False
+"Des Moines-West Des Moines, IA",19-153-0030,,,100.0,,98.0,,2,True,False,False
+"Des Moines-West Des Moines, IA",19-153-1579,,,97.0,,,,1,False,False,False
+"Detroit-Warren-Dearborn, MI",26-099-0009,,,98.0,,97.0,,2,True,False,False
+"Detroit-Warren-Dearborn, MI",26-099-1003,,,96.0,,,,1,False,False,False
+"Detroit-Warren-Dearborn, MI",26-125-0001,,,96.0,,,,1,False,False,False
+"Detroit-Warren-Dearborn, MI",26-147-0005,,,97.0,,92.0,94.0,3,True,True,False
+"Detroit-Warren-Dearborn, MI",26-163-0001,73.0,,84.0,85.0,88.0,91.0,5,True,True,False
+"Detroit-Warren-Dearborn, MI",26-163-0015,,90.0,,,80.0,95.0,3,True,True,False
+"Detroit-Warren-Dearborn, MI",26-163-0019,,87.0,96.0,,,,2,False,False,False
+"Detroit-Warren-Dearborn, MI",26-163-0033,,,,87.0,,,1,False,False,False
+"Detroit-Warren-Dearborn, MI",26-163-0093,88.0,87.0,,,90.0,,3,True,True,False
+"Detroit-Warren-Dearborn, MI",26-163-0097,,,,,,92.0,1,False,False,False
+"Detroit-Warren-Dearborn, MI",26-163-0098,70.0,86.0,,,98.0,92.0,4,True,True,False
+"Detroit-Warren-Dearborn, MI",26-163-0099,92.0,80.0,,,92.0,94.0,4,True,True,False
+"Detroit-Warren-Dearborn, MI",26-163-0100,,,,,76.0,86.0,2,True,False,False
+"Dickinson, ND",38-007-0002,,,92.0,,97.0,98.0,3,True,True,False
+"Dodge City, KS",20-057-0002,,,,85.0,,,1,False,False,False
+"Dover, DE",10-001-0002,,,90.0,,77.0,,2,True,False,False
+"Duluth, MN-WI",27-017-7417,,,78.0,,96.0,,2,True,False,False
+"Duluth, MN-WI",27-137-0034,,,96.0,,,,1,False,False,False
+"Duluth, MN-WI",27-137-7001,,86.0,,,92.0,98.0,3,True,True,False
+"Duluth, MN-WI",27-137-7550,,,,,91.0,,1,True,False,False
+"Duluth, MN-WI",27-137-7554,,,,,83.0,,1,True,False,False
+"Durango, CO",08-067-1004,,68.0,83.0,,,,2,False,False,False
+"Durango, CO",08-067-7001,,69.0,86.0,,,,2,False,False,False
+"Durango, CO",08-067-7003,,72.0,60.0,,,,2,False,False,False
+"Durham-Chapel Hill, NC",37-063-0015,,,97.0,95.0,95.0,94.0,4,True,True,False
+"Durham-Chapel Hill, NC",37-145-0003,,,100.0,,,,1,False,False,False
+"Dyersburg, TN",47-045-0004,,,,,95.0,,1,True,False,False
+"Eagle Pass, TX",48-323-0004,,,,,92.0,,1,True,False,False
+"East Stroudsburg, PA",42-089-0002,,,72.0,,,,1,False,False,False
+"Eau Claire, WI",55-035-0014,,,98.0,97.0,90.0,,3,True,True,False
+"Effingham, IL",17-049-1001,,,97.0,,,,1,False,False,False
+"El Centro, CA",06-025-0005,,94.0,98.0,98.0,95.0,95.0,5,True,True,True
+"El Centro, CA",06-025-0007,,,,72.0,50.0,,2,True,False,False
+"El Centro, CA",06-025-1003,,87.0,67.0,98.0,,,3,False,False,False
+"El Centro, CA",06-025-4003,,,90.0,98.0,,,2,False,False,False
+"El Centro, CA",06-025-4004,,,,97.0,,,1,False,False,False
+"El Paso, TX",48-141-0029,,,75.0,,,,1,False,False,False
+"El Paso, TX",48-141-0044,88.0,55.0,96.0,,81.0,89.0,5,True,True,True
+"El Paso, TX",48-141-0055,,82.0,80.0,,,,2,False,False,False
+"El Paso, TX",48-141-0057,,,86.0,,,,1,False,False,False
+"El Paso, TX",48-141-0058,,,89.0,,,,1,False,False,False
+"El Paso, TX",48-141-1021,79.0,,65.0,,,,2,False,False,False
+"Elkhart-Goshen, IN",18-039-0007,,,95.0,,,,1,False,False,False
+"Elkhart-Goshen, IN",18-039-0008,,,,,95.0,,1,True,False,False
+"Elko, NV",32-007-0005,,,,97.0,,,1,False,False,False
+"Ellensburg, WA",53-037-0002,,,,,96.0,,1,True,False,False
+"Enid, OK",40-047-0555,,,,,,96.0,1,False,False,False
+"Erie, PA",42-049-0003,69.0,85.0,85.0,68.0,73.0,,5,True,True,True
+"Espa¤ola, NM",35-039-0026,,,87.0,,,,1,False,False,False
+"Eugene, OR",41-039-0059,,,,,98.0,,1,True,False,False
+"Eugene, OR",41-039-0060,,,100.0,,,,1,False,False,False
+"Eugene, OR",41-039-1007,,,99.0,,,,1,False,False,False
+"Eugene, OR",41-039-2013,,,,96.0,97.0,,2,True,False,False
+"Eugene, OR",41-039-9004,,,,,96.0,,1,True,False,False
+"Eureka-Arcata-Fortuna, CA",06-023-1004,,88.0,93.0,90.0,,88.0,4,False,False,False
+"Evansville, IN-KY",18-051-0002,,,,,,93.0,1,False,False,False
+"Evansville, IN-KY",18-129-0003,,,98.0,,,,1,False,False,False
+"Evansville, IN-KY",18-163-0013,,,98.0,,,,1,False,False,False
+"Evansville, IN-KY",18-163-0021,,91.0,92.0,97.0,97.0,95.0,5,True,True,True
+"Evansville, IN-KY",18-163-0022,97.0,,,,,,1,False,False,False
+"Evansville, IN-KY",18-173-0008,,,95.0,,,,1,False,False,False
+"Evansville, IN-KY",18-173-0011,,,89.0,,,69.0,2,False,False,False
+"Evansville, IN-KY",21-101-1011,,,,,,94.0,1,False,False,False
+"Fairbanks, AK",02-090-0034,76.0,,77.0,88.0,,95.0,4,False,False,False
+"Fallon, NV",32-001-0002,,,95.0,,,,1,False,False,False
+"Fargo, ND-MN",38-017-1004,,87.0,88.0,,96.0,87.0,4,True,True,True
+"Farmington, NM",35-045-0009,,95.0,96.0,,,,2,False,False,False
+"Farmington, NM",35-045-0018,,95.0,98.0,,,,2,False,False,False
+"Farmington, NM",35-045-0020,,83.0,95.0,,,,2,False,False,False
+"Farmington, NM",35-045-1005,,97.0,95.0,93.0,,,3,False,False,False
+"Farmington, NM",35-045-1233,,,66.0,,,,1,False,False,False
+"Fayetteville, NC",37-051-0009,,,,92.0,93.0,,2,True,False,False
+"Fayetteville, NC",37-051-0010,,,96.0,,,,1,False,False,False
+"Fayetteville-Springdale-Rogers, AR-MO",05-143-0005,,,100.0,,,,1,False,False,False
+"Fayetteville-Springdale-Rogers, AR-MO",05-143-0006,,,100.0,,,,1,False,False,False
+"Fernley, NV",32-019-0006,,,77.0,,,,1,False,False,False
+"Findlay, OH",39-063-0005,,,,,,93.0,1,False,False,False
+"Flagstaff, AZ",04-005-8001,,,91.0,,,,1,False,False,False
+"Flint, MI",26-049-0021,,,93.0,,94.0,,2,True,False,False
+"Flint, MI",26-049-2001,,,100.0,,,,1,False,False,False
+"Florence, SC",45-031-0003,,,99.0,,,,1,False,False,False
+"Fond du Lac, WI",55-039-0006,,,99.0,,,,1,False,False,False
+"Fort Collins, CO",08-069-0007,,,95.0,,,,1,False,False,False
+"Fort Collins, CO",08-069-0009,,,,,88.0,,1,True,False,False
+"Fort Collins, CO",08-069-0011,,,96.0,,,,1,False,False,False
+"Fort Collins, CO",08-069-1004,96.0,,94.0,,,,2,False,False,False
+"Fort Payne, AL",01-049-9991,,,98.0,,,,1,False,False,False
+"Fort Smith, AR-OK",40-135-9021,,54.0,89.0,,,,2,False,False,False
+"Fort Wayne, IN",18-003-0002,,,96.0,,,,1,False,False,False
+"Fort Wayne, IN",18-183-0003,,,,,57.0,,1,True,False,False
+"Fresno, CA",06-019-0007,,92.0,95.0,,,,2,False,False,False
+"Fresno, CA",06-019-0011,,86.0,95.0,92.0,91.0,,4,True,True,True
+"Fresno, CA",06-019-0242,,88.0,92.0,,,,2,False,False,False
+"Fresno, CA",06-019-0500,,,98.0,95.0,94.0,,3,True,True,False
+"Fresno, CA",06-019-2009,,,95.0,,96.0,,2,True,False,False
+"Fresno, CA",06-019-2016,85.0,86.0,,,95.0,,3,True,True,False
+"Fresno, CA",06-019-4001,,90.0,93.0,,,,2,False,False,False
+"Fresno, CA",06-019-5001,84.0,93.0,96.0,98.0,97.0,,5,True,True,True
+"Fresno, CA",06-019-5025,,,,,96.0,,1,True,False,False
+"Gainesville, FL",12-001-3012,,,90.0,,95.0,,2,True,False,False
+"Gainesville, GA",13-139-0003,,,,,99.0,,1,True,False,False
+"Gardnerville Ranchos, NV",32-005-0007,,,,,93.0,,1,True,False,False
+"Gettysburg, PA",42-001-0001,58.0,81.0,92.0,,96.0,73.0,5,True,True,True
+"Gettysburg, PA",42-001-9991,,,96.0,,,,1,False,False,False
+"Gillette, WY",56-005-0123,,88.0,93.0,,,,2,False,False,False
+"Glenwood Springs, CO",08-045-0012,,,97.0,,,,1,False,False,False
+"Glenwood Springs, CO",08-045-0016,,,97.0,,,,1,False,False,False
+"Grand Island, NE",31-079-0005,,,,,91.0,,1,True,False,False
+"Grand Junction, CO",08-077-0017,,,,,99.0,,1,True,False,False
+"Grand Junction, CO",08-077-0020,,,96.0,,,,1,False,False,False
+"Grand Rapids-Wyoming, MI",26-081-0020,76.0,79.0,89.0,80.0,80.0,94.0,6,True,True,True
+"Grand Rapids-Wyoming, MI",26-081-0022,,,96.0,,,,1,False,False,False
+"Grand Rapids-Wyoming, MI",26-139-0005,,,85.0,89.0,89.0,,3,True,True,False
+"Greeley, CO",08-123-0006,,,,,99.0,,1,True,False,False
+"Greeley, CO",08-123-0009,99.0,,95.0,,,,2,False,False,False
+"Greeley, CO",08-123-0011,,,82.0,,,,1,False,False,False
+"Greeley, CO",08-123-0012,,,76.0,,,,1,False,False,False
+"Green Bay, WI",55-009-0005,,,,,98.0,,1,True,False,False
+"Green Bay, WI",55-009-0026,,,99.0,,,,1,False,False,False
+"Green Bay, WI",55-061-0002,,,99.0,,,,1,False,False,False
+"Greenfield Town, MA",25-011-2005,,,97.0,,74.0,,2,True,False,False
+"Greensboro-High Point, NC",37-081-0013,,,99.0,97.0,96.0,,3,True,True,False
+"Greensboro-High Point, NC",37-157-0099,,,98.0,,,,1,False,False,False
+"Greenville, NC",37-147-0006,,,100.0,,95.0,,2,True,False,False
+"Greenville-Anderson-Mauldin, SC",45-007-0006,,,94.0,,,,1,False,False,False
+"Greenville-Anderson-Mauldin, SC",45-045-0015,,79.0,,91.0,91.0,98.0,4,True,True,False
+"Greenville-Anderson-Mauldin, SC",45-045-0016,,,96.0,,,,1,False,False,False
+"Gulfport-Biloxi-Pascagoula, MS",28-045-0003,,,93.0,,96.0,,2,True,False,False
+"Gulfport-Biloxi-Pascagoula, MS",28-047-0008,,,96.0,,98.0,,2,True,False,False
+"Gulfport-Biloxi-Pascagoula, MS",28-059-0006,,91.0,96.0,,98.0,92.0,4,True,True,True
+"Hagerstown-Martinsburg, MD-WV",24-043-0009,,,97.0,,90.0,,2,True,False,False
+"Hagerstown-Martinsburg, MD-WV",54-003-0003,,,93.0,,,,1,False,False,False
+"Hanford-Corcoran, CA",06-031-0004,,,,98.0,97.0,,2,True,False,False
+"Hanford-Corcoran, CA",06-031-1004,,90.0,65.0,98.0,97.0,,4,True,True,True
+"Harrisburg-Carlisle, PA",42-041-0101,,,,,95.0,,1,True,False,False
+"Harrisburg-Carlisle, PA",42-043-0401,,,95.0,,95.0,,2,True,False,False
+"Harrisburg-Carlisle, PA",42-043-1100,,,89.0,55.0,,,2,False,False,False
+"Harrison, AR",05-101-0002,,,99.0,,,,1,False,False,False
+"Harrisonburg, VA",51-165-0003,,97.0,98.0,,,95.0,3,False,False,False
+"Hartford-West Hartford-East Hartford, CT",09-003-0025,,85.0,,99.0,99.0,,3,True,True,False
+"Hartford-West Hartford-East Hartford, CT",09-003-1003,,93.0,94.0,98.0,98.0,,4,True,True,True
+"Hartford-West Hartford-East Hartford, CT",09-007-9007,,,97.0,,,,1,False,False,False
+"Hartford-West Hartford-East Hartford, CT",09-013-1001,,,93.0,,,,1,False,False,False
+"Hattiesburg, MS",28-035-0004,,,,,99.0,,1,True,False,False
+"Helena, MT",30-049-0004,81.0,,88.0,,85.0,84.0,4,True,True,False
+"Helena, MT",30-049-0026,,,,,96.0,,1,True,False,False
+"Hermiston-Pendleton, OR",41-059-1003,,,98.0,,,,1,False,False,False
+"Hickory-Lenoir-Morganton, NC",37-003-0005,,,100.0,,,,1,False,False,False
+"Hickory-Lenoir-Morganton, NC",37-027-0003,,,96.0,,,,1,False,False,False
+"Hickory-Lenoir-Morganton, NC",37-035-0004,,,,,94.0,,1,True,False,False
+"Hilo, HI",15-001-0005,,,,,60.0,85.0,2,True,False,False
+"Hilo, HI",15-001-1006,,,,,66.0,82.0,2,True,False,False
+"Hilo, HI",15-001-1012,,,,,94.0,92.0,2,True,False,False
+"Hilo, HI",15-001-2016,,,,,96.0,91.0,2,True,False,False
+"Hilo, HI",15-001-2020,,,,,92.0,86.0,2,True,False,False
+"Hilo, HI",15-001-2023,,,,,92.0,93.0,2,True,False,False
+"Hilo, HI",15-001-2035,,,,,,52.0,1,False,False,False
+"Hilo, HI",15-001-3027,,,,,91.0,,1,True,False,False
+"Hilo, HI",15-001-3033,,,,,,92.0,1,False,False,False
+"Hilo, HI",15-001-3034,,,,,93.0,,1,True,False,False
+"Hobbs, NM",35-025-0008,,87.0,97.0,,96.0,,3,True,True,True
+"Holland, MI",26-005-0003,,,96.0,,68.0,,2,True,False,False
+"Homosassa Springs, FL",12-017-0006,,,,,,88.0,1,False,False,False
+"Houma-Thibodaux, LA",22-057-0004,,,94.0,,,,1,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-039-1004,,72.0,96.0,,,,2,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-039-1016,,84.0,91.0,,,,2,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-167-0005,,,,,,69.0,1,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-167-1034,,80.0,84.0,,88.0,,3,True,True,True
+"Houston-The Woodlands-Sugar Land, TX",48-201-0024,,79.0,88.0,,95.0,,3,True,True,True
+"Houston-The Woodlands-Sugar Land, TX",48-201-0026,,68.0,97.0,,,,2,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-0029,,79.0,92.0,,,,2,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-0046,,,94.0,,63.0,,2,True,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-0047,,59.0,91.0,,,,2,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-0051,,,96.0,,,96.0,2,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-0055,,84.0,75.0,,,,2,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-0058,,,,,89.0,,1,True,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-0062,,,88.0,,,,1,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-0066,,,93.0,,72.0,,2,True,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-0416,,90.0,95.0,,,94.0,3,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-0417,,90.0,89.0,,,,2,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-1015,,76.0,94.0,,,,2,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-1017,,,95.0,,,,1,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-1034,,92.0,92.0,,92.0,,3,True,True,True
+"Houston-The Woodlands-Sugar Land, TX",48-201-1035,69.0,51.0,92.0,,,93.0,4,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-1039,84.0,96.0,96.0,,79.0,81.0,5,True,True,True
+"Houston-The Woodlands-Sugar Land, TX",48-201-1050,,78.0,89.0,,,,2,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-1052,91.0,,,,63.0,,2,True,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-201-1066,,65.0,,,,,1,False,False,False
+"Houston-The Woodlands-Sugar Land, TX",48-339-0078,,92.0,93.0,,,,2,False,False,False
+"Huntington-Ashland, WV-KY-OH",21-019-0017,,92.0,97.0,,96.0,93.0,4,True,True,True
+"Huntington-Ashland, WV-KY-OH",21-089-0007,,,94.0,,,93.0,2,False,False,False
+"Huntington-Ashland, WV-KY-OH",39-087-0011,,,98.0,,,,1,False,False,False
+"Huntington-Ashland, WV-KY-OH",39-087-0012,,,93.0,,98.0,92.0,3,True,True,False
+"Huntington-Ashland, WV-KY-OH",54-011-0007,,,95.0,,,,1,False,False,False
+"Huntsville, AL",01-089-0014,,,89.0,,,,1,False,False,False
+"Huntsville, AL",01-089-0022,,,96.0,,,,1,False,False,False
+"Idaho Falls, ID",16-023-0101,,,93.0,,,,1,False,False,False
+"Indiana, PA",42-063-0004,,,72.0,,89.0,89.0,3,True,True,False
+"Indianapolis-Carmel-Anderson, IN",18-011-0001,,,97.0,,,,1,False,False,False
+"Indianapolis-Carmel-Anderson, IN",18-013-0001,,,94.0,,,,1,False,False,False
+"Indianapolis-Carmel-Anderson, IN",18-057-0006,,,96.0,,,,1,False,False,False
+"Indianapolis-Carmel-Anderson, IN",18-057-0007,,,,,93.0,,1,True,False,False
+"Indianapolis-Carmel-Anderson, IN",18-063-0004,,,95.0,,,,1,False,False,False
+"Indianapolis-Carmel-Anderson, IN",18-095-0011,,,95.0,,97.0,,2,True,False,False
+"Indianapolis-Carmel-Anderson, IN",18-097-0050,,,99.0,,,,1,False,False,False
+"Indianapolis-Carmel-Anderson, IN",18-097-0057,,,88.0,,,,1,False,False,False
+"Indianapolis-Carmel-Anderson, IN",18-097-0078,55.0,96.0,95.0,98.0,98.0,90.0,6,True,True,True
+"Indianapolis-Carmel-Anderson, IN",18-097-0081,,,,,98.0,,1,True,False,False
+"Indianapolis-Carmel-Anderson, IN",18-097-0087,100.0,92.0,91.0,,97.0,,4,True,True,True
+"Indianapolis-Carmel-Anderson, IN",18-145-0001,,,99.0,,,,1,False,False,False
+"Ithaca, NY",36-109-9991,,,96.0,,,,1,False,False,False
+"Jackson, MS",28-049-0020,88.0,,97.0,93.0,93.0,91.0,5,True,True,False
+"Jackson, MS",28-049-0021,,,95.0,,98.0,,2,True,False,False
+"Jackson, TN",47-113-0010,,,,,97.0,,1,True,False,False
+"Jackson, WY-ID",56-039-0008,,,97.0,,,,1,False,False,False
+"Jackson, WY-ID",56-039-1006,,,,83.0,81.0,,2,True,False,False
+"Jackson, WY-ID",56-039-1011,,,98.0,,,,1,False,False,False
+"Jackson, WY-ID",56-039-1013,79.0,71.0,,,90.0,,3,True,True,False
+"Jacksonville, FL",12-003-0002,,,94.0,,,,1,False,False,False
+"Jacksonville, FL",12-031-0032,,94.0,,97.0,,97.0,3,False,False,False
+"Jacksonville, FL",12-031-0077,,,98.0,,,,1,False,False,False
+"Jacksonville, FL",12-031-0098,,,,87.0,87.0,,2,True,False,False
+"Jacksonville, FL",12-031-0100,,,98.0,,,,1,False,False,False
+"Jacksonville, FL",12-031-0106,,,98.0,,,,1,False,False,False
+"Jacksonville, FL",12-031-0108,80.0,93.0,,,95.0,,3,True,True,False
+"Jacksonville, FL",12-089-0005,,,,,,92.0,1,False,False,False
+"Jamestown-Dunkirk-Fredonia, NY",36-013-0006,,,98.0,,,,1,False,False,False
+"Janesville-Beloit, WI",55-105-0030,,,99.0,,,,1,False,False,False
+"Jefferson City, MO",29-027-0002,,,99.0,,,,1,False,False,False
+"Johnstown, PA",42-021-0011,81.0,89.0,84.0,,96.0,91.0,5,True,True,True
+"Joplin, MO",29-097-0003,,,,98.0,,,1,False,False,False
+"Joplin, MO",29-097-0004,,,96.0,,,,1,False,False,False
+"Juneau, AK",02-110-0004,,,,92.0,,,1,False,False,False
+"Kahului-Wailuku-Lahaina, HI",15-009-0025,,,,,93.0,,1,True,False,False
+"Kalamazoo-Portage, MI",26-077-0008,,,94.0,,87.0,,2,True,False,False
+"Kalispell, MT",30-029-0009,,,,88.0,,,1,False,False,False
+"Kalispell, MT",30-029-0047,,,,75.0,,,1,False,False,False
+"Kalispell, MT",30-029-0049,,,,91.0,97.0,,2,True,False,False
+"Kalispell, MT",30-029-8001,,,96.0,,,,1,False,False,False
+"Kansas City, MO-KS",20-091-0010,,,88.0,92.0,92.0,,3,True,True,False
+"Kansas City, MO-KS",20-103-0003,,,93.0,,,,1,False,False,False
+"Kansas City, MO-KS",20-209-0021,,,87.0,85.0,85.0,68.0,4,True,True,False
+"Kansas City, MO-KS",29-037-0003,,,97.0,,79.0,,2,True,False,False
+"Kansas City, MO-KS",29-047-0003,,,99.0,,,,1,False,False,False
+"Kansas City, MO-KS",29-047-0005,,,98.0,,87.0,,2,True,False,False
+"Kansas City, MO-KS",29-047-0006,,,98.0,,,,1,False,False,False
+"Kansas City, MO-KS",29-049-0001,,,97.0,,,,1,False,False,False
+"Kansas City, MO-KS",29-095-0018,,,,99.0,,,1,False,False,False
+"Kansas City, MO-KS",29-095-0034,,97.0,,97.0,97.0,96.0,4,True,True,False
+"Kapaa, HI",15-007-0007,,,,,,63.0,1,False,False,False
+"Keene, NH",33-005-0007,,,98.0,,98.0,,2,True,False,False
+"Kennewick-Richland, WA",53-005-0002,,,,95.0,,,1,False,False,False
+"Kennewick-Richland, WA",53-005-0003,,,92.0,,,,1,False,False,False
+"Killeen-Temple, TX",48-027-1045,,,96.0,,91.0,,2,True,False,False
+"Killeen-Temple, TX",48-027-1047,,70.0,91.0,,,,2,False,False,False
+"Kingsport-Bristol-Bristol, TN-VA",47-163-1007,,,,,97.0,,1,True,False,False
+"Kingsport-Bristol-Bristol, TN-VA",47-163-2002,,,96.0,,,,1,False,False,False
+"Kingsport-Bristol-Bristol, TN-VA",47-163-2003,,,93.0,,,,1,False,False,False
+"Kingsport-Bristol-Bristol, TN-VA",47-163-6001,,,,,,93.0,1,False,False,False
+"Kingsport-Bristol-Bristol, TN-VA",47-163-6002,,,,,,91.0,1,False,False,False
+"Kingsport-Bristol-Bristol, TN-VA",47-163-6003,,,,,,94.0,1,False,False,False
+"Kingsport-Bristol-Bristol, TN-VA",47-163-6004,,,,,,92.0,1,False,False,False
+"Kingsville, TX",48-273-0314,,,,,91.0,,1,True,False,False
+"Kinston, NC",37-107-0004,,,98.0,,,,1,False,False,False
+"Klamath Falls, OR",41-035-0004,,,,,95.0,,1,True,False,False
+"Knoxville, TN",47-001-0101,,,96.0,,,,1,False,False,False
+"Knoxville, TN",47-009-0011,,,,,97.0,,1,True,False,False
+"Knoxville, TN",47-009-0101,74.0,85.0,96.0,,,57.0,4,False,False,False
+"Knoxville, TN",47-009-0102,,,97.0,,,,1,False,False,False
+"Knoxville, TN",47-093-0021,,,98.0,,,,1,False,False,False
+"Knoxville, TN",47-093-1013,,,,97.0,97.0,,2,True,False,False
+"Knoxville, TN",47-093-1017,,,,,87.0,,1,True,False,False
+"Knoxville, TN",47-093-1020,,,98.0,,96.0,,2,True,False,False
+"Knoxville, TN",47-105-0109,,,98.0,,97.0,,2,True,False,False
+"Knoxville, TN",47-145-0004,,,,,93.0,,1,True,False,False
+"Kokomo, IN",18-067-0004,,,95.0,,96.0,,2,True,False,False
+"La Crosse-Onalaska, WI-MN",55-063-0012,,,100.0,,,,1,False,False,False
+"Lafayette, LA",22-055-0007,,,92.0,85.0,,,2,False,False,False
+"Lafayette, LA",22-099-0001,,,92.0,,,,1,False,False,False
+"Lafayette-West Lafayette, IN",18-015-0002,,,97.0,,,,1,False,False,False
+"Lafayette-West Lafayette, IN",18-157-0008,,,,,95.0,,1,True,False,False
+"Lake Charles, LA",22-019-0002,,,98.0,,,,1,False,False,False
+"Lake Charles, LA",22-019-0008,,91.0,,,,96.0,2,False,False,False
+"Lake Charles, LA",22-019-0009,,,96.0,,,,1,False,False,False
+"Lake City, FL",12-023-0002,,,92.0,,,,1,False,False,False
+"Lake Havasu City-Kingman, AZ",04-015-1003,,,,97.0,,,1,False,False,False
+"Lakeland-Winter Haven, FL",12-105-6005,,,95.0,,,92.0,2,False,False,False
+"Lakeland-Winter Haven, FL",12-105-6006,,,64.0,64.0,64.0,,3,True,True,False
+"Lancaster, PA",42-071-0007,,,86.0,,98.0,,2,True,False,False
+"Lancaster, PA",42-071-0012,,,95.0,,88.0,,2,True,False,False
+"Lansing-East Lansing, MI",26-037-0002,,,91.0,,,,1,False,False,False
+"Lansing-East Lansing, MI",26-065-0018,,91.0,92.0,,75.0,93.0,4,True,True,True
+"Laramie, WY",56-001-0008,,,,95.0,,,1,False,False,False
+"Laramie, WY",56-001-0009,,,,97.0,,,1,False,False,False
+"Laramie, WY",56-001-0800,,,,96.0,,,1,False,False,False
+"Laramie, WY",56-001-0801,,,,94.0,,,1,False,False,False
+"Laramie, WY",56-001-9991,,,96.0,,,,1,False,False,False
+"Laredo, TX",48-479-0313,,,,,94.0,,1,True,False,False
+"Las Cruces, NM",35-013-0008,,,97.0,,,,1,False,False,False
+"Las Cruces, NM",35-013-0016,,,,63.0,63.0,,2,True,False,False
+"Las Cruces, NM",35-013-0019,,,,96.0,,,1,False,False,False
+"Las Cruces, NM",35-013-0020,,,96.0,97.0,,,2,False,False,False
+"Las Cruces, NM",35-013-0021,,92.0,96.0,95.0,,,3,False,False,False
+"Las Cruces, NM",35-013-0022,,95.0,69.0,,97.0,,3,True,True,True
+"Las Cruces, NM",35-013-0023,,,82.0,,,,1,False,False,False
+"Las Cruces, NM",35-013-0024,,,,89.0,,,1,False,False,False
+"Las Cruces, NM",35-013-0025,,,,,96.0,,1,True,False,False
+"Las Vegas-Henderson-Paradise, NV",32-003-0024,,,95.0,98.0,98.0,,3,True,True,False
+"Las Vegas-Henderson-Paradise, NV",32-003-0043,,,96.0,99.0,99.0,,3,True,True,False
+"Las Vegas-Henderson-Paradise, NV",32-003-0044,,,96.0,99.0,99.0,,3,True,True,False
+"Las Vegas-Henderson-Paradise, NV",32-003-0071,,,98.0,99.0,99.0,,3,True,True,False
+"Las Vegas-Henderson-Paradise, NV",32-003-0073,,,93.0,95.0,99.0,,3,True,True,False
+"Las Vegas-Henderson-Paradise, NV",32-003-0075,,94.0,99.0,99.0,99.0,,4,True,True,True
+"Las Vegas-Henderson-Paradise, NV",32-003-0298,,,95.0,100.0,100.0,,3,True,True,False
+"Las Vegas-Henderson-Paradise, NV",32-003-0299,,,67.0,67.0,67.0,,3,True,True,False
+"Las Vegas-Henderson-Paradise, NV",32-003-0540,81.0,93.0,97.0,97.0,97.0,96.0,6,True,True,True
+"Las Vegas-Henderson-Paradise, NV",32-003-0561,95.0,90.0,,99.0,98.0,,4,True,True,False
+"Las Vegas-Henderson-Paradise, NV",32-003-0602,,,75.0,75.0,75.0,,3,True,True,False
+"Las Vegas-Henderson-Paradise, NV",32-003-1019,,,93.0,98.0,98.0,,3,True,True,False
+"Las Vegas-Henderson-Paradise, NV",32-003-1501,92.0,94.0,,,98.0,,3,True,True,False
+"Las Vegas-Henderson-Paradise, NV",32-003-1502,,92.0,,,,,1,False,False,False
+"Las Vegas-Henderson-Paradise, NV",32-003-2003,57.0,58.0,58.0,59.0,59.0,,5,True,True,True
+"Las Vegas-Henderson-Paradise, NV",32-003-7772,,,98.0,,,,1,False,False,False
+"Lawrenceburg, TN",47-099-0003,,,,,96.0,,1,True,False,False
+"Lawton, OK",40-031-0651,,,84.0,,87.0,,2,True,False,False
+"Lebanon, PA",42-075-0101,,,96.0,,87.0,,2,True,False,False
+"Lewiston-Auburn, ME",23-001-0011,,,,,94.0,,1,True,False,False
+"Lewiston-Auburn, ME",23-001-0014,,,98.0,,,,1,False,False,False
+"Lexington-Fayette, KY",21-067-0012,,80.0,78.0,,85.0,83.0,4,True,True,True
+"Lexington-Fayette, KY",21-113-0001,,,93.0,,,91.0,2,False,False,False
+"Lima, OH",39-003-0009,,,100.0,,93.0,89.0,3,True,True,False
+"Lincoln, NE",31-109-0016,,,96.0,,,,1,False,False,False
+"Little Rock-North Little Rock-Conway, AR",05-119-0007,95.0,56.0,95.0,,87.0,99.0,5,True,True,True
+"Little Rock-North Little Rock-Conway, AR",05-119-1002,,,99.0,,,,1,False,False,False
+"Logan, UT-ID",49-005-0007,,96.0,96.0,,98.0,,3,True,True,True
+"Longview, TX",48-183-0001,,92.0,96.0,,,93.0,3,False,False,False
+"Longview, TX",48-401-1082,,,,,,91.0,1,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-037-0016,91.0,92.0,90.0,91.0,,,4,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-037-0113,,98.0,92.0,,,,2,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-037-1103,97.0,97.0,96.0,,,97.0,4,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-037-1201,94.0,92.0,94.0,,,,3,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-037-1302,95.0,95.0,93.0,,,,3,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-037-1602,96.0,98.0,92.0,,,,3,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-037-1701,96.0,97.0,94.0,,,,3,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-037-2005,98.0,99.0,98.0,,,,3,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-037-4008,,96.0,,,,,1,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-037-4009,,97.0,94.0,,,97.0,3,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-037-4010,,98.0,96.0,,,,2,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-037-6012,99.0,99.0,98.0,,,,3,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-059-0007,96.0,96.0,94.0,89.0,95.0,,5,True,True,True
+"Los Angeles-Long Beach-Anaheim, CA",06-059-0008,91.0,93.0,,,,,2,False,False,False
+"Los Angeles-Long Beach-Anaheim, CA",06-059-5001,98.0,94.0,97.0,,,,3,False,False,False
+"Louisville/Jefferson County, KY-IN",18-019-0008,,,92.0,,,,1,False,False,False
+"Louisville/Jefferson County, KY-IN",18-019-0010,,,,,98.0,,1,True,False,False
+"Louisville/Jefferson County, KY-IN",21-029-0006,,,97.0,,,,1,False,False,False
+"Louisville/Jefferson County, KY-IN",21-111-0051,,,95.0,,94.0,89.0,3,True,True,False
+"Louisville/Jefferson County, KY-IN",21-111-0067,94.0,94.0,99.0,95.0,95.0,93.0,6,True,True,True
+"Louisville/Jefferson County, KY-IN",21-111-0075,53.0,91.0,,,86.0,,3,True,True,False
+"Louisville/Jefferson County, KY-IN",21-111-0080,,,92.0,,99.0,,2,True,False,False
+"Louisville/Jefferson County, KY-IN",21-111-1041,,,,96.0,96.0,76.0,3,True,True,False
+"Louisville/Jefferson County, KY-IN",21-185-0004,,,99.0,,,,1,False,False,False
+"Lubbock, TX",48-303-1028,,,,,95.0,,1,True,False,False
+"Ludington, MI",26-105-0007,,,90.0,,,,1,False,False,False
+"Macon, GA",13-021-0012,,,97.0,,68.0,89.0,3,True,True,False
+"Madera, CA",06-039-0004,,93.0,89.0,,,,2,False,False,False
+"Madera, CA",06-039-2010,,,93.0,98.0,98.0,,3,True,True,False
+"Madison, WI",55-021-0015,,,98.0,,,,1,False,False,False
+"Madison, WI",55-025-0041,,,100.0,,100.0,,2,True,False,False
+"Madison, WI",55-025-0047,,,,99.0,99.0,,2,True,False,False
+"Manchester-Nashua, NH",33-011-1011,,,98.0,,,,1,False,False,False
+"Manchester-Nashua, NH",33-011-5001,71.0,,89.0,,98.0,85.0,4,True,True,False
+"Manitowoc, WI",55-071-0007,,,99.0,,,,1,False,False,False
+"Marietta, OH",39-167-0004,,,97.0,,,,1,False,False,False
+"Marietta, OH",39-167-0011,,,,,,76.0,1,False,False,False
+"Marshall, MN",27-083-4210,,,89.0,,98.0,,2,True,False,False
+"Marshall, TX",48-203-0002,,85.0,92.0,,59.0,,3,True,True,True
+"Marshall, TX",48-203-1079,,,,,,92.0,1,False,False,False
+"Mayaguez, PR",72-097-0007,,,71.0,,,,1,False,False,False
+"McAlester, OK",40-121-0415,,,93.0,,90.0,,2,True,False,False
+"Medford, OR",41-029-0201,,,92.0,,,,1,False,False,False
+"Memphis, TN-MS-AR",05-035-0005,,72.0,99.0,,,,2,False,False,False
+"Memphis, TN-MS-AR",28-033-0002,,,94.0,,98.0,,2,True,False,False
+"Memphis, TN-MS-AR",47-157-0021,,,91.0,,,,1,False,False,False
+"Memphis, TN-MS-AR",47-157-0024,,,,84.0,,,1,False,False,False
+"Memphis, TN-MS-AR",47-157-0075,63.0,,94.0,82.0,82.0,93.0,5,True,True,False
+"Memphis, TN-MS-AR",47-157-0100,70.0,75.0,,,,,2,False,False,False
+"Memphis, TN-MS-AR",47-157-1004,,,87.0,,,,1,False,False,False
+"Merced, CA",06-047-2510,,,,,98.0,,1,True,False,False
+"Meridian, MS",28-075-0003,,,97.0,,,,1,False,False,False
+"Miami, OK",40-115-9004,,,75.0,,,,1,False,False,False
+"Miami, OK",40-115-9007,,,,65.0,69.0,,2,True,False,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-011-0033,,,95.0,,,,1,False,False,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-011-0034,95.0,,96.0,96.0,96.0,96.0,5,True,True,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-011-0035,96.0,90.0,,,97.0,,3,True,True,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-011-2003,,,97.0,,99.0,,2,True,False,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-011-5005,,,,86.0,86.0,,2,True,False,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-011-8002,,90.0,98.0,,,,2,False,False,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-086-0019,,,,,,90.0,1,False,False,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-086-0027,,84.0,95.0,,,,2,False,False,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-086-0029,,,76.0,,,,1,False,False,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-086-0035,,79.0,,,,,1,False,False,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-086-1016,,,,87.0,87.0,,2,True,False,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-099-0021,,,92.0,,,,1,False,False,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-099-0022,,,97.0,,93.0,,2,True,False,False
+"Miami-Fort Lauderdale-West Palm Beach, FL",12-099-2005,,,,94.0,67.0,,2,True,False,False
+"Michigan City-La Porte, IN",18-091-0005,,,97.0,,,,1,False,False,False
+"Michigan City-La Porte, IN",18-091-0010,,,98.0,,,,1,False,False,False
+"Middlesborough, KY",21-013-0002,,,98.0,,99.0,,2,True,False,False
+"Milwaukee-Waukesha-West Allis, WI",55-079-0010,,,100.0,,100.0,,2,True,False,False
+"Milwaukee-Waukesha-West Allis, WI",55-079-0056,95.0,95.0,,94.0,99.0,,4,True,True,False
+"Milwaukee-Waukesha-West Allis, WI",55-079-0068,,69.0,98.0,,,72.0,3,False,False,False
+"Milwaukee-Waukesha-West Allis, WI",55-079-0085,,,98.0,,,,1,False,False,False
+"Milwaukee-Waukesha-West Allis, WI",55-089-0008,,,98.0,,,,1,False,False,False
+"Milwaukee-Waukesha-West Allis, WI",55-089-0009,,,100.0,,84.0,,2,True,False,False
+"Milwaukee-Waukesha-West Allis, WI",55-133-0027,,,99.0,86.0,98.0,,3,True,True,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-003-1001,,,98.0,,,,1,False,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-003-1002,61.0,93.0,84.0,95.0,94.0,87.0,6,True,True,True
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-037-0020,94.0,86.0,,,,91.0,3,False,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-037-0423,92.0,84.0,,,,96.0,3,False,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-037-0443,,,,,,65.0,1,False,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-037-0470,,,,,83.0,,1,True,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-037-0480,84.0,87.0,,,96.0,,3,True,True,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-053-0909,,,,96.0,,,1,False,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-053-0910,,,,88.0,,,1,False,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-053-0954,97.0,,,,,87.0,2,False,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-053-0962,95.0,74.0,79.0,,97.0,,4,True,True,True
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-053-0963,,,,,81.0,,1,True,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-053-1909,,,,94.0,,,1,False,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-123-0868,,,,98.0,,,1,False,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-123-0871,,,,,96.0,,1,True,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-139-0505,,,82.0,,93.0,,2,True,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-163-0436,,,,,,87.0,1,False,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-163-6016,,,92.0,,,,1,False,False,False
+"Minneapolis-St. Paul-Bloomington, MN-WI",27-171-3201,,,84.0,,94.0,,2,True,False,False
+"Minot, ND",38-101-0003,,91.0,95.0,,97.0,89.0,4,True,True,True
+"Missoula, MT",30-063-0024,,,87.0,94.0,98.0,,3,True,True,False
+"Missoula, MT",30-063-0037,,,,,94.0,,1,True,False,False
+"Mobile, AL",01-097-0003,,,96.0,,,86.0,2,False,False,False
+"Mobile, AL",01-097-2005,,,95.0,,,,1,False,False,False
+"Modesto, CA",06-099-0005,52.0,,93.0,95.0,94.0,,4,True,True,False
+"Modesto, CA",06-099-0006,,94.0,96.0,,94.0,,3,True,True,True
+"Monroe, LA",22-073-0004,,,97.0,,,,1,False,False,False
+"Montgomery, AL",01-051-0004,,,96.0,,,,1,False,False,False
+"Montgomery, AL",01-101-1002,,,93.0,,,,1,False,False,False
+"Morehead City, NC",37-031-9991,,,95.0,,,,1,False,False,False
+"Morgantown, WV",54-061-0003,,,92.0,,,85.0,2,False,False,False
+"Morristown, TN",47-089-0002,,,96.0,,,,1,False,False,False
+"Mount Pleasant, TX",48-449-1078,,,,,,95.0,1,False,False,False
+"Mount Vernon, IL",17-065-0002,,,97.0,,96.0,,2,True,False,False
+"Mount Vernon, OH",39-083-0003,,,100.0,,,,1,False,False,False
+"Mount Vernon-Anacortes, WA",53-057-0011,,,98.0,,75.0,52.0,3,True,True,False
+"Muncie, IN",18-035-0010,,,96.0,,,,1,False,False,False
+"Muscatine, IA",19-139-0019,,,,,,94.0,1,False,False,False
+"Muscatine, IA",19-139-0020,,,,,,94.0,1,False,False,False
+"Muskegon, MI",26-121-0039,,,98.0,,,,1,False,False,False
+"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",45-051-0008,,,98.0,,,,1,False,False,False
+"Naples-Immokalee-Marco Island, FL",12-021-0004,,,95.0,,,,1,False,False,False
+"Nashville-Davidson--Murfreesboro--Franklin, TN",47-037-0011,,93.0,98.0,,,,2,False,False,False
+"Nashville-Davidson--Murfreesboro--Franklin, TN",47-037-0023,,,,93.0,65.0,,2,True,False,False
+"Nashville-Davidson--Murfreesboro--Franklin, TN",47-037-0026,,,95.0,,,,1,False,False,False
+"Nashville-Davidson--Murfreesboro--Franklin, TN",47-037-0040,91.0,92.0,,,94.0,95.0,4,True,True,False
+"Nashville-Davidson--Murfreesboro--Franklin, TN",47-119-2007,,,,,92.0,,1,True,False,False
+"Nashville-Davidson--Murfreesboro--Franklin, TN",47-165-0007,,,98.0,,95.0,,2,True,False,False
+"Nashville-Davidson--Murfreesboro--Franklin, TN",47-187-0106,,,98.0,,,,1,False,False,False
+"Nashville-Davidson--Murfreesboro--Franklin, TN",47-189-0103,,,99.0,,,,1,False,False,False
+"New Haven-Milford, CT",09-009-0027,62.0,93.0,90.0,,99.0,90.0,5,True,True,True
+"New Haven-Milford, CT",09-009-2123,,,,,97.0,,1,True,False,False
+"New Haven-Milford, CT",09-009-9002,,,98.0,,,,1,False,False,False
+"New Orleans-Metairie, LA",22-051-1001,,87.0,91.0,,53.0,,3,True,True,True
+"New Orleans-Metairie, LA",22-071-0012,,,,94.0,,,1,False,False,False
+"New Orleans-Metairie, LA",22-071-0021,91.0,88.0,,,,,2,False,False,False
+"New Orleans-Metairie, LA",22-087-0004,,,94.0,,,93.0,2,False,False,False
+"New Orleans-Metairie, LA",22-087-0007,,,,66.0,,94.0,2,False,False,False
+"New Orleans-Metairie, LA",22-089-0006,,,,,,93.0,1,False,False,False
+"New Orleans-Metairie, LA",22-093-0002,,,91.0,,,,1,False,False,False
+"New Orleans-Metairie, LA",22-095-0002,,,92.0,,,,1,False,False,False
+"New Orleans-Metairie, LA",22-103-0002,,,95.0,,,,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-003-0006,,,96.0,,,,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-003-0010,96.0,95.0,,,95.0,,3,True,True,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-017-0006,,95.0,95.0,,,95.0,3,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-017-1002,62.0,64.0,,,,58.0,3,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-017-1003,,,,,91.0,,1,True,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-019-0001,,,99.0,,91.0,,2,True,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-023-0011,,98.0,98.0,,92.0,,3,True,True,True
+"New York-Newark-Jersey City, NY-NJ-PA",34-025-0005,,,100.0,,,,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-027-3001,,96.0,95.0,,,93.0,3,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-029-0006,,,99.0,,,,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-029-2002,,,,,90.0,,1,True,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-031-5001,,,98.0,,,,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-039-0004,93.0,95.0,,,84.0,97.0,4,True,True,False
+"New York-Newark-Jersey City, NY-NJ-PA",34-039-2003,,,,,88.0,,1,True,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-005-0110,,91.0,98.0,,88.0,93.0,4,True,True,True
+"New York-Newark-Jersey City, NY-NJ-PA",36-005-0133,98.0,96.0,100.0,,,98.0,4,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-027-0007,,,93.0,,,,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-059-0005,,,,,,97.0,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-061-0135,95.0,,98.0,,,,2,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-079-0005,,,91.0,,,,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-081-0124,88.0,92.0,98.0,,97.0,97.0,5,True,True,True
+"New York-Newark-Jersey City, NY-NJ-PA",36-081-0125,77.0,90.0,,,,,2,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-085-0111,,,96.0,,,,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-087-0005,,,98.0,,,,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-103-0002,,,96.0,,,,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-103-0004,,,97.0,,,,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-103-0009,,,67.0,,,,1,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-103-0044,72.0,,91.0,,,,2,False,False,False
+"New York-Newark-Jersey City, NY-NJ-PA",36-119-2004,,,99.0,,,,1,False,False,False
+"Niles-Benton Harbor, MI",26-021-0014,,,95.0,,,,1,False,False,False
+"Nogales, AZ",04-023-0004,,,,96.0,96.0,,2,True,False,False
+"North Port-Sarasota-Bradenton, FL",12-081-0028,,,,,,90.0,1,False,False,False
+"North Port-Sarasota-Bradenton, FL",12-081-3002,,,56.0,,,,1,False,False,False
+"North Port-Sarasota-Bradenton, FL",12-081-4012,,,78.0,,,,1,False,False,False
+"North Port-Sarasota-Bradenton, FL",12-115-0013,,,,,90.0,,1,True,False,False
+"North Port-Sarasota-Bradenton, FL",12-115-1005,,,96.0,,,,1,False,False,False
+"North Port-Sarasota-Bradenton, FL",12-115-1006,,,91.0,90.0,,,2,False,False,False
+"North Port-Sarasota-Bradenton, FL",12-115-2002,,,93.0,,,,1,False,False,False
+"Norwich-New London, CT",09-011-0124,,,96.0,,99.0,,2,True,False,False
+"Ocala, FL",12-083-0003,,,96.0,,,,1,False,False,False
+"Ocala, FL",12-083-0004,,,96.0,,,,1,False,False,False
+"Odessa, TX",48-135-1014,,,,,96.0,,1,True,False,False
+"Ogden-Clearfield, UT",49-003-7001,,51.0,73.0,,,,2,False,False,False
+"Ogden-Clearfield, UT",49-011-0004,,97.0,98.0,,99.0,,3,True,True,True
+"Ogden-Clearfield, UT",49-057-1003,98.0,96.0,97.0,,94.0,,4,True,True,True
+"Ogdensburg-Massena, NY",36-089-0004,,,,,,96.0,1,False,False,False
+"Ogdensburg-Massena, NY",36-089-0005,,,,,,97.0,1,False,False,False
+"Oklahoma City, OK",40-017-0101,,,97.0,,,,1,False,False,False
+"Oklahoma City, OK",40-027-0049,,,97.0,,83.0,,2,True,False,False
+"Oklahoma City, OK",40-087-1074,,,76.0,,,,1,False,False,False
+"Oklahoma City, OK",40-109-0096,,,93.0,,,,1,False,False,False
+"Oklahoma City, OK",40-109-0097,92.0,86.0,,,91.0,,3,True,True,False
+"Oklahoma City, OK",40-109-1037,77.0,82.0,97.0,77.0,77.0,98.0,6,True,True,True
+"Omaha-Council Bluffs, NE-IA",19-085-0007,,,96.0,,,,1,False,False,False
+"Omaha-Council Bluffs, NE-IA",31-025-0002,,,,76.0,,,1,False,False,False
+"Omaha-Council Bluffs, NE-IA",31-055-0019,93.0,,96.0,95.0,92.0,96.0,5,True,True,False
+"Omaha-Council Bluffs, NE-IA",31-055-0053,,,92.0,,,95.0,2,False,False,False
+"Omaha-Council Bluffs, NE-IA",31-055-0056,89.0,,,,,,1,False,False,False
+"Omaha-Council Bluffs, NE-IA",31-153-0007,,,,,90.0,,1,True,False,False
+"Orlando-Kissimmee-Sanford, FL",12-069-0002,,,93.0,,,,1,False,False,False
+"Orlando-Kissimmee-Sanford, FL",12-095-0010,,,94.0,,,,1,False,False,False
+"Orlando-Kissimmee-Sanford, FL",12-095-2002,65.0,,84.0,,,80.0,3,False,False,False
+"Orlando-Kissimmee-Sanford, FL",12-097-2002,,,95.0,,,,1,False,False,False
+"Orlando-Kissimmee-Sanford, FL",12-117-1002,,,77.0,77.0,77.0,,3,True,True,False
+"Ottawa-Peru, IL",17-099-0007,,,,,,95.0,1,False,False,False
+"Owensboro, KY",21-091-0012,,,93.0,,,,1,False,False,False
+"Oxford, NC",37-077-0001,,,98.0,,,,1,False,False,False
+"Oxnard-Thousand Oaks-Ventura, CA",06-111-0007,,,99.0,,98.0,,2,True,False,False
+"Oxnard-Thousand Oaks-Ventura, CA",06-111-0009,,,99.0,,97.0,,2,True,False,False
+"Oxnard-Thousand Oaks-Ventura, CA",06-111-1004,,,100.0,,98.0,,2,True,False,False
+"Oxnard-Thousand Oaks-Ventura, CA",06-111-2002,,93.0,98.0,98.0,98.0,,4,True,True,True
+"Oxnard-Thousand Oaks-Ventura, CA",06-111-3001,,94.0,99.0,98.0,92.0,,4,True,True,True
+"Paducah, KY-IL",21-139-0003,,,97.0,,,,1,False,False,False
+"Pahrump, NV",32-023-0011,,,,86.0,,,1,False,False,False
+"Pahrump, NV",32-023-0013,,,,92.0,,,1,False,False,False
+"Pahrump, NV",32-023-0014,,,,75.0,,,1,False,False,False
+"Pahrump, NV",32-023-0015,,,,71.0,,,1,False,False,False
+"Palatka, FL",12-107-1008,,,,89.0,,80.0,2,False,False,False
+"Palm Bay-Melbourne-Titusville, FL",12-009-0007,,,99.0,98.0,98.0,,3,True,True,False
+"Palm Bay-Melbourne-Titusville, FL",12-009-4001,,,96.0,,,,1,False,False,False
+"Panama City, FL",12-005-0006,,,97.0,,,,1,False,False,False
+"Parkersburg-Vienna, WV",54-107-1002,,,91.0,,,93.0,2,False,False,False
+"Payson, AZ",04-007-0008,,,,87.0,,,1,False,False,False
+"Payson, AZ",04-007-0010,,,95.0,,,,1,False,False,False
+"Payson, AZ",04-007-0011,,,,,,96.0,1,False,False,False
+"Payson, AZ",04-007-0012,,,,,,97.0,1,False,False,False
+"Payson, AZ",04-007-1001,,,,96.0,,94.0,2,False,False,False
+"Payson, AZ",04-007-8000,,,,97.0,,,1,False,False,False
+"Pensacola-Ferry Pass-Brent, FL",12-033-0004,,,96.0,89.0,95.0,97.0,4,True,True,False
+"Pensacola-Ferry Pass-Brent, FL",12-033-0018,,,98.0,,,,1,False,False,False
+"Pensacola-Ferry Pass-Brent, FL",12-113-0015,,,99.0,,,,1,False,False,False
+"Peoria, IL",17-143-0024,,,94.0,,,,1,False,False,False
+"Peoria, IL",17-143-0037,,,,,62.0,,1,True,False,False
+"Peoria, IL",17-143-1001,,,93.0,,,,1,False,False,False
+"Peoria, IL",17-179-0004,,,,,,95.0,1,False,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",10-003-1007,,,84.0,,88.0,73.0,3,True,True,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",10-003-1008,,,,,88.0,95.0,2,True,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",10-003-1010,,,87.0,,,,1,False,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",10-003-1013,,,95.0,,,80.0,2,False,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",10-003-2004,,,90.0,,88.0,93.0,3,True,True,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",24-015-0003,,,96.0,,96.0,,2,True,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",34-007-1001,,,99.0,,,,1,False,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",34-015-0002,,,97.0,,,,1,False,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",42-017-0012,,,93.0,,,,1,False,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",42-029-0100,,,82.0,,86.0,,2,True,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",42-045-0002,,80.0,,,88.0,,2,True,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",42-045-0109,,,,,87.0,,1,True,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",42-091-0013,,,85.0,,95.0,,2,True,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",42-101-0004,,,96.0,,,,1,False,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",42-101-0024,,,97.0,,,,1,False,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",42-101-0048,55.0,95.0,96.0,93.0,98.0,90.0,6,True,True,True
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",42-101-0055,,,,,98.0,73.0,2,True,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",42-101-0057,,,,,91.0,,1,True,False,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",42-101-0075,91.0,92.0,,,97.0,,3,True,True,False
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",42-101-0076,92.0,92.0,,,90.0,,3,True,True,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-0019,68.0,92.0,98.0,96.0,96.0,,5,True,True,True
+"Phoenix-Mesa-Scottsdale, AZ",04-013-1003,75.0,,92.0,93.0,93.0,,4,True,True,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-1004,,,99.0,89.0,93.0,,3,True,True,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-1010,,,99.0,,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-2001,,,97.0,96.0,96.0,,3,True,True,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-2005,,,99.0,,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-3002,89.0,90.0,93.0,94.0,,96.0,5,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-3003,,,100.0,96.0,,,2,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-4003,90.0,,95.0,95.0,95.0,,4,True,True,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-4004,77.0,,99.0,96.0,,,3,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-4005,,,100.0,93.0,93.0,,3,True,True,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-4006,,,,91.0,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-4008,,,98.0,,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-4009,,,,93.0,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-4010,,,100.0,98.0,,,2,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-4011,95.0,89.0,99.0,98.0,,,4,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-4016,,,,97.0,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-4020,,92.0,,,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-4021,79.0,76.0,,,75.0,,3,True,True,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-5100,,,50.0,82.0,,,2,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-7003,,,93.0,98.0,,,2,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-7020,,,,94.0,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-7021,,,97.0,,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-7022,,,78.0,79.0,,,2,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-7024,,,97.0,98.0,,,2,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-9508,,,98.0,,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-9702,,,96.0,,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-9704,,,96.0,,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-9812,,,,94.0,94.0,98.0,3,True,True,False
+"Phoenix-Mesa-Scottsdale, AZ",04-013-9997,89.0,92.0,92.0,91.0,91.0,92.0,6,True,True,True
+"Phoenix-Mesa-Scottsdale, AZ",04-021-0001,,,,84.0,87.0,,2,True,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-3001,,,97.0,,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-3002,,,,99.0,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-3003,,,98.0,,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-3007,,,86.0,89.0,,,2,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-3008,,,,98.0,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-3009,,,,95.0,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-3011,,,,98.0,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-3014,,,,95.0,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-3015,,,,98.0,96.0,,2,True,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-3016,,,,93.0,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-7001,,,99.0,98.0,,,2,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-7004,,,,98.0,,,1,False,False,False
+"Phoenix-Mesa-Scottsdale, AZ",04-021-8001,,,94.0,,,,1,False,False,False
+"Pierre, SD",46-065-0003,,,,,96.0,,1,True,False,False
+"Pittsburgh, PA",42-003-0002,,,,,97.0,,1,True,False,False
+"Pittsburgh, PA",42-003-0008,90.0,,99.0,,94.0,93.0,4,True,True,False
+"Pittsburgh, PA",42-003-0064,,,,96.0,96.0,84.0,3,True,True,False
+"Pittsburgh, PA",42-003-0067,,,98.0,,,,1,False,False,False
+"Pittsburgh, PA",42-003-1008,,89.0,98.0,,,,2,False,False,False
+"Pittsburgh, PA",42-003-1301,,,,94.0,,95.0,2,False,False,False
+"Pittsburgh, PA",42-003-1376,89.0,89.0,,,97.0,,3,True,True,False
+"Pittsburgh, PA",42-003-3006,,,,96.0,,,1,False,False,False
+"Pittsburgh, PA",42-005-0001,,,94.0,,96.0,,2,True,False,False
+"Pittsburgh, PA",42-007-0005,,,81.0,,,85.0,2,False,False,False
+"Pittsburgh, PA",42-007-0014,,88.0,92.0,63.0,87.0,,4,True,True,True
+"Pittsburgh, PA",42-051-0524,,,87.0,,,,1,False,False,False
+"Pittsburgh, PA",42-125-0005,,89.0,,,89.0,92.0,3,True,True,False
+"Pittsburgh, PA",42-125-5001,,,89.0,,94.0,82.0,3,True,True,False
+"Pittsburgh, PA",42-129-0008,,,93.0,,,,1,False,False,False
+"Pittsfield, MA",25-003-0008,,,97.0,,89.0,,2,True,False,False
+"Pittsfield, MA",25-003-6001,,,,,97.0,,1,True,False,False
+"Platteville, WI",55-043-0009,,,,,97.0,,1,True,False,False
+"Pocatello, ID",16-005-0004,,,,,,93.0,1,False,False,False
+"Pocatello, ID",16-005-0015,,,92.0,97.0,,,2,False,False,False
+"Point Pleasant, WV-OH",39-053-0004,,,,,,94.0,1,False,False,False
+"Point Pleasant, WV-OH",39-053-0005,,,,,,91.0,1,False,False,False
+"Point Pleasant, WV-OH",39-053-0006,,,,,,88.0,1,False,False,False
+"Point Pleasant, WV-OH",54-053-0001,,,,,,93.0,1,False,False,False
+"Ponca City, OK",40-071-0604,,,,,94.0,89.0,2,True,False,False
+"Port Angeles, WA",53-009-0013,80.0,,93.0,,,81.0,3,False,False,False
+"Port St. Lucie, FL",12-085-0007,,,97.0,,,,1,False,False,False
+"Port St. Lucie, FL",12-111-0013,,,98.0,,,,1,False,False,False
+"Portland-South Portland, ME",23-005-0029,,93.0,97.0,,94.0,,3,True,True,True
+"Portland-South Portland, ME",23-005-2003,,,98.0,,,,1,False,False,False
+"Portland-South Portland, ME",23-031-0040,,,94.0,,,,1,False,False,False
+"Portland-South Portland, ME",23-031-2002,,,83.0,,,,1,False,False,False
+"Portland-Vancouver-Hillsboro, OR-WA",41-005-0004,,,98.0,,,,1,False,False,False
+"Portland-Vancouver-Hillsboro, OR-WA",41-009-0004,,,99.0,,,,1,False,False,False
+"Portland-Vancouver-Hillsboro, OR-WA",41-051-0080,90.0,78.0,94.0,,,86.0,4,False,False,False
+"Portland-Vancouver-Hillsboro, OR-WA",41-067-0005,95.0,95.0,99.0,,,,3,False,False,False
+"Portland-Vancouver-Hillsboro, OR-WA",53-011-0011,,,76.0,,,,1,False,False,False
+"Portland-Vancouver-Hillsboro, OR-WA",53-011-0024,,,,,97.0,,1,True,False,False
+"Portsmouth, OH",39-145-0020,,,,98.0,,99.0,2,False,False,False
+"Portsmouth, OH",39-145-0021,,,,95.0,,,1,False,False,False
+"Portsmouth, OH",39-145-0022,,,,96.0,,97.0,2,False,False,False
+"Prescott, AZ",04-025-8034,,,91.0,,,,1,False,False,False
+"Price, UT",49-007-1003,,82.0,98.0,,,,2,False,False,False
+"Providence-Warwick, RI-MA",25-005-1004,,,93.0,,98.0,95.0,3,True,True,False
+"Providence-Warwick, RI-MA",25-005-1006,,,96.0,,,,1,False,False,False
+"Providence-Warwick, RI-MA",44-003-0002,,,97.0,,93.0,,2,True,False,False
+"Providence-Warwick, RI-MA",44-007-0022,,,,,86.0,,1,True,False,False
+"Providence-Warwick, RI-MA",44-009-0007,,,94.0,,92.0,,2,True,False,False
+"Provo-Orem, UT",49-049-4001,98.0,94.0,99.0,,95.0,,4,True,True,True
+"Provo-Orem, UT",49-049-5010,,97.0,99.0,,98.0,,3,True,True,True
+"Quincy, IL-MO",17-001-0007,,,95.0,,,,1,False,False,False
+"Racine, WI",55-101-0020,,,99.0,,,,1,False,False,False
+"Raleigh, NC",37-101-0002,,,98.0,,95.0,,2,True,False,False
+"Raleigh, NC",37-183-0014,93.0,59.0,97.0,65.0,65.0,93.0,6,True,True,True
+"Raleigh, NC",37-183-0021,91.0,92.0,,,95.0,,3,True,True,False
+"Rapid City, SD",46-033-0132,,,90.0,94.0,89.0,,3,True,True,False
+"Rapid City, SD",46-093-0001,,,95.0,96.0,,,2,False,False,False
+"Rapid City, SD",46-103-0020,,64.0,,96.0,96.0,93.0,4,True,True,False
+"Reading, PA",42-011-0006,,,88.0,,,,1,False,False,False
+"Reading, PA",42-011-0011,,,73.0,,97.0,92.0,3,True,True,False
+"Red Bluff, CA",06-103-0004,,,98.0,,,,1,False,False,False
+"Red Bluff, CA",06-103-0007,,,99.0,,95.0,,2,True,False,False
+"Red Wing, MN",27-049-5302,,,87.0,,,,1,False,False,False
+"Redding, CA",06-089-0004,,,85.0,,,,1,False,False,False
+"Redding, CA",06-089-0009,,,57.0,,,,1,False,False,False
+"Redding, CA",06-089-3003,,,76.0,,,,1,False,False,False
+"Reno, NV",32-031-0020,,,99.0,,,,1,False,False,False
+"Reno, NV",32-031-0025,,,99.0,98.0,98.0,,3,True,True,False
+"Reno, NV",32-031-0031,91.0,97.0,96.0,97.0,90.0,97.0,6,True,True,True
+"Reno, NV",32-031-1005,,,99.0,97.0,98.0,,3,True,True,False
+"Reno, NV",32-031-1007,,,99.0,96.0,97.0,,3,True,True,False
+"Reno, NV",32-031-2002,,,94.0,,,,1,False,False,False
+"Reno, NV",32-031-2009,,,98.0,,,,1,False,False,False
+"Richmond, VA",51-033-0001,,,91.0,,,,1,False,False,False
+"Richmond, VA",51-036-0002,,95.0,96.0,,,93.0,3,False,False,False
+"Richmond, VA",51-041-0004,,,99.0,,,,1,False,False,False
+"Richmond, VA",51-085-0003,,,94.0,,,,1,False,False,False
+"Richmond, VA",51-087-0014,81.0,95.0,93.0,88.0,96.0,92.0,6,True,True,True
+"Richmond, VA",51-760-0025,94.0,95.0,,,89.0,,3,True,True,False
+"Riverside-San Bernardino-Ontario, CA",06-065-0009,,,,,95.0,,1,True,False,False
+"Riverside-San Bernardino-Ontario, CA",06-065-0010,,,90.0,,,,1,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-065-0012,,97.0,96.0,,,,2,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-065-0016,,,96.0,,,,1,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-065-1016,,,93.0,,89.0,,2,True,False,False
+"Riverside-San Bernardino-Ontario, CA",06-065-2005,,,,93.0,,,1,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-065-5001,97.0,98.0,98.0,98.0,,,4,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-065-8001,98.0,95.0,93.0,,93.0,97.0,5,True,True,True
+"Riverside-San Bernardino-Ontario, CA",06-065-8005,98.0,98.0,96.0,98.0,97.0,,5,True,True,True
+"Riverside-San Bernardino-Ontario, CA",06-065-9001,99.0,96.0,95.0,98.0,,,4,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-065-9003,,,95.0,,,,1,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-071-0001,,90.0,96.0,98.0,,,3,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-071-0005,,,95.0,,,,1,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-071-0013,,,,88.0,,,1,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-071-0026,99.0,99.0,,,,,2,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-071-0027,,96.0,,,,,1,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-071-0306,,88.0,95.0,97.0,96.0,,4,True,True,True
+"Riverside-San Bernardino-Ontario, CA",06-071-1234,,89.0,93.0,87.0,,,3,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-071-2002,95.0,98.0,95.0,,,96.0,4,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-071-4001,,,95.0,97.0,,,2,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-071-4003,,,98.0,,,,1,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-071-9002,,,82.0,,,,1,False,False,False
+"Riverside-San Bernardino-Ontario, CA",06-071-9004,95.0,98.0,96.0,91.0,,,4,False,False,False
+"Riverton, WY",56-013-0003,,,,,,96.0,1,False,False,False
+"Riverton, WY",56-013-0099,,91.0,93.0,,93.0,,3,True,True,True
+"Riverton, WY",56-013-0232,,94.0,96.0,97.0,96.0,,4,True,True,True
+"Riverton, WY",56-013-1003,,,,,54.0,,1,True,False,False
+"Roanoke Rapids, NC",37-131-0003,,88.0,,,97.0,,2,True,False,False
+"Roanoke, VA",51-161-1004,95.0,97.0,98.0,,94.0,69.0,5,True,True,True
+"Rochester, MN",27-109-5008,,,89.0,,92.0,,2,True,False,False
+"Rochester, NY",36-055-0015,77.0,88.0,,,,,2,False,False,False
+"Rochester, NY",36-055-1007,96.0,,98.0,,97.0,96.0,4,True,True,False
+"Rochester, NY",36-117-3001,,,96.0,,,,1,False,False,False
+"Rock Springs, WY",56-037-0007,,,,,56.0,,1,True,False,False
+"Rock Springs, WY",56-037-0200,,88.0,94.0,96.0,,,3,False,False,False
+"Rock Springs, WY",56-037-0300,,88.0,96.0,97.0,,90.0,4,False,False,False
+"Rock Springs, WY",56-037-0812,,,,91.0,,,1,False,False,False
+"Rock Springs, WY",56-037-0898,,,,98.0,,,1,False,False,False
+"Rockford, IL",17-201-0118,,,,,94.0,,1,True,False,False
+"Rockford, IL",17-201-2001,,,98.0,,,,1,False,False,False
+"Rockland, ME",23-013-0004,,,96.0,,,,1,False,False,False
+"Rocky Mount, NC",37-065-0099,,,98.0,,,,1,False,False,False
+"Rutland, VT",50-021-0002,91.0,92.0,95.0,,91.0,92.0,5,True,True,True
+"Sacramento--Roseville--Arden-Arcade, CA",06-017-0011,,,,89.0,,,1,False,False,False
+"Sacramento--Roseville--Arden-Arcade, CA",06-017-0020,,,88.0,,,,1,False,False,False
+"Sacramento--Roseville--Arden-Arcade, CA",06-061-0003,,,95.0,,96.0,,2,True,False,False
+"Sacramento--Roseville--Arden-Arcade, CA",06-061-0004,,,97.0,,,,1,False,False,False
+"Sacramento--Roseville--Arden-Arcade, CA",06-061-0006,,94.0,97.0,96.0,96.0,,4,True,True,True
+"Sacramento--Roseville--Arden-Arcade, CA",06-061-1004,,,90.0,,,,1,False,False,False
+"Sacramento--Roseville--Arden-Arcade, CA",06-061-2003,,,93.0,,,,1,False,False,False
+"Sacramento--Roseville--Arden-Arcade, CA",06-067-0006,,,69.0,,91.0,52.0,3,True,True,False
+"Sacramento--Roseville--Arden-Arcade, CA",06-067-0010,,84.0,87.0,96.0,96.0,,4,True,True,True
+"Sacramento--Roseville--Arden-Arcade, CA",06-067-0011,,66.0,81.0,,,,2,False,False,False
+"Sacramento--Roseville--Arden-Arcade, CA",06-067-0012,,,87.0,,95.0,,2,True,False,False
+"Sacramento--Roseville--Arden-Arcade, CA",06-067-0015,,55.0,,,96.0,,2,True,False,False
+"Sacramento--Roseville--Arden-Arcade, CA",06-067-5003,,,50.0,,87.0,,2,True,False,False
+"Sacramento--Roseville--Arden-Arcade, CA",06-113-0004,,81.0,88.0,,,,2,False,False,False
+"Sacramento--Roseville--Arden-Arcade, CA",06-113-1003,,,91.0,,,,1,False,False,False
+"Salem, OR",41-047-0004,,,97.0,,,,1,False,False,False
+"Salem, OR",41-047-0041,,,95.0,,,,1,False,False,False
+"Salinas, CA",06-053-0002,,,90.0,,95.0,,2,True,False,False
+"Salinas, CA",06-053-0008,,,95.0,95.0,96.0,,3,True,True,False
+"Salinas, CA",06-053-1003,97.0,81.0,98.0,,98.0,,4,True,True,True
+"Salisbury, MD-DE",10-005-1002,,,91.0,,55.0,,2,True,False,False
+"Salisbury, MD-DE",10-005-1003,,,82.0,,,56.0,2,False,False,False
+"Salt Lake City, UT",49-035-2005,98.0,97.0,98.0,,98.0,98.0,5,True,True,True
+"Salt Lake City, UT",49-035-3006,93.0,92.0,94.0,,99.0,93.0,5,True,True,True
+"Salt Lake City, UT",49-035-3010,98.0,98.0,98.0,,99.0,98.0,5,True,True,True
+"Salt Lake City, UT",49-035-3013,,96.0,99.0,,98.0,,3,True,True,True
+"Salt Lake City, UT",49-035-3014,,98.0,50.0,,,,2,False,False,False
+"Salt Lake City, UT",49-035-3015,97.0,95.0,97.0,,100.0,97.0,5,True,True,True
+"Salt Lake City, UT",49-035-3016,,75.0,79.0,,73.0,,3,True,True,True
+"Salt Lake City, UT",49-035-4002,99.0,98.0,98.0,,99.0,,4,True,True,True
+"Salt Lake City, UT",49-045-0004,,98.0,98.0,,99.0,,3,True,True,True
+"San Antonio-New Braunfels, TX",48-013-1090,,,,,90.0,,1,True,False,False
+"San Antonio-New Braunfels, TX",48-029-0032,,84.0,92.0,,93.0,,3,True,True,True
+"San Antonio-New Braunfels, TX",48-029-0052,,94.0,95.0,,,,2,False,False,False
+"San Antonio-New Braunfels, TX",48-029-0059,,94.0,96.0,,96.0,91.0,4,True,True,True
+"San Antonio-New Braunfels, TX",48-029-1069,94.0,72.0,,,84.0,,3,True,True,False
+"San Antonio-New Braunfels, TX",48-493-1038,,54.0,,,,,1,False,False,False
+"San Diego-Carlsbad, CA",06-073-0001,,86.0,96.0,,,,2,False,False,False
+"San Diego-Carlsbad, CA",06-073-1006,,87.0,97.0,,,,2,False,False,False
+"San Diego-Carlsbad, CA",06-073-1008,,77.0,86.0,,,,2,False,False,False
+"San Diego-Carlsbad, CA",06-073-1014,,89.0,95.0,,,,2,False,False,False
+"San Diego-Carlsbad, CA",06-073-1016,,88.0,98.0,,,,2,False,False,False
+"San Diego-Carlsbad, CA",06-073-1017,86.0,83.0,,,,,2,False,False,False
+"San Diego-Carlsbad, CA",06-073-1022,82.0,86.0,95.0,,,62.0,4,False,False,False
+"San Diego-Carlsbad, CA",06-073-1026,,90.0,97.0,,,,2,False,False,False
+"San Diego-Carlsbad, CA",06-073-1201,,,100.0,,74.0,,2,True,False,False
+"San Francisco-Oakland-Hayward, CA",06-001-0009,,,,,98.0,,1,True,False,False
+"San Francisco-Oakland-Hayward, CA",06-001-0011,,,,,96.0,,1,True,False,False
+"San Francisco-Oakland-Hayward, CA",06-001-0012,,,,,94.0,,1,True,False,False
+"San Francisco-Oakland-Hayward, CA",06-001-0015,,,,,90.0,,1,True,False,False
+"San Francisco-Oakland-Hayward, CA",06-013-0002,,,,,89.0,,1,True,False,False
+"San Francisco-Oakland-Hayward, CA",06-013-1004,,,,,95.0,,1,True,False,False
+"San Francisco-Oakland-Hayward, CA",06-041-0001,,,,,97.0,,1,True,False,False
+"San Francisco-Oakland-Hayward, CA",06-075-0005,,,,,90.0,,1,True,False,False
+"San Jose-Sunnyvale-Santa Clara, CA",06-069-0002,,,96.0,96.0,96.0,,3,True,True,False
+"San Jose-Sunnyvale-Santa Clara, CA",06-069-0003,,,93.0,,,,1,False,False,False
+"San Jose-Sunnyvale-Santa Clara, CA",06-069-0004,,,,74.0,,,1,False,False,False
+"San Jose-Sunnyvale-Santa Clara, CA",06-085-0002,,,,,72.0,,1,True,False,False
+"San Jose-Sunnyvale-Santa Clara, CA",06-085-0005,,,,,96.0,,1,True,False,False
+"San Jose-Sunnyvale-Santa Clara, CA",06-085-0006,,,,,91.0,,1,True,False,False
+"San Luis Obispo-Paso Robles-Arroyo Grande, CA",06-079-0005,,,96.0,97.0,,,2,False,False,False
+"San Luis Obispo-Paso Robles-Arroyo Grande, CA",06-079-2004,,,,97.0,97.0,94.0,3,True,True,False
+"San Luis Obispo-Paso Robles-Arroyo Grande, CA",06-079-2007,,,,94.0,95.0,,2,True,False,False
+"San Luis Obispo-Paso Robles-Arroyo Grande, CA",06-079-2020,,,,93.0,85.0,,2,True,False,False
+"San Luis Obispo-Paso Robles-Arroyo Grande, CA",06-079-4002,,93.0,93.0,98.0,,,3,False,False,False
+"San Luis Obispo-Paso Robles-Arroyo Grande, CA",06-079-8002,,60.0,92.0,95.0,96.0,,4,True,True,True
+"San Luis Obispo-Paso Robles-Arroyo Grande, CA",06-079-8005,,,97.0,,,,1,False,False,False
+"San Luis Obispo-Paso Robles-Arroyo Grande, CA",06-079-8006,,,97.0,,,,1,False,False,False
+"San Luis Obispo-Paso Robles-Arroyo Grande, CA",06-079-9001,,,,92.0,,,1,False,False,False
+"Santa Cruz-Watsonville, CA",06-087-0007,,,99.0,,96.0,,2,True,False,False
+"Santa Cruz-Watsonville, CA",06-087-1005,,,,,96.0,,1,True,False,False
+"Santa Fe, NM",35-049-0021,,,95.0,,83.0,,2,True,False,False
+"Santa Maria-Santa Barbara, CA",06-083-0011,,,96.0,96.0,95.0,,3,True,True,False
+"Santa Maria-Santa Barbara, CA",06-083-1013,,71.0,56.0,,,85.0,3,False,False,False
+"Santa Maria-Santa Barbara, CA",06-083-1014,,76.0,87.0,,,,2,False,False,False
+"Santa Maria-Santa Barbara, CA",06-083-1021,,72.0,77.0,,,,2,False,False,False
+"Santa Maria-Santa Barbara, CA",06-083-1025,84.0,88.0,90.0,90.0,,87.0,5,False,False,False
+"Santa Maria-Santa Barbara, CA",06-083-2004,82.0,78.0,94.0,96.0,96.0,89.0,6,True,True,True
+"Santa Maria-Santa Barbara, CA",06-083-2011,,,86.0,89.0,88.0,,3,True,True,False
+"Santa Maria-Santa Barbara, CA",06-083-3001,,,96.0,,,,1,False,False,False
+"Santa Rosa, CA",06-097-0001,,,,82.0,,,1,False,False,False
+"Santa Rosa, CA",06-097-0002,,,,92.0,,,1,False,False,False
+"Santa Rosa, CA",06-097-0004,,,,,91.0,,1,True,False,False
+"Santa Rosa, CA",06-097-3002,,,,91.0,,,1,False,False,False
+"Savannah, GA",13-051-0021,,,98.0,,,96.0,2,False,False,False
+"Savannah, GA",13-051-1002,,,,,78.0,95.0,2,True,False,False
+"Sayre, PA",42-015-0011,,,89.0,,,,1,False,False,False
+"Scottsbluff, NE",31-157-0004,,,,,88.0,,1,True,False,False
+"Scranton--Wilkes-Barre--Hazleton, PA",42-069-0101,,,94.0,,,,1,False,False,False
+"Scranton--Wilkes-Barre--Hazleton, PA",42-069-2006,90.0,91.0,91.0,,71.0,,4,True,True,True
+"Seattle-Tacoma-Bellevue, WA",53-033-0017,,,95.0,,,,1,False,False,False
+"Seattle-Tacoma-Bellevue, WA",53-033-0023,,,80.0,,,,1,False,False,False
+"Seattle-Tacoma-Bellevue, WA",53-033-0030,,88.0,,,84.0,,2,True,False,False
+"Seattle-Tacoma-Bellevue, WA",53-033-0057,,,,,96.0,,1,True,False,False
+"Seattle-Tacoma-Bellevue, WA",53-033-0069,,,,,74.0,,1,True,False,False
+"Seattle-Tacoma-Bellevue, WA",53-033-0080,96.0,88.0,95.0,,92.0,88.0,5,True,True,True
+"Seattle-Tacoma-Bellevue, WA",53-053-0012,,,90.0,,,,1,False,False,False
+"Seattle-Tacoma-Bellevue, WA",53-053-0024,,91.0,,,97.0,,2,True,False,False
+"Seattle-Tacoma-Bellevue, WA",53-053-0029,,,,,93.0,,1,True,False,False
+"Seattle-Tacoma-Bellevue, WA",53-061-0020,,,,,96.0,,1,True,False,False
+"Seattle-Tacoma-Bellevue, WA",53-061-1007,,,,,97.0,,1,True,False,False
+"Sebastian-Vero Beach, FL",12-061-9991,,,95.0,,,,1,False,False,False
+"Sebring, FL",12-055-0003,,,95.0,,,,1,False,False,False
+"Sevierville, TN",47-155-0101,,,69.0,,,,1,False,False,False
+"Sevierville, TN",47-155-0102,,,88.0,,,,1,False,False,False
+"Sheboygan, WI",55-117-0006,,,100.0,,,,1,False,False,False
+"Sheboygan, WI",55-117-0009,,,100.0,,,,1,False,False,False
+"Sheridan, WY",56-033-0004,,,89.0,,,,1,False,False,False
+"Show Low, AZ",04-017-1002,,,,74.0,,,1,False,False,False
+"Shreveport-Bossier City, LA",22-015-0008,,,89.0,86.0,,94.0,3,False,False,False
+"Shreveport-Bossier City, LA",22-017-0001,,,93.0,,,,1,False,False,False
+"Sierra Vista-Douglas, AZ",04-003-0011,,,,86.0,,,1,False,False,False
+"Sierra Vista-Douglas, AZ",04-003-1005,,,,95.0,,,1,False,False,False
+"Sierra Vista-Douglas, AZ",04-003-8001,,,96.0,,,,1,False,False,False
+"Sioux Falls, SD",46-099-0009,,73.0,68.0,69.0,68.0,73.0,5,True,True,True
+"Somerset, KY",21-199-0003,,,98.0,,98.0,,2,True,False,False
+"Somerset, PA",42-111-9991,,,98.0,,,,1,False,False,False
+"Sonora, CA",06-109-0005,,,68.0,,,,1,False,False,False
+"South Bend-Mishawaka, IN-MI",18-141-0010,,,96.0,,,,1,False,False,False
+"South Bend-Mishawaka, IN-MI",18-141-0015,,82.0,91.0,,99.0,,3,True,True,True
+"South Bend-Mishawaka, IN-MI",18-141-0016,,,99.0,,,,1,False,False,False
+"South Bend-Mishawaka, IN-MI",26-027-0003,,,97.0,,,,1,False,False,False
+"Spartanburg, SC",45-083-0009,,,98.0,,,,1,False,False,False
+"Spokane-Spokane Valley, WA",53-063-0001,,,99.0,,,,1,False,False,False
+"Spokane-Spokane Valley, WA",53-063-0017,,,,77.0,98.0,,2,True,False,False
+"Spokane-Spokane Valley, WA",53-063-0046,,,92.0,,,,1,False,False,False
+"Spokane-Spokane Valley, WA",53-065-0005,,,,98.0,97.0,,2,True,False,False
+"Springfield, IL",17-167-0012,,,,,97.0,,1,True,False,False
+"Springfield, IL",17-167-0014,,,98.0,,,,1,False,False,False
+"Springfield, MA",25-013-0008,,92.0,94.0,,97.0,,3,True,True,True
+"Springfield, MA",25-013-0018,,92.0,,,73.0,93.0,3,True,True,False
+"Springfield, MA",25-015-4002,,90.0,80.0,,92.0,84.0,4,True,True,True
+"Springfield, MO",29-077-0036,,,96.0,91.0,70.0,,3,True,True,False
+"Springfield, MO",29-077-0042,,,99.0,,,,1,False,False,False
+"Springfield, OH",39-023-0001,,,99.0,,,,1,False,False,False
+"Springfield, OH",39-023-0003,,,98.0,,,,1,False,False,False
+"Springfield, OH",39-023-0005,,,,,89.0,,1,True,False,False
+"St. Cloud, MN",27-145-3052,,,64.0,,72.0,,2,True,False,False
+"St. George, UT",49-053-0007,,93.0,94.0,,94.0,,3,True,True,True
+"St. George, UT",49-053-0130,,,98.0,,,,1,False,False,False
+"St. Joseph, MO-KS",29-003-0001,,,100.0,,,,1,False,False,False
+"St. Joseph, MO-KS",29-021-0005,,,,99.0,92.0,,2,True,False,False
+"St. Louis, MO-IL",17-083-0117,,,89.0,,91.0,,2,True,False,False
+"St. Louis, MO-IL",17-117-0002,,98.0,93.0,,,94.0,3,False,False,False
+"St. Louis, MO-IL",17-119-0120,,,96.0,,,,1,False,False,False
+"St. Louis, MO-IL",17-119-3007,,,91.0,,,94.0,2,False,False,False
+"St. Louis, MO-IL",17-133-9001,,,,,,99.0,1,False,False,False
+"St. Louis, MO-IL",17-163-0010,,97.0,98.0,,,91.0,3,False,False,False
+"St. Louis, MO-IL",29-071-9001,,,,,,98.0,1,False,False,False
+"St. Louis, MO-IL",29-071-9002,,,,,,99.0,1,False,False,False
+"St. Louis, MO-IL",29-099-0019,,,98.0,95.0,89.0,,3,True,True,False
+"St. Louis, MO-IL",29-099-0027,,,,,,96.0,1,False,False,False
+"St. Louis, MO-IL",29-099-9007,,,,,,97.0,1,False,False,False
+"St. Louis, MO-IL",29-099-9009,,,,,,99.0,1,False,False,False
+"St. Louis, MO-IL",29-113-0004,,,100.0,,,,1,False,False,False
+"St. Louis, MO-IL",29-183-1002,,,99.0,,,,1,False,False,False
+"St. Louis, MO-IL",29-183-1004,,,99.0,,,,1,False,False,False
+"St. Louis, MO-IL",29-183-9002,,,,,,98.0,1,False,False,False
+"St. Louis, MO-IL",29-183-9004,,,,,,97.0,1,False,False,False
+"St. Louis, MO-IL",29-189-0005,,,100.0,,,,1,False,False,False
+"St. Louis, MO-IL",29-189-0014,,,98.0,,,,1,False,False,False
+"St. Louis, MO-IL",29-189-0016,,99.0,,,,91.0,2,False,False,False
+"St. Louis, MO-IL",29-189-3001,,,,,92.0,,1,True,False,False
+"St. Louis, MO-IL",29-510-0007,,,,,93.0,,1,True,False,False
+"St. Louis, MO-IL",29-510-0085,92.0,52.0,99.0,97.0,98.0,97.0,6,True,True,True
+"St. Louis, MO-IL",29-510-0093,,,,93.0,97.0,,2,True,False,False
+"St. Louis, MO-IL",29-510-0094,97.0,91.0,,,94.0,,3,True,True,False
+"St. Marys, PA",42-047-9991,,,98.0,,,,1,False,False,False
+"State College, PA",42-027-0100,,79.0,92.0,,91.0,85.0,4,True,True,True
+"State College, PA",42-027-9991,,,88.0,,,,1,False,False,False
+"Stockton-Lodi, CA",06-077-2010,,,,96.0,86.0,,2,True,False,False
+"Stockton-Lodi, CA",06-077-3005,,91.0,96.0,96.0,,,3,False,False,False
+"Summerville, GA",13-055-0001,,,98.0,,,,1,False,False,False
+"Syracuse, NY",36-067-1015,,,98.0,,97.0,,2,True,False,False
+"Syracuse, NY",36-075-0003,,,96.0,,,,1,False,False,False
+"Tallahassee, FL",12-073-0012,,,92.0,,,,1,False,False,False
+"Tallahassee, FL",12-129-0001,,,94.0,,,91.0,2,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-057-0081,,,89.0,,,,1,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-057-0083,,,,86.0,,,1,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-057-0109,,,,,,91.0,1,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-057-0112,,,,,,67.0,1,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-057-0113,56.0,92.0,,,96.0,,3,True,True,False
+"Tampa-St. Petersburg-Clearwater, FL",12-057-1035,,,95.0,100.0,,93.0,3,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-057-1065,,,95.0,,,,1,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-057-3002,88.0,,97.0,,89.0,96.0,4,True,True,False
+"Tampa-St. Petersburg-Clearwater, FL",12-101-0005,,,96.0,,,,1,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-101-2001,,,93.0,,,,1,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-103-0004,,,95.0,,97.0,,2,True,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-103-0012,,,,91.0,,,1,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-103-0018,,95.0,95.0,89.0,89.0,,4,True,True,True
+"Tampa-St. Petersburg-Clearwater, FL",12-103-0023,,,,,,91.0,1,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-103-0027,93.0,95.0,,,,,2,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-103-3004,,,,94.0,,,1,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-103-5002,,,96.0,,,,1,False,False,False
+"Tampa-St. Petersburg-Clearwater, FL",12-103-5003,,,,,,95.0,1,False,False,False
+"Taos, NM",35-055-0005,,,,,84.0,,1,True,False,False
+"Terre Haute, IN",18-167-0018,,,94.0,,95.0,96.0,3,True,True,False
+"Terre Haute, IN",18-167-0024,,,97.0,,,,1,False,False,False
+"Texarkana, TX-AR",48-037-1031,,,,,88.0,,1,True,False,False
+"Toledo, OH",39-095-0024,,,91.0,,,,1,False,False,False
+"Toledo, OH",39-095-0027,,,97.0,,,,1,False,False,False
+"Toledo, OH",39-095-0035,,,97.0,,,,1,False,False,False
+"Toledo, OH",39-173-0003,,,98.0,,,,1,False,False,False
+"Topeka, KS",20-177-0013,,,91.0,72.0,72.0,,3,True,True,False
+"Torrington, CT",09-005-0005,56.0,,94.0,,88.0,93.0,4,True,True,False
+"Traverse City, MI",26-019-0003,,,97.0,,,,1,False,False,False
+"Trenton, NJ",34-021-0005,,,97.0,,86.0,,2,True,False,False
+"Trenton, NJ",34-021-0008,,,,,73.0,,1,True,False,False
+"Trenton, NJ",34-021-9991,,,94.0,,,,1,False,False,False
+"Truckee-Grass Valley, CA",06-057-0005,,,,,92.0,,1,True,False,False
+"Tucson, AZ",04-019-0001,,,,96.0,,,1,False,False,False
+"Tucson, AZ",04-019-0008,,,,80.0,,,1,False,False,False
+"Tucson, AZ",04-019-0011,,,,97.0,96.0,,2,True,False,False
+"Tucson, AZ",04-019-0020,,,,93.0,,,1,False,False,False
+"Tucson, AZ",04-019-0021,,,98.0,,,,1,False,False,False
+"Tucson, AZ",04-019-1001,,,,90.0,,,1,False,False,False
+"Tucson, AZ",04-019-1011,,97.0,99.0,,,,2,False,False,False
+"Tucson, AZ",04-019-1014,96.0,,,,,,1,False,False,False
+"Tucson, AZ",04-019-1018,,,97.0,96.0,,,2,False,False,False
+"Tucson, AZ",04-019-1020,,,94.0,,,,1,False,False,False
+"Tucson, AZ",04-019-1028,95.0,94.0,98.0,,96.0,94.0,5,True,True,True
+"Tucson, AZ",04-019-1030,,,88.0,97.0,,,2,False,False,False
+"Tucson, AZ",04-019-1032,,,90.0,,,,1,False,False,False
+"Tucson, AZ",04-019-1034,,,95.0,,,,1,False,False,False
+"Tucson, AZ",04-019-1113,,,,97.0,,,1,False,False,False
+"Tulsa, OK",40-037-0144,,,89.0,,,,1,False,False,False
+"Tulsa, OK",40-113-0226,,,93.0,,,,1,False,False,False
+"Tulsa, OK",40-143-0174,,,89.0,,84.0,,2,True,False,False
+"Tulsa, OK",40-143-0175,,,,,,79.0,1,False,False,False
+"Tulsa, OK",40-143-0178,,,90.0,,,,1,False,False,False
+"Tulsa, OK",40-143-1127,77.0,96.0,97.0,95.0,95.0,92.0,6,True,True,True
+"Tupelo, MS",28-081-0005,,,97.0,,,,1,False,False,False
+"Tyler, TX",48-423-0007,,85.0,97.0,,,,2,False,False,False
+"Ukiah, CA",06-045-0006,,,,,92.0,,1,True,False,False
+"Ukiah, CA",06-045-0008,,,74.0,,,,1,False,False,False
+"Ukiah, CA",06-045-0010,,,,90.0,,,1,False,False,False
+"Ukiah, CA",06-045-2003,,,,,87.0,,1,True,False,False
+"Urban Honolulu, HI",15-003-0010,76.0,68.0,91.0,76.0,89.0,95.0,6,True,True,True
+"Urban Honolulu, HI",15-003-1001,77.0,,,83.0,96.0,89.0,4,True,True,False
+"Urban Honolulu, HI",15-003-1004,,,88.0,,96.0,,2,True,False,False
+"Urban Honolulu, HI",15-003-4001,,,,,,73.0,1,False,False,False
+"Valdosta, GA",13-185-0003,,,,,92.0,,1,True,False,False
+"Vallejo-Fairfield, CA",06-095-0004,,,,,87.0,,1,True,False,False
+"Vallejo-Fairfield, CA",06-095-3003,,,98.0,,,,1,False,False,False
+"Vernal, UT",49-047-0014,,,56.0,,,,1,False,False,False
+"Vernal, UT",49-047-1002,,,98.0,,,,1,False,False,False
+"Vernal, UT",49-047-1004,,97.0,98.0,,98.0,,3,True,True,True
+"Vernal, UT",49-047-2002,,83.0,81.0,,,,2,False,False,False
+"Vernal, UT",49-047-2003,,90.0,87.0,,,,2,False,False,False
+"Vernal, UT",49-047-7022,,97.0,98.0,,,,2,False,False,False
+"Victoria, TX",48-469-0003,,,96.0,,,,1,False,False,False
+"Vincennes, IN",18-083-9991,,,93.0,,,,1,False,False,False
+"Vineland-Bridgeton, NJ",34-011-0007,,96.0,94.0,,78.0,,3,True,True,True
+"Vineyard Haven, MA",25-007-0001,,,96.0,,,,1,False,False,False
+"Virginia Beach-Norfolk-Newport News, VA-NC",51-650-0008,94.0,96.0,98.0,63.0,99.0,97.0,6,True,True,True
+"Virginia Beach-Norfolk-Newport News, VA-NC",51-710-0024,,96.0,,,,96.0,2,False,False,False
+"Virginia Beach-Norfolk-Newport News, VA-NC",51-800-0004,,,99.0,,,,1,False,False,False
+"Virginia Beach-Norfolk-Newport News, VA-NC",51-800-0005,,,96.0,,,,1,False,False,False
+"Visalia-Porterville, CA",06-107-0006,,,61.0,,,,1,False,False,False
+"Visalia-Porterville, CA",06-107-0009,,,93.0,,91.0,,2,True,False,False
+"Visalia-Porterville, CA",06-107-2010,,,91.0,,,,1,False,False,False
+"Wabash, IN",18-169-9991,,,99.0,,,,1,False,False,False
+"Waco, TX",48-309-1037,95.0,,93.0,,,89.0,3,False,False,False
+"Walla Walla, WA",53-013-9991,,,95.0,,,,1,False,False,False
+"Walla Walla, WA",53-071-0006,,,,97.0,,,1,False,False,False
+"Warner Robins, GA",13-153-0001,,,,,98.0,,1,True,False,False
+"Warren, PA",42-123-0004,,,,,,90.0,1,False,False,False
+"Warren, PA",42-123-0005,,,,,,88.0,1,False,False,False
+"Washington, NC",37-013-0151,,,,,,93.0,1,False,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",11-001-0041,,92.0,95.0,,98.0,,3,True,True,True
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",11-001-0043,95.0,94.0,98.0,97.0,97.0,92.0,6,True,True,True
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",11-001-0051,96.0,93.0,,,97.0,,3,True,True,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",11-001-0053,,,,,97.0,,1,True,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",24-009-0011,,,91.0,,,,1,False,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",24-017-0010,,,95.0,,,,1,False,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",24-021-0037,,,95.0,,,,1,False,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",24-031-3001,,,99.0,,95.0,,2,True,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",24-033-0030,91.0,94.0,89.0,,,94.0,4,False,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",24-033-8003,,,97.0,,,,1,False,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",24-033-9991,,,92.0,,,,1,False,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",51-013-0020,91.0,95.0,99.0,,,,3,False,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",51-059-0030,,,98.0,91.0,96.0,95.0,4,True,True,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",51-059-0031,95.0,96.0,,,88.0,,3,True,True,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",51-061-0002,,,95.0,,,,1,False,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",51-107-1005,,97.0,97.0,,,,2,False,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",51-153-0009,,94.0,96.0,,,,2,False,False,False
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",51-179-0001,,,98.0,,,,1,False,False,False
+"Waterloo-Cedar Falls, IA",19-017-0011,,,96.0,,,,1,False,False,False
+"Watertown, SD",46-029-0002,,,98.0,94.0,95.0,,3,True,True,False
+"Watertown-Fort Atkinson, WI",55-055-0009,,,99.0,,,,1,False,False,False
+"Watertown-Fort Drum, NY",36-045-0002,,,98.0,,,,1,False,False,False
+"Wausau, WI",55-073-0012,,,95.0,,,,1,False,False,False
+"Weirton-Steubenville, WV-OH",39-081-0017,,,98.0,89.0,90.0,94.0,4,True,True,False
+"Weirton-Steubenville, WV-OH",54-009-0005,,,,,,94.0,1,False,False,False
+"Weirton-Steubenville, WV-OH",54-009-0011,,,,99.0,,96.0,2,False,False,False
+"Weirton-Steubenville, WV-OH",54-029-0009,,,91.0,93.0,,96.0,3,False,False,False
+"Wheeling, WV-OH",39-013-0006,,74.0,,,,94.0,2,False,False,False
+"Wheeling, WV-OH",54-051-1002,,,,,96.0,98.0,2,True,False,False
+"Wheeling, WV-OH",54-069-0010,,,91.0,,,,1,False,False,False
+"Whitewater-Elkhorn, WI",55-127-0006,,,99.0,,,,1,False,False,False
+"Wichita, KS",20-173-0010,,59.0,91.0,,,,2,False,False,False
+"Wichita, KS",20-173-0018,,,82.0,,,,1,False,False,False
+"Wichita, KS",20-191-0002,,90.0,95.0,92.0,92.0,98.0,5,True,True,True
+"Williamsport, PA",42-081-0100,,,83.0,,,,1,False,False,False
+"Williston, ND",38-105-0105,,,,,,98.0,1,False,False,False
+"Williston, ND",38-105-0106,,,,,,91.0,1,False,False,False
+"Wilmington, NC",37-129-0002,,,98.0,92.0,94.0,,3,True,True,False
+"Wilmington, OH",39-027-1002,,,98.0,,,,1,False,False,False
+"Winchester, VA-WV",51-069-0010,,,98.0,75.0,75.0,,3,True,True,False
+"Winston-Salem, NC",37-057-0002,,,,,94.0,,1,True,False,False
+"Winston-Salem, NC",37-067-0022,,91.0,99.0,75.0,75.0,91.0,5,True,True,True
+"Winston-Salem, NC",37-067-0030,,,99.0,,97.0,,2,True,False,False
+"Winston-Salem, NC",37-067-1008,,,99.0,,,,1,False,False,False
+"Worcester, MA-CT",09-015-9991,,,99.0,,,,1,False,False,False
+"Worcester, MA-CT",25-027-0015,,,85.0,,,,1,False,False,False
+"Worcester, MA-CT",25-027-0023,75.0,91.0,,,95.0,89.0,4,True,True,False
+"Worcester, MA-CT",25-027-0024,,,98.0,,,,1,False,False,False
+"Yakima, WA",53-077-0009,,,,97.0,98.0,,2,True,False,False
+"Yakima, WA",53-077-0015,,,,,88.0,,1,True,False,False
+"York-Hanover, PA",42-133-0008,,89.0,80.0,,90.0,83.0,4,True,True,True
+"York-Hanover, PA",42-133-0011,,,78.0,,,,1,False,False,False
+"Youngstown-Warren-Boardman, OH-PA",39-155-0011,,,99.0,,,,1,False,False,False
+"Youngstown-Warren-Boardman, OH-PA",39-155-0013,,,98.0,,,,1,False,False,False
+"Youngstown-Warren-Boardman, OH-PA",39-155-0014,,,,,96.0,,1,True,False,False
+"Youngstown-Warren-Boardman, OH-PA",42-085-0100,,,95.0,,66.0,,2,True,False,False
+"Youngstown-Warren-Boardman, OH-PA",42-085-9991,,,96.0,,,,1,False,False,False
+"Yuba City, CA",06-101-0003,,88.0,91.0,94.0,98.0,,4,True,True,True
+"Yuba City, CA",06-101-0004,,,83.0,,,,1,False,False,False
+"Yuma, AZ",04-027-8011,,,97.0,86.0,86.0,,3,True,True,False

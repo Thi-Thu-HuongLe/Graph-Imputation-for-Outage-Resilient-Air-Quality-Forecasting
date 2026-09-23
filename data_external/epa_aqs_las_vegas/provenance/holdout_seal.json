@@ -1,0 +1,18 @@
+{
+  "status": "EXTERNAL_DOWNLOADED_AND_SEALED_NOT_PARSED",
+  "created_utc": "2026-09-20T23:54:36.117639+00:00",
+  "holdout_manifest": "data_external/epa_aqs_las_vegas/raw_holdout_sealed/download_manifest.json",
+  "holdout_manifest_sha256": "86cd87cf3dec2d5c0c8883c64e97935adfa7fa5521ab276a918937742b325c36",
+  "final_protocol": "journal_protocol/external_final_holdout_protocol.json",
+  "final_protocol_sha256": "0b0d1ae772d537ccebe7e99340961f145a1b875aae85814eb8f5dba7512bb6e7",
+  "gzip_or_json_content_opened": false,
+  "concentration_values_inspected": false,
+  "test_metrics_computed": false,
+  "file_sha256": {
+    "sampleData_state-32_county-003_88101-PM2.5_duration-1H_2025.json.gz": "51f249ebe30c8eff2384ba3ad288e9fc8a7547f46ef94b3fa67b7e763e2a3076",
+    "sampleData_state-32_county-003_42602-NO2_duration-1H_2025.json.gz": "cd5fcd39bc08a5e406307b426219bf2adfe9445bb7083a8d84f95954efcbd106",
+    "sampleData_state-32_county-003_44201-O3_duration-1H_2025.json.gz": "218ec7e81bf91f9ff1b307f42c1a0069fa9d6400fbb7757ca7ba319a4a17df22",
+    "sampleData_state-32_county-003_42101-CO_duration-1H_2025.json.gz": "83403bf076df817883b82a26437f8fdd99c05dff7764edc675e5cb0c80cc1689",
+    "sampleData_state-32_county-003_42401-SO2_duration-1H_2025.json.gz": "a228f096788c832cffa41d934974bc4bc79b3f5f4a035d0ecbfa4c567ae2719b"
+  }
+}

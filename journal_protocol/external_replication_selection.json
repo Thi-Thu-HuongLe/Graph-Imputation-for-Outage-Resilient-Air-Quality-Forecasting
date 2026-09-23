@@ -1,0 +1,276 @@
+{
+  "status": "EXTERNAL_NETWORK_SELECTED_FROM_2021_2024_ONLY",
+  "created_utc": "2026-09-18T05:24:51.652486+00:00",
+  "scientific_role": "Pre-specified geographic replication of the frozen Salt Lake candidate; not a second model-selection exercise.",
+  "selection_data": {
+    "years": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "holdout_year_inspected": false,
+    "minimum_observation_percent_each_year": 50.0,
+    "presence_table": "data_external\\epa_aqs\\selection_audit\\site_pollutant_presence.csv",
+    "presence_sha256": "a2933ae143631d130aac83411d65412574f25c950d629b8b6a614b228d83efbb",
+    "coverage_table": "data_external\\epa_aqs\\selection_audit\\eligible_site_pollutant_coverage.csv",
+    "coverage_sha256": "f7bcc674e91bb39c150fea631ba48d75fae3cea1d27b2d3de2ac104ca13dd824",
+    "audit_summary": "data_external\\epa_aqs\\selection_audit\\summary.json",
+    "audit_summary_sha256": "d2d165f971147b0a9cd86738ea60247ec3cd3e5bb170be445870d53ed83d8e9e"
+  },
+  "network_eligibility": {
+    "exclude_development_network": "Salt Lake City, UT",
+    "single_county_cbsa": true,
+    "minimum_pm25_sites": 7,
+    "all_five_replication_pollutants_present_somewhere_in_network": true,
+    "pollutants": [
+      "PM2.5",
+      "NO2",
+      "O3",
+      "CO",
+      "SO2"
+    ]
+  },
+  "network_ranking": {
+    "score": "5*core_PM2.5_NO2_O3_sites + 3*PM2.5_plus_any_two_relevant_sites + 2*PM2.5_sites + network_relevant_pollutant_count",
+    "tie_breakers": [
+      "core_PM2.5_NO2_O3_sites descending",
+      "PM2.5_plus_any_two_relevant_sites descending",
+      "PM2.5_sites descending",
+      "CBSA name ascending"
+    ],
+    "eligible_candidate_count": 1,
+    "top_candidates": [
+      {
+        "cbsa": "Las Vegas-Henderson-Paradise, NV",
+        "county_keys": [
+          "32-003"
+        ],
+        "eligible_sites": 16,
+        "pm25_sites": 14,
+        "relevant_pm25_plus_two_sites": 5,
+        "core_pm25_no2_o3_sites": 3,
+        "network_pollutant_count": 5,
+        "selection_score": 63
+      }
+    ]
+  },
+  "selected_network": {
+    "cbsa": "Las Vegas-Henderson-Paradise, NV",
+    "county_keys": [
+      "32-003"
+    ],
+    "eligible_sites": 16,
+    "pm25_sites": 14,
+    "relevant_pm25_plus_two_sites": 5,
+    "core_pm25_no2_o3_sites": 3,
+    "network_pollutant_count": 5,
+    "selection_score": 63,
+    "state_fips": "32",
+    "county_fips": "003",
+    "civil_time_zone": "America/Los_Angeles",
+    "local_standard_utc_offset_hours": -8
+  },
+  "station_selection": {
+    "station_count": 7,
+    "rule": "Require PM2.5, then sort by relevant pollutant count, complete PM2.5-NO2-O3 core, PM2.5-plus-O3 availability, mean of the minimum annual coverage percentages, and site ID. All descending except site ID.",
+    "selected_station_ids": [
+      "32-003-0540",
+      "32-003-2003",
+      "32-003-0075",
+      "32-003-1501",
+      "32-003-0561",
+      "32-003-0071",
+      "32-003-0043"
+    ],
+    "evidence": [
+      {
+        "site_id": "32-003-0540",
+        "available_pollutants": [
+          "PM2.5",
+          "NO2",
+          "O3",
+          "CO",
+          "SO2"
+        ],
+        "relevant_pollutant_count": 5,
+        "core_pm25_no2_o3": true,
+        "pm25_and_o3": true,
+        "mean_minimum_annual_observation_percent": 92.8,
+        "minimum_annual_observation_percent_by_pollutant": {
+          "PM2.5": 97.0,
+          "NO2": 93.0,
+          "O3": 97.0,
+          "CO": 81.0,
+          "SO2": 96.0
+        },
+        "local_site_name": "Jerome Mack-NCore",
+        "state_name": "Nevada",
+        "county_name": "Clark",
+        "latitude": 36.141875,
+        "longitude": -115.078742
+      },
+      {
+        "site_id": "32-003-2003",
+        "available_pollutants": [
+          "PM2.5",
+          "NO2",
+          "O3",
+          "CO"
+        ],
+        "relevant_pollutant_count": 4,
+        "core_pm25_no2_o3": true,
+        "pm25_and_o3": true,
+        "mean_minimum_annual_observation_percent": 58.0,
+        "minimum_annual_observation_percent_by_pollutant": {
+          "PM2.5": 59.0,
+          "NO2": 58.0,
+          "O3": 58.0,
+          "CO": 57.0
+        },
+        "local_site_name": "Walnut Community Center",
+        "state_name": "Nevada",
+        "county_name": "Clark",
+        "latitude": 36.214465,
+        "longitude": -115.091437
+      },
+      {
+        "site_id": "32-003-0075",
+        "available_pollutants": [
+          "PM2.5",
+          "NO2",
+          "O3"
+        ],
+        "relevant_pollutant_count": 3,
+        "core_pm25_no2_o3": true,
+        "pm25_and_o3": true,
+        "mean_minimum_annual_observation_percent": 97.33333333333333,
+        "minimum_annual_observation_percent_by_pollutant": {
+          "PM2.5": 99.0,
+          "NO2": 94.0,
+          "O3": 99.0
+        },
+        "local_site_name": "Joe Neal",
+        "state_name": "Nevada",
+        "county_name": "Clark",
+        "latitude": 36.270592,
+        "longitude": -115.238282
+      },
+      {
+        "site_id": "32-003-1501",
+        "available_pollutants": [
+          "PM2.5",
+          "NO2",
+          "CO"
+        ],
+        "relevant_pollutant_count": 3,
+        "core_pm25_no2_o3": false,
+        "pm25_and_o3": false,
+        "mean_minimum_annual_observation_percent": 94.66666666666667,
+        "minimum_annual_observation_percent_by_pollutant": {
+          "PM2.5": 98.0,
+          "NO2": 94.0,
+          "CO": 92.0
+        },
+        "local_site_name": "Rancho & Teddy",
+        "state_name": "Nevada",
+        "county_name": "Clark",
+        "latitude": 36.139707,
+        "longitude": -115.175654
+      },
+      {
+        "site_id": "32-003-0561",
+        "available_pollutants": [
+          "PM2.5",
+          "NO2",
+          "CO"
+        ],
+        "relevant_pollutant_count": 3,
+        "core_pm25_no2_o3": false,
+        "pm25_and_o3": false,
+        "mean_minimum_annual_observation_percent": 94.33333333333333,
+        "minimum_annual_observation_percent_by_pollutant": {
+          "PM2.5": 98.0,
+          "NO2": 90.0,
+          "CO": 95.0
+        },
+        "local_site_name": "Sunrise Acres",
+        "state_name": "Nevada",
+        "county_name": "Clark",
+        "latitude": 36.163962,
+        "longitude": -115.11393
+      },
+      {
+        "site_id": "32-003-0071",
+        "available_pollutants": [
+          "PM2.5",
+          "O3"
+        ],
+        "relevant_pollutant_count": 2,
+        "core_pm25_no2_o3": false,
+        "pm25_and_o3": true,
+        "mean_minimum_annual_observation_percent": 98.5,
+        "minimum_annual_observation_percent_by_pollutant": {
+          "PM2.5": 99.0,
+          "O3": 98.0
+        },
+        "local_site_name": "Walter Johnson",
+        "state_name": "Nevada",
+        "county_name": "Clark",
+        "latitude": 36.16976,
+        "longitude": -115.263038
+      },
+      {
+        "site_id": "32-003-0043",
+        "available_pollutants": [
+          "PM2.5",
+          "O3"
+        ],
+        "relevant_pollutant_count": 2,
+        "core_pm25_no2_o3": false,
+        "pm25_and_o3": true,
+        "mean_minimum_annual_observation_percent": 97.5,
+        "minimum_annual_observation_percent_by_pollutant": {
+          "PM2.5": 99.0,
+          "O3": 96.0
+        },
+        "local_site_name": "Paul Meyer",
+        "state_name": "Nevada",
+        "county_name": "Clark",
+        "latitude": 36.106389,
+        "longitude": -115.253333
+      }
+    ]
+  },
+  "replication_invariants": {
+    "candidate": "adaptive_graph_impute_tcn",
+    "candidate_selected_on_external_data": false,
+    "architecture_hyperparameters_calibration_and_endpoints": "Copied unchanged from the frozen Salt Lake protocol before external development measurements are parsed.",
+    "seeds": [
+      42,
+      123,
+      2026,
+      3407,
+      7777
+    ],
+    "development_years": [
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "sealed_test_year": 2025
+  },
+  "source_protocol_sha256": {
+    "journal_protocol/comparison_protocol.json": "e8bd499262040f90e8d679b083cb099dcf35332fd90f6119e81239422ff9d267",
+    "journal_protocol/candidate_selection_freeze.json": "7ebc77f42b7b8d52b2773bb71fdec4c1a178ca4d188ab8492a3cf582aeba514e",
+    "journal_protocol/final_holdout_protocol.json": "db323e7042ffe3ea08ac18d9cdcab897c3d4d529482ff19083725aef74636cb0"
+  },
+  "holdout": {
+    "year": 2025,
+    "downloaded": false,
+    "content_parsed": false,
+    "metrics_computed": false
+  },
+  "next_gate": "Download and validate only 2021-2024 Clark County hourly data, then lock the development preprocessing protocol before any 2025 download."
+}

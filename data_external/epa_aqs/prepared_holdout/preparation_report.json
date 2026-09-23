@@ -1,0 +1,107 @@
+{
+  "status": "PASS_HOLDOUT_PREPARED_AFTER_FINAL_FREEZE",
+  "holdout_content_accessed": true,
+  "test_metrics_computed": false,
+  "protocol_sha256": "db323e7042ffe3ea08ac18d9cdcab897c3d4d529482ff19083725aef74636cb0",
+  "preprocessing_protocol_sha256": "d6f57f16a4d7cdf16f5cccbcdd7d2850a4479d22042df25bcb23e1ea9c05b555",
+  "raw_manifest_sha256": "10223c6975fdf7b9dc03688382034649da927cf8394135d0385ecdfd0d5810f1",
+  "development_prepared_sha256": "f31abe1782a5495a311263aff4151d9f364a4f50ab8e85a1d6048aadedfbaa2a",
+  "shape_including_context": [
+    8928,
+    7,
+    5
+  ],
+  "context_hours": 168,
+  "embargo_hours_not_scored": 168,
+  "test_split_bounds": [
+    336,
+    8927
+  ],
+  "test_target_timestamps_utc": [
+    "2025-01-08 07:00:00",
+    "2026-01-01 06:00:00"
+  ],
+  "stations": [
+    "49-035-2005",
+    "49-035-3006",
+    "49-035-3010",
+    "49-035-3013",
+    "49-035-3015",
+    "49-035-3016",
+    "49-035-4002"
+  ],
+  "pollutants": [
+    "PM2.5",
+    "NO2",
+    "O3",
+    "CO",
+    "SO2"
+  ],
+  "observed_fraction_by_pollutant": {
+    "PM2.5": 0.9983365949119374,
+    "NO2": 0.9845238095238096,
+    "O3": 0.9884377038486628,
+    "CO": 0.702641878669276,
+    "SO2": 0.5631930854533594
+  },
+  "merge_report": {
+    "PM2.5": {
+      "api_rows": 96360,
+      "selected_rows": 78840,
+      "finite_rows": 78525,
+      "merged_hourly_values": 61218,
+      "duplicate_groups": 17307,
+      "duplicate_extra_rows": 17307,
+      "maximum_multiplicity": 2,
+      "maximum_duplicate_range": 31.799999999999997
+    },
+    "NO2": {
+      "api_rows": 87600,
+      "selected_rows": 70080,
+      "finite_rows": 68791,
+      "merged_hourly_values": 60371,
+      "duplicate_groups": 8420,
+      "duplicate_extra_rows": 8420,
+      "maximum_multiplicity": 2,
+      "maximum_duplicate_range": 9.099999999999998
+    },
+    "O3": {
+      "api_rows": 92016,
+      "selected_rows": 61320,
+      "finite_rows": 60611,
+      "merged_hourly_values": 60611,
+      "duplicate_groups": 0,
+      "duplicate_extra_rows": 0,
+      "maximum_multiplicity": 1,
+      "maximum_duplicate_range": 0.0
+    },
+    "CO": {
+      "api_rows": 43800,
+      "selected_rows": 43800,
+      "finite_rows": 43086,
+      "merged_hourly_values": 43086,
+      "duplicate_groups": 0,
+      "duplicate_extra_rows": 0,
+      "maximum_multiplicity": 1,
+      "maximum_duplicate_range": 0.0
+    },
+    "SO2": {
+      "api_rows": 35040,
+      "selected_rows": 35040,
+      "finite_rows": 34535,
+      "merged_hourly_values": 34535,
+      "duplicate_groups": 0,
+      "duplicate_extra_rows": 0,
+      "maximum_multiplicity": 1,
+      "maximum_duplicate_range": 0.0
+    }
+  },
+  "native_holdout_values_sha256": "a6acb5d6f759b216e9112b8300d4394a384923f632dfe31faba62b36fcc68ce7",
+  "native_holdout_mask_sha256": "40a82e8ec8e56c03cc0990fe51a35dd4a67eb15f649e32cb87034efd64758f24",
+  "completed_utc": "2026-09-17T02:07:28.218770+00:00",
+  "execution_freeze_sha256": "02d286257e3c822357057b0bb78ce4277f0aeb8493898db30a962c9389fd2708",
+  "prepared_file": "data_external\\epa_aqs\\prepared_holdout\\salt_lake_2025.npz",
+  "prepared_sha256": "5054a035c34fa6a626c80191b14a7f7fb0ec5532b7a111bb5e6b3e38491459b5",
+  "availability_file": "data_external\\epa_aqs\\prepared_holdout\\availability.csv",
+  "availability_sha256": "b7508a3dc6fca5eee01f8f533ea66dc250cf8143f99cf524bb09be59f10695d5"
+}

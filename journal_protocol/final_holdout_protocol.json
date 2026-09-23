@@ -1,0 +1,100 @@
+{
+  "status": "FINAL_HOLDOUT_PROTOCOL_LOCKED_CONTENT_NOT_PARSED",
+  "name": "salt_lake_2025_single_confirmation",
+  "candidate_selection_freeze": "journal_protocol/candidate_selection_freeze.json",
+  "candidate_selection_freeze_sha256": "7ebc77f42b7b8d52b2773bb71fdec4c1a178ca4d188ab8492a3cf582aeba514e",
+  "candidate": "adaptive_graph_impute_tcn",
+  "learned_comparators": [
+    "local_tcn",
+    "local_capacity_residual",
+    "impute_then_local_tcn",
+    "dcrnn",
+    "graph_wavenet"
+  ],
+  "deterministic_comparators": [
+    "persistence",
+    "seasonal_naive_24h"
+  ],
+  "seeds": [42, 123, 2026, 3407, 7777],
+  "checkpoint_roots": {
+    "candidate": "experiment_protocol/results_journal/development/adaptive_graph_impute_5seed/runs",
+    "comparators": "experiment_protocol/results_journal/development/full/runs"
+  },
+  "data": {
+    "development_prepared": "data_external/epa_aqs/prepared_development/salt_lake_2021_2024.npz",
+    "development_prepared_sha256": "f31abe1782a5495a311263aff4151d9f364a4f50ab8e85a1d6048aadedfbaa2a",
+    "sealed_raw_root": "data_external/epa_aqs/raw_holdout_sealed",
+    "sealed_manifest": "data_external/epa_aqs/raw_holdout_sealed/download_manifest.json",
+    "sealed_manifest_sha256": "10223c6975fdf7b9dc03688382034649da927cf8394135d0385ecdfd0d5810f1",
+    "prepared_holdout": "data_external/epa_aqs/prepared_holdout/salt_lake_2025.npz",
+    "preparation_report": "data_external/epa_aqs/prepared_holdout/preparation_report.json",
+    "availability_table": "data_external/epa_aqs/prepared_holdout/availability.csv",
+    "holdout_start_utc": "2025-01-01T07:00:00Z",
+    "holdout_end_utc": "2026-01-01T06:00:00Z",
+    "expected_holdout_hours": 8760,
+    "context_hours_from_development": 168,
+    "embargo_hours_not_scored": 168,
+    "first_scored_target_utc": "2025-01-08T07:00:00Z",
+    "calendar_clock": "fixed UTC-07:00 local standard time"
+  },
+  "forecast": {
+    "lookback": 168,
+    "horizon": 48,
+    "reported_horizons": [1, 6, 12, 24, 48],
+    "test_stride": 6,
+    "fill_limit": 6,
+    "corruption_seed": 81317
+  },
+  "conditions": {
+    "primary": [
+      "each_station_trailing_6h_outage",
+      "each_station_trailing_24h_outage"
+    ],
+    "secondary": [
+      "clean",
+      "random_block_6h",
+      "random_block_24h",
+      "each_station_full_history_dropout",
+      "natural_comissingness_6h",
+      "natural_comissingness_24h"
+    ]
+  },
+  "endpoints": {
+    "primary": ["mase", "q95_brier"],
+    "secondary": [
+      "q95_ap",
+      "picp80",
+      "width80_mase_scaled",
+      "interval_score80_mase_scaled",
+      "crps_mase_scaled",
+      "negative_mass"
+    ],
+    "clean_guardrail": {
+      "endpoints": ["mase", "q95_brier"],
+      "maximum_relative_degradation_vs_each_local_control": 0.01,
+      "local_controls": [
+        "local_tcn",
+        "local_capacity_residual",
+        "impute_then_local_tcn"
+      ]
+    }
+  },
+  "calibration": {
+    "method": "per-pollutant multiplicative Gaussian sigma factor fitted on clean 2024 validation predictions",
+    "source": "frozen calibration.npz for each development model/seed",
+    "duration_specific_calibration": false,
+    "uncalibrated_results_required": true,
+    "test_label_fitting_forbidden": true
+  },
+  "statistics": {
+    "temporal_block_length_hours": 168,
+    "bootstrap_resamples": 10000,
+    "pairing": "same test origin, horizon, station, pollutant, condition, and optimization seed",
+    "seed_aggregation": "average aligned per-origin losses over seeds before temporal inference",
+    "multiplicity": "Holm correction across candidate-versus-all-comparator primary tests",
+    "report_all_prespecified_primary_results": true
+  },
+  "output": "experiment_protocol/results_journal/holdout_2025",
+  "access_rule": "The raw 2025 gzip/JSON files may be opened only after final_holdout_execution_freeze.json exists, authorizes evaluation, and all recorded hashes verify.",
+  "rerun_rule": "A completed test artifact may be reused only when its recorded hashes verify; test-driven model, calibration, threshold, or protocol changes are forbidden."
+}

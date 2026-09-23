@@ -1,0 +1,87 @@
+{
+  "status": "LOCKED_AFTER_DEVELOPMENT_AUDIT_BEFORE_HOLDOUT_PARSE",
+  "parent_protocol": "journal_protocol/unseen_holdout_protocol.json",
+  "purpose": "Deterministic preparation of the EPA AQS 2021-2024 development set without access to 2025 concentration content.",
+  "scope": {
+    "manifest": "data_external/epa_aqs/raw_development_api/download_manifest.json",
+    "allowed_local_years": [2021, 2022, 2023, 2024],
+    "forbidden_local_years": [2025],
+    "stations": [
+      "49-035-2005",
+      "49-035-3006",
+      "49-035-3010",
+      "49-035-3013",
+      "49-035-3015",
+      "49-035-3016",
+      "49-035-4002"
+    ],
+    "pollutants": ["PM2.5", "NO2", "O3", "CO", "SO2"],
+    "parameter_codes": {
+      "PM2.5": "88101",
+      "NO2": "42602",
+      "O3": "44201",
+      "CO": "42101",
+      "SO2": "42401"
+    }
+  },
+  "time_axis": {
+    "canonical": "continuous hourly UTC",
+    "stored_representation": "timezone-naive datetime64[ns] whose values denote UTC",
+    "calendar_clock": "AQS local standard time, fixed UTC-07:00",
+    "development_start_utc": "2021-01-01T07:00:00Z",
+    "development_end_utc": "2025-01-01T06:00:00Z",
+    "expected_hours": 35064,
+    "amendment_reason": "The development audit found that AQS date_local/time_local equals GMT minus seven hours for every selected row. America/Denver civil time disagrees during daylight-saving months, so fixed local standard time reproduces the source clock without DST duplicates or gaps.",
+    "development_audit_civil_clock_mismatches": 753852,
+    "development_audit_local_standard_clock_mismatches": 0
+  },
+  "measurement_policy": {
+    "accepted_sample_duration_code": "1",
+    "accepted_measurements": "finite numeric sample_measurement values returned by AQS",
+    "qualifiers": "retain finite measurements regardless of qualifier and report qualifier prevalence; nonfinite or absent measurements remain missing",
+    "negative_measurements": "retain as reported instrument values; do not clamp or reinterpret them as missing",
+    "concurrent_monitor_merge": "median across finite POC/method readings sharing station, pollutant, and UTC hour",
+    "merge_rationale": "The development audit found duplicate multiplicity at most two; the median is deterministic and limits dependence on a single collocated monitor without selecting methods using outcome performance.",
+    "units": {
+      "PM2.5": "Micrograms/cubic meter (LC)",
+      "NO2": "Parts per billion",
+      "O3": "Parts per million",
+      "CO": "Parts per million",
+      "SO2": "Parts per billion"
+    }
+  },
+  "split_bounds_utc": {
+    "train": ["2021-01-01T07:00:00Z", "2024-01-01T06:00:00Z"],
+    "embargo_not_scored": ["2024-01-01T07:00:00Z", "2024-01-08T06:00:00Z"],
+    "validation": ["2024-01-08T07:00:00Z", "2025-01-01T06:00:00Z"],
+    "embargo_hours": 168,
+    "operational_lookback_rule": "Validation inputs may use observations before the first validation target, including the embargo interval, but no embargo timestamp is a training or validation target."
+  },
+  "missingness": {
+    "native_mask": "preserve before filling",
+    "input_causal_forward_fill_limit_hours": 6,
+    "fallback_after_limit": "training station-pollutant median, represented by zero after scaling",
+    "time_since_observation": "recomputed causally after every experimental outage; log1p applied at model input",
+    "target_rule": "score only finite observed targets"
+  },
+  "training_only_transforms": {
+    "scaler": "station-pollutant median and interquartile range; pollutant-wide training fallback for empty/constant cells",
+    "exceedance_quantiles": [0.8, 0.9, 0.95],
+    "exceedance_pooling": "each pollutant pooled across all selected stations in the training split",
+    "mase_season_hours": 24,
+    "mase_denominator": "station-pollutant mean absolute seasonal difference over jointly observed training pairs"
+  },
+  "station_graph": {
+    "source": "AQS WGS84 station coordinates only",
+    "distance": "haversine kilometers",
+    "neighbors": 3,
+    "construction": "symmetric union of directed 3-nearest-neighbor edges",
+    "edge_weight": "exp(-(distance / median_nonzero_pairwise_distance)^2)",
+    "diagonal": 0,
+    "outcome_values_used": false
+  },
+  "development_audit": "data_external/epa_aqs/development_audit/content_audit.json",
+  "prepared_output": "data_external/epa_aqs/prepared_development/salt_lake_2021_2024.npz",
+  "preprocessing_report": "data_external/epa_aqs/prepared_development/preprocessing_report.json",
+  "availability_table": "data_external/epa_aqs/prepared_development/availability.csv"
+}
